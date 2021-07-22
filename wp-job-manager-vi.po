@@ -1,0 +1,2676 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager\n"
+"POT-Creation-Date: 2021-06-08 20:15+0700\n"
+"PO-Revision-Date: 2021-06-08 20:32+0700\n"
+"Last-Translator: Anh Le <anh.legiang@gmail.com>\n"
+"Language-Team: Anh Le <anh.legiang@gmail.com>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-job-manager.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/3rd-party/wpml.php:94
+msgid "Page Not Set"
+msgstr "Trang không được đặt"
+
+#. translators: Placeholder (%s) is the URL to edit the primary language in WPML.
+#: includes/3rd-party/wpml.php:108
+#, php-format
+msgid "<a href=\"%s\">Switch to primary language</a> to edit this setting."
+msgstr ""
+"<a href=\"%s\"> Chuyển sang ngôn ngữ chính </a> để chỉnh sửa cài đặt này."
+
+#. translators: Placeholder is for the label of the reCAPTCHA field.
+#. translators: %s is the name of the form validation that failed.
+#: includes/abstracts/abstract-wp-job-manager-form.php:389
+#: includes/abstracts/abstract-wp-job-manager-form.php:405
+#, php-format
+msgid "\"%s\" check failed. Please try again."
+msgstr "Kiểm tra \"%s\" không thành công. Vui lòng thử lại."
+
+#: includes/admin/class-wp-job-manager-addons.php:125
+#: includes/admin/class-wp-job-manager-admin.php:134
+#: includes/admin/views/html-admin-page-addons.php:12
+msgid "WP Job Manager Add-ons"
+msgstr "WP Job Manager Add-ons"
+
+#: includes/admin/class-wp-job-manager-addons.php:133
+#: includes/helper/views/html-licences.php:12
+msgid "Licenses"
+msgstr "Giấy phép"
+
+#: includes/admin/class-wp-job-manager-admin-notices.php:109
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Hành động đã thất bại. Hãy tải lại trang này đi và thử lại xem."
+
+#: includes/admin/class-wp-job-manager-admin-notices.php:113
+msgid "You don&#8217;t have permission to do this."
+msgstr "Bạn không được phép làm điều này."
+
+#: includes/admin/class-wp-job-manager-admin.php:110
+msgctxt "user selection"
+msgid "No matches found"
+msgstr "Lọc kết quả tìm thấy"
+
+#: includes/admin/class-wp-job-manager-admin.php:111
+msgctxt "user selection"
+msgid "Loading failed"
+msgstr "Tải không thành công"
+
+#: includes/admin/class-wp-job-manager-admin.php:112
+msgctxt "user selection"
+msgid "Please enter 1 or more characters"
+msgstr "Vui lòng nhập 1 hoặc nhiều ký tự"
+
+#: includes/admin/class-wp-job-manager-admin.php:113
+msgctxt "user selection"
+msgid "Please enter %qty% or more characters"
+msgstr "Nhập %qty% hoặc nhiều ký tự"
+
+#: includes/admin/class-wp-job-manager-admin.php:114
+msgctxt "user selection"
+msgid "Loading more results&hellip;"
+msgstr "Đang tải thêm kết quả&hellip;"
+
+#: includes/admin/class-wp-job-manager-admin.php:115
+msgctxt "user selection"
+msgid "Searching&hellip;"
+msgstr "Đang tìm kiếm&hellip;"
+
+#: includes/admin/class-wp-job-manager-admin.php:131
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: includes/admin/class-wp-job-manager-admin.php:134
+msgid "Add-ons"
+msgstr "Tiện ích"
+
+#. translators: Placeholder (%s) is the plural name of the job listings post type.
+#: includes/admin/class-wp-job-manager-cpt.php:81
+#, php-format
+msgid "Approve %s"
+msgstr "Phê duyệt %s"
+
+#. translators: Placeholder (%s) is the plural name of the job listings post type.
+#: includes/admin/class-wp-job-manager-cpt.php:83
+#, php-format
+msgid "%s approved"
+msgstr "% s đã được phê duyệt"
+
+#. translators: Placeholder (%s) is the plural name of the job listings post type.
+#: includes/admin/class-wp-job-manager-cpt.php:88
+#, php-format
+msgid "Expire %s"
+msgstr "Hết hạn %s"
+
+#. translators: Placeholder (%s) is the plural name of the job listings post type.
+#: includes/admin/class-wp-job-manager-cpt.php:90
+#, php-format
+msgid "%s expired"
+msgstr "%s đã hết hạn"
+
+#. translators: Placeholder (%s) is the plural name of the job listings post type.
+#: includes/admin/class-wp-job-manager-cpt.php:95
+#, php-format
+msgid "Mark %s Filled"
+msgstr "Đánh dấu% s đã điền"
+
+#. translators: Placeholder (%s) is the plural name of the job listings post type.
+#: includes/admin/class-wp-job-manager-cpt.php:97
+#, php-format
+msgid "%s marked as filled"
+msgstr "% s được đánh dấu là đã điền"
+
+#. translators: Placeholder (%s) is the plural name of the job listings post type.
+#: includes/admin/class-wp-job-manager-cpt.php:102
+#, php-format
+msgid "Mark %s Not Filled"
+msgstr "Đánh dấu% s Không được điền"
+
+#. translators: Placeholder (%s) is the plural name of the job listings post type.
+#: includes/admin/class-wp-job-manager-cpt.php:104
+#, php-format
+msgid "%s marked as not filled"
+msgstr "% s được đánh dấu là không điền"
+
+#: includes/admin/class-wp-job-manager-cpt.php:337
+msgid "Select category"
+msgstr "Chọn danh mục"
+
+#: includes/admin/class-wp-job-manager-cpt.php:362
+msgid "Select Filled"
+msgstr "Chọn điền"
+
+#: includes/admin/class-wp-job-manager-cpt.php:366
+msgid "Filled"
+msgstr "Đã điền"
+
+#: includes/admin/class-wp-job-manager-cpt.php:370
+msgid "Not Filled"
+msgstr "Chưa được điền"
+
+#: includes/admin/class-wp-job-manager-cpt.php:381
+msgid "Select Featured"
+msgstr "Chọn nổi bật"
+
+#: includes/admin/class-wp-job-manager-cpt.php:385
+msgid "Featured"
+msgstr "Nổi bật"
+
+#: includes/admin/class-wp-job-manager-cpt.php:389
+msgid "Not Featured"
+msgstr "Không nổi bật"
+
+#: includes/admin/class-wp-job-manager-cpt.php:435
+#: includes/admin/class-wp-job-manager-cpt.php:495
+msgid "Position"
+msgstr "Vị trí"
+
+#. translators: %1$s is the singular name of the job listing post type; %2$s is the URL to view the listing.
+#: includes/admin/class-wp-job-manager-cpt.php:455
+#, php-format
+msgid "%1$s updated. <a href=\"%2$s\">View</a>"
+msgstr "%1$s được cập nhật. <a href=\"%2$s\">Xem</a>"
+
+#: includes/admin/class-wp-job-manager-cpt.php:456
+msgid "Custom field updated."
+msgstr "Đã cập nhật trường tùy biến."
+
+#: includes/admin/class-wp-job-manager-cpt.php:457
+msgid "Custom field deleted."
+msgstr "Đã xóa trường tùy biến."
+
+#. translators: %s is the singular name of the job listing post type.
+#: includes/admin/class-wp-job-manager-cpt.php:459
+#, php-format
+msgid "%s updated."
+msgstr "%s đã cập nhật."
+
+#. translators: %1$s is the singular name of the job listing post type; %2$s is the revision number.
+#: includes/admin/class-wp-job-manager-cpt.php:461
+#, php-format
+msgid "%1$s restored to revision from %2$s"
+msgstr "%1$s đã phục hồi từ thay đổi %2$s"
+
+#. translators: %1$s is the singular name of the job listing post type; %2$s is the URL to view the listing.
+#: includes/admin/class-wp-job-manager-cpt.php:463
+#, php-format
+msgid "%1$s published. <a href=\"%2$s\">View</a>"
+msgstr "%1$s được xuất bản. <a href=\"%2$s\">Xem</a>"
+
+#. translators: %1$s is the singular name of the job listing post type; %2$s is the URL to view the listing.
+#: includes/admin/class-wp-job-manager-cpt.php:465
+#, php-format
+msgid "%s saved."
+msgstr "%s đã lưu."
+
+#. translators: %1$s is the singular name of the job listing post type; %2$s is the URL to preview the listing.
+#: includes/admin/class-wp-job-manager-cpt.php:467
+#, php-format
+msgid "%1$s submitted. <a target=\"_blank\" href=\"%2$s\">Preview</a>"
+msgstr "%1$s đã gửi. <a target=\"_blank\" href=\"%2$s\">Xem trước </a>"
+
+#. translators: %1$s is the singular name of the post type; %2$s is the date the post will be published; %3$s is the URL to preview the listing.
+#: includes/admin/class-wp-job-manager-cpt.php:470
+#, php-format
+msgid ""
+"%1$s scheduled for: <strong>%2$s</strong>. <a target=\"_blank\" href=\"%3$s"
+"\">Preview</a>"
+msgstr ""
+"%1$s được lên lịch cho: <strong>%2$s</strong>. <a target=\"_blank\" href="
+"\"%3$s\"> Xem trước</a>"
+
+#. translators: %1$s is the singular name of the job listing post type; %2$s is the URL to view the listing.
+#: includes/admin/class-wp-job-manager-cpt.php:476
+#, php-format
+msgid "%1$s draft updated. <a target=\"_blank\" href=\"%2$s\">Preview</a>"
+msgstr ""
+"%1$s nháp được cập nhật. <a target=\"_blank\" href=\"%2$s\">Xem trước </a>"
+
+#: includes/admin/class-wp-job-manager-cpt.php:496
+msgid "Type"
+msgstr "Loại"
+
+#: includes/admin/class-wp-job-manager-cpt.php:497
+#: includes/class-wp-job-manager-email-notifications.php:270
+#: includes/class-wp-job-manager-post-types.php:1487
+#: includes/forms/class-wp-job-manager-form-submit-job.php:217
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:46
+#: templates/job-filters.php:35 templates/job-filters.php:36
+msgid "Location"
+msgstr "Vị trí"
+
+#: includes/admin/class-wp-job-manager-cpt.php:498
+msgid "Status"
+msgstr "Trạng thái"
+
+#: includes/admin/class-wp-job-manager-cpt.php:499
+msgid "Posted"
+msgstr "Đã đăng"
+
+#: includes/admin/class-wp-job-manager-cpt.php:500
+msgid "Expires"
+msgstr "Hết hạn"
+
+#: includes/admin/class-wp-job-manager-cpt.php:501
+#: includes/admin/class-wp-job-manager-settings.php:162
+msgid "Categories"
+msgstr "Danh mục"
+
+#: includes/admin/class-wp-job-manager-cpt.php:502
+msgid "Featured?"
+msgstr "Nổi bật?"
+
+#: includes/admin/class-wp-job-manager-cpt.php:503
+#: includes/class-wp-job-manager-shortcodes.php:342
+msgid "Filled?"
+msgstr "Đầy?"
+
+#: includes/admin/class-wp-job-manager-cpt.php:504
+msgid "Actions"
+msgstr "Hành động"
+
+#. translators: %d is the post ID for the job listing.
+#: includes/admin/class-wp-job-manager-cpt.php:569
+#, php-format
+msgid "ID: %d"
+msgstr "ID: %d"
+
+#: includes/admin/class-wp-job-manager-cpt.php:583
+msgid "Show more details"
+msgstr "Hiển thị thêm chi tiết"
+
+#. translators: %s placeholder is the username of the user.
+#: includes/admin/class-wp-job-manager-cpt.php:613
+msgid "by a guest"
+msgstr "bởi một vị khách"
+
+#: includes/admin/class-wp-job-manager-cpt.php:613
+#, php-format
+msgid "by %s"
+msgstr "bởi %s"
+
+#: includes/admin/class-wp-job-manager-cpt.php:633
+msgid "Approve"
+msgstr "Phê duyệt"
+
+#: includes/admin/class-wp-job-manager-cpt.php:641
+#: includes/admin/class-wp-job-manager-writepanels.php:243
+#: includes/admin/class-wp-job-manager-writepanels.php:293
+msgid "View"
+msgstr "Xem"
+
+#: includes/admin/class-wp-job-manager-cpt.php:648
+#: includes/class-wp-job-manager-post-types.php:338
+#: includes/class-wp-job-manager-shortcodes.php:390
+#: includes/class-wp-job-manager-shortcodes.php:423
+msgid "Edit"
+msgstr "Điều chỉnh"
+
+#: includes/admin/class-wp-job-manager-cpt.php:655
+#: includes/class-wp-job-manager-shortcodes.php:438
+msgid "Delete"
+msgstr "Xóa"
+
+#: includes/admin/class-wp-job-manager-permalink-settings.php:64
+msgid "Job base"
+msgstr "Cơ sở việc làm"
+
+#: includes/admin/class-wp-job-manager-permalink-settings.php:71
+msgid "Job category base"
+msgstr "Cơ sở loại công việc"
+
+#: includes/admin/class-wp-job-manager-permalink-settings.php:78
+msgid "Job type base"
+msgstr "Cơ sở loại công việc"
+
+#: includes/admin/class-wp-job-manager-permalink-settings.php:86
+msgid "Job listing archive page"
+msgstr "Trang lưu trữ danh sách công việc"
+
+#: includes/admin/class-wp-job-manager-permalink-settings.php:108
+#: includes/class-wp-job-manager-post-types.php:1168
+msgctxt "Job permalink - resave permalinks after changing this"
+msgid "job"
+msgstr "việc làm"
+
+#: includes/admin/class-wp-job-manager-permalink-settings.php:117
+#: includes/class-wp-job-manager-post-types.php:1169
+msgctxt "Job category slug - resave permalinks after changing this"
+msgid "job-category"
+msgstr "job-category"
+
+#: includes/admin/class-wp-job-manager-permalink-settings.php:126
+#: includes/class-wp-job-manager-post-types.php:1170
+msgctxt "Job type slug - resave permalinks after changing this"
+msgid "job-type"
+msgstr "loai-tuyen-dung"
+
+#: includes/admin/class-wp-job-manager-settings.php:89
+msgid "General"
+msgstr "Tổng quan"
+
+#: includes/admin/class-wp-job-manager-settings.php:94
+msgid "Date Format"
+msgstr "Định dạng ngày"
+
+#: includes/admin/class-wp-job-manager-settings.php:95
+msgid ""
+"Choose how you want the published date for jobs to be displayed on the front-"
+"end."
+msgstr ""
+"Chọn cách bạn muốn ngày xuất bản cho các công việc được hiển thị ở mặt trước."
+
+#: includes/admin/class-wp-job-manager-settings.php:98
+msgid "Relative to the current date (e.g., 1 day, 1 week, 1 month ago)"
+msgstr "Liên quan đến ngày hiện tại (ví dụ: 1 ngày, 1 tuần, 1 tháng trước)"
+
+#: includes/admin/class-wp-job-manager-settings.php:99
+msgid "Default date format as defined in Settings"
+msgstr "Định dạng ngày mặc định như được xác định trong Cài đặt"
+
+#: includes/admin/class-wp-job-manager-settings.php:105
+msgid "Google Maps API Key"
+msgstr "Khóa API của Google Maps"
+
+#. translators: Placeholder %s is URL to set up a Google Maps API key.
+#: includes/admin/class-wp-job-manager-settings.php:107
+#, php-format
+msgid ""
+"Google requires an API key to retrieve location information for job "
+"listings. Acquire an API key from the <a href=\"%s\">Google Maps API "
+"developer site</a>."
+msgstr ""
+"Google yêu cầu API key để truy xuất thông tin vị trí cho danh sách việc làm. "
+"Nhận khóa API từ <a href=\"%s\">trang web dành cho nhà phát triển API Google "
+"Maps</a>."
+
+#: includes/admin/class-wp-job-manager-settings.php:113
+msgid "Delete Data On Uninstall"
+msgstr "Xóa dữ liệu khi gỡ cài đặt"
+
+#: includes/admin/class-wp-job-manager-settings.php:114
+#, fuzzy
+msgid ""
+"Delete WP Job Manager data when the plugin is deleted. Once removed, this "
+"data cannot be restored."
+msgstr ""
+"Xóa dữ liệu Trình quản lý công việc WP khi plugin bị xóa. Sau khi bị xóa, dữ "
+"liệu này không thể được khôi phục."
+
+#: includes/admin/class-wp-job-manager-settings.php:122
+#: includes/class-wp-job-manager-post-types.php:332
+#: includes/class-wp-job-manager-post-types.php:435
+msgid "Job Listings"
+msgstr "Danh sách công việc"
+
+#: includes/admin/class-wp-job-manager-settings.php:128
+msgid "Listings Per Page"
+msgstr "Bài đăng trên một trang"
+
+#: includes/admin/class-wp-job-manager-settings.php:129
+msgid "Number of job listings to display per page."
+msgstr "Số lượng danh sách công việc để hiển thị trên mỗi trang."
+
+#: includes/admin/class-wp-job-manager-settings.php:135
+msgid "Filled Positions"
+msgstr "Vị trí đầy"
+
+#: includes/admin/class-wp-job-manager-settings.php:136
+msgid "Hide filled positions"
+msgstr "Ẩn vị trí đầy"
+
+#: includes/admin/class-wp-job-manager-settings.php:137
+msgid "Filled positions will not display in your archives."
+msgstr "Vị trí đã điền sẽ không hiển thị trong kho lưu trữ của bạn."
+
+#: includes/admin/class-wp-job-manager-settings.php:144
+msgid "Hide Expired Listings"
+msgstr "Ẩn danh sách đã hết hạn"
+
+#: includes/admin/class-wp-job-manager-settings.php:145
+msgid "Hide expired listings in job archives/search"
+msgstr "Ẩn danh sách đã hết hạn trong kho lưu trữ công việc / tìm kiếm"
+
+#: includes/admin/class-wp-job-manager-settings.php:146
+msgid "Expired job listings will not be searchable."
+msgstr "Danh sách công việc hết hạn sẽ không thể tìm kiếm."
+
+#: includes/admin/class-wp-job-manager-settings.php:153
+msgid "Hide Expired Listings Content"
+msgstr "Ẩn nội dung danh sách đã hết hạn"
+
+#: includes/admin/class-wp-job-manager-settings.php:154
+msgid "Hide content in expired single job listings"
+msgstr "Ẩn nội dung trong danh sách công việc đơn đã hết hạn"
+
+#: includes/admin/class-wp-job-manager-settings.php:155
+msgid ""
+"Your site will display the titles of expired listings, but not the content "
+"of the listings. Otherwise, expired listings display their full content "
+"minus the application area."
+msgstr ""
+"Trang web của bạn sẽ hiển thị tiêu đề của danh sách đã hết hạn, nhưng không "
+"hiển thị nội dung của danh sách. Mặt khác, danh sách hết hạn hiển thị nội "
+"dung đầy đủ của chúng trừ đi khu vực ứng dụng."
+
+#: includes/admin/class-wp-job-manager-settings.php:163
+msgid "Enable listing categories"
+msgstr "Cho phép danh mục"
+
+#: includes/admin/class-wp-job-manager-settings.php:164
+msgid ""
+"This lets users select from a list of categories when submitting a job. "
+"Note: an admin has to create categories before site users can select them."
+msgstr ""
+"Điều này cho phép người dùng chọn từ danh sách các danh mục khi gửi công "
+"việc. Lưu ý: quản trị viên phải tạo các danh mục trước khi người dùng trang "
+"web có thể chọn chúng."
+
+#: includes/admin/class-wp-job-manager-settings.php:171
+msgid "Multi-select Categories"
+msgstr "Danh mục đa lựa chọn"
+
+#: includes/admin/class-wp-job-manager-settings.php:172
+msgid "Default to category multiselect"
+msgstr "Mặc định cho nhiều mục"
+
+#: includes/admin/class-wp-job-manager-settings.php:173
+msgid ""
+"The category selection box will default to allowing multiple selections on "
+"the [jobs] shortcode. Without this, visitors will only be able to select a "
+"single category when filtering jobs."
+msgstr ""
+"Hộp chọn danh mục sẽ mặc định cho phép nhiều lựa chọn trên mã ngắn [công "
+"việc]. Không có điều này, khách truy cập sẽ chỉ có thể chọn một danh mục duy "
+"nhất khi lọc công việc."
+
+#: includes/admin/class-wp-job-manager-settings.php:180
+msgid "Category Filter Type"
+msgstr "Loại Lọc Danh mục"
+
+#: includes/admin/class-wp-job-manager-settings.php:181
+msgid ""
+"Determines the logic used to display jobs when selecting multiple categories."
+msgstr ""
+"Xác định logic được sử dụng để hiển thị các công việc khi chọn nhiều danh "
+"mục."
+
+#: includes/admin/class-wp-job-manager-settings.php:184
+msgid "Jobs will be shown if within ANY selected category"
+msgstr "Địa điểm sẽ được hiển thị nếu trong bất kỳ hạng mục được chọn"
+
+#: includes/admin/class-wp-job-manager-settings.php:185
+msgid "Jobs will be shown if within ALL selected categories"
+msgstr "Công việc sẽ được hiển thị nếu trong TẤT CẢ các danh mục đã chọn"
+
+#: includes/admin/class-wp-job-manager-settings.php:191
+msgid "Types"
+msgstr "Loại"
+
+#: includes/admin/class-wp-job-manager-settings.php:192
+msgid "Enable listing types"
+msgstr "Cho phép các loại danh sách"
+
+#: includes/admin/class-wp-job-manager-settings.php:193
+msgid ""
+"This lets users select from a list of types when submitting a job. Note: an "
+"admin has to create types before site users can select them."
+msgstr ""
+"Điều này cho phép người dùng chọn từ danh sách các loại khi gửi công việc. "
+"Lưu ý: quản trị viên phải tạo loại trước khi người dùng trang có thể chọn "
+"chúng."
+
+#: includes/admin/class-wp-job-manager-settings.php:200
+msgid "Multi-select Listing Types"
+msgstr "Các loại danh sách đa lựa chọn"
+
+#: includes/admin/class-wp-job-manager-settings.php:201
+msgid "Allow multiple types for listings"
+msgstr "Cho phép nhiều loại cho danh sách"
+
+#: includes/admin/class-wp-job-manager-settings.php:202
+msgid ""
+"This allows users to select more than one type when submitting a job. The "
+"metabox on the post editor and the selection box on the front-end job "
+"submission form will both reflect this."
+msgstr ""
+"Điều này cho phép người dùng chọn nhiều loại khi gửi công việc. Metabox trên "
+"trình chỉnh sửa bài đăng và hộp chọn trên biểu mẫu công việc mặt trước sẽ "
+"phản ánh điều này."
+
+#: includes/admin/class-wp-job-manager-settings.php:209
+msgid "Job Submission"
+msgstr "Trình công việc"
+
+#: includes/admin/class-wp-job-manager-settings.php:214
+msgid "Account Required"
+msgstr "Yêu cầu tài khoản"
+
+#: includes/admin/class-wp-job-manager-settings.php:215
+msgid "Require an account to submit listings"
+msgstr "Yêu cầu một tài khoản để gửi danh sách"
+
+#: includes/admin/class-wp-job-manager-settings.php:216
+msgid "Limits job listing submissions to registered, logged-in users."
+msgstr ""
+"Giới hạn đệ trình danh sách công việc cho người dùng đã đăng ký, đăng nhập."
+
+#: includes/admin/class-wp-job-manager-settings.php:223
+msgid "Account Creation"
+msgstr "Tạo tài khoản"
+
+#: includes/admin/class-wp-job-manager-settings.php:224
+msgid "Enable account creation during submission"
+msgstr "Cho phép tạo tài khoản trong khi gửi"
+
+#: includes/admin/class-wp-job-manager-settings.php:225
+msgid ""
+"Includes account creation on the listing submission form, to allow non-"
+"registered users to create an account and submit a job listing "
+"simultaneously."
+msgstr ""
+"Bao gồm tạo tài khoản trên biểu mẫu gửi danh sách, để cho phép người dùng "
+"chưa đăng ký tạo tài khoản và gửi danh sách công việc đồng thời."
+
+#: includes/admin/class-wp-job-manager-settings.php:232
+msgid "Account Username"
+msgstr "Tài khoản người dùng"
+
+#: includes/admin/class-wp-job-manager-settings.php:233
+msgid "Generate usernames from email addresses"
+msgstr "Tạo tên người dùng từ địa chỉ email"
+
+#: includes/admin/class-wp-job-manager-settings.php:234
+msgid ""
+"Automatically generates usernames for new accounts from the registrant's "
+"email address. If this is not enabled, a \"username\" field will display "
+"instead."
+msgstr ""
+"Tự động tạo tên người dùng cho tài khoản mới từ địa chỉ email của người đăng "
+"ký. Nếu điều này không được kích hoạt, trường \"tên người dùng\" sẽ hiển thị "
+"thay thế."
+
+#: includes/admin/class-wp-job-manager-settings.php:241
+msgid "Account Password"
+msgstr "Mật khẩu tài khoản"
+
+#: includes/admin/class-wp-job-manager-settings.php:242
+msgid "Email new users a link to set a password"
+msgstr "Gửi email cho người dùng mới một liên kết để đặt mật khẩu"
+
+#: includes/admin/class-wp-job-manager-settings.php:243
+msgid ""
+"Sends an email to the user with their username and a link to set their "
+"password. If this is not enabled, a \"password\" field will display instead, "
+"and their email address won't be verified."
+msgstr ""
+"Gửi email cho người dùng với tên người dùng và liên kết để đặt mật khẩu của "
+"họ. Nếu điều này không được kích hoạt, trường \"mật khẩu\" sẽ hiển thị và "
+"địa chỉ email của họ sẽ không được xác minh."
+
+#: includes/admin/class-wp-job-manager-settings.php:250
+msgid "Account Role"
+msgstr "Vai trò tài khoản"
+
+#: includes/admin/class-wp-job-manager-settings.php:251
+msgid ""
+"Any new accounts created during submission will have this role. If you "
+"haven't enabled account creation during submission in the options above, "
+"your own method of assigning roles will apply."
+msgstr ""
+"Bất kỳ tài khoản mới nào được tạo trong quá trình gửi sẽ có vai trò này. Nếu "
+"bạn chưa kích hoạt tạo tài khoản trong khi gửi trong các tùy chọn ở trên, "
+"phương pháp gán vai trò của riêng bạn sẽ được áp dụng."
+
+#: includes/admin/class-wp-job-manager-settings.php:258
+msgid "Moderate New Listings"
+msgstr "Danh sách mới vừa phải"
+
+#: includes/admin/class-wp-job-manager-settings.php:259
+msgid "Require admin approval of all new listing submissions"
+msgstr "Yêu cầu quản trị viên phê duyệt tất cả các đệ trình danh sách mới"
+
+#: includes/admin/class-wp-job-manager-settings.php:260
+msgid ""
+"Sets all new submissions to \"pending.\" They will not appear on your site "
+"until an admin approves them."
+msgstr ""
+"Đặt tất cả các bài nộp mới thành \"đang chờ xử lý.\" Họ sẽ không xuất hiện "
+"trên trang web của bạn cho đến khi quản trị viên phê duyệt chúng."
+
+#: includes/admin/class-wp-job-manager-settings.php:267
+msgid "Allow Pending Edits"
+msgstr "Cho phép chỉnh sửa đang chờ xử lý"
+
+#: includes/admin/class-wp-job-manager-settings.php:268
+msgid "Allow editing of pending listings"
+msgstr "Cho phép chỉnh sửa danh sách đang chờ xử lý"
+
+#: includes/admin/class-wp-job-manager-settings.php:269
+msgid ""
+"Users can continue to edit pending listings until they are approved by an "
+"admin."
+msgstr ""
+"Người dùng có thể tiếp tục chỉnh sửa danh sách đang chờ xử lý cho đến khi "
+"được quản trị viên phê duyệt."
+
+#: includes/admin/class-wp-job-manager-settings.php:276
+msgid "Allow Published Edits"
+msgstr "Cho phép chỉnh sửa được công bố"
+
+#: includes/admin/class-wp-job-manager-settings.php:277
+msgid "Allow editing of published listings"
+msgstr "Cho phép chỉnh sửa danh sách được công bố"
+
+#: includes/admin/class-wp-job-manager-settings.php:278
+msgid ""
+"Choose whether published job listings can be edited and if edits require "
+"admin approval. When moderation is required, the original job listings will "
+"be unpublished while edits await admin approval."
+msgstr ""
+"Chọn xem danh sách công việc được công bố có thể được chỉnh sửa hay không và "
+"nếu chỉnh sửa cần có sự phê duyệt của quản trị viên. Khi cần kiểm duyệt, "
+"danh sách công việc ban đầu sẽ không được công bố trong khi chỉnh sửa đang "
+"chờ phê duyệt của quản trị viên."
+
+#: includes/admin/class-wp-job-manager-settings.php:281
+msgid "Users cannot edit"
+msgstr "Người dùng không thể chỉnh sửa"
+
+#: includes/admin/class-wp-job-manager-settings.php:282
+msgid "Users can edit without admin approval"
+msgstr ""
+"Người dùng có thể chỉnh sửa mà không cần sự chấp thuận của quản trị viên"
+
+#: includes/admin/class-wp-job-manager-settings.php:283
+msgid "Users can edit, but edits require admin approval"
+msgstr ""
+"Người dùng có thể chỉnh sửa, nhưng chỉnh sửa cần có sự phê duyệt của quản "
+"trị viên"
+
+#: includes/admin/class-wp-job-manager-settings.php:290
+msgid "Listing Duration"
+msgstr "Danh sách Thời lượng"
+
+#: includes/admin/class-wp-job-manager-settings.php:291
+msgid ""
+"Listings will display for the set number of days, then expire. Leave this "
+"field blank if you don't want listings to have an expiration date."
+msgstr ""
+"Danh sách sẽ hiển thị cho số ngày đã đặt, sau đó hết hạn. Để trống trường "
+"này nếu bạn không muốn danh sách có ngày hết hạn."
+
+#: includes/admin/class-wp-job-manager-settings.php:297
+msgid "Application Method"
+msgstr "Phương pháp ứng dụng"
+
+#: includes/admin/class-wp-job-manager-settings.php:298
+msgid ""
+"Choose the application method job listers will need to provide. Specify URL "
+"or email address only, or allow listers to choose which they prefer."
+msgstr ""
+"Chọn phương thức ứng dụng người nghe sẽ cần cung cấp. Chỉ chỉ định URL hoặc "
+"địa chỉ email hoặc cho phép người nghe chọn cái họ thích."
+
+#: includes/admin/class-wp-job-manager-settings.php:301
+msgid "Email address or website URL"
+msgstr "Địa chỉ email hoặc URL trang web"
+
+#: includes/admin/class-wp-job-manager-settings.php:302
+msgid "Email addresses only"
+msgstr "Chỉ địa chỉ email"
+
+#: includes/admin/class-wp-job-manager-settings.php:303
+msgid "Website URLs only"
+msgstr "Chỉ URL trang web"
+
+#: includes/admin/class-wp-job-manager-settings.php:309
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: includes/admin/class-wp-job-manager-settings.php:313
+msgid "Are you human?"
+msgstr "Bạn có phải con người không?"
+
+#: includes/admin/class-wp-job-manager-settings.php:315
+msgid "Field Label"
+msgstr "Nhãn trường"
+
+#: includes/admin/class-wp-job-manager-settings.php:316
+#, fuzzy
+msgid "The label used for the reCAPTCHA field on forms."
+msgstr "Nhãn được sử dụng cho trường reCAPTCHA trên biểu mẫu."
+
+#: includes/admin/class-wp-job-manager-settings.php:323
+msgid "Site Key"
+msgstr "Site Key"
+
+#. translators: Placeholder %s is URL to set up Google reCAPTCHA API key.
+#: includes/admin/class-wp-job-manager-settings.php:325
+#, fuzzy, php-format
+msgid ""
+"You can retrieve your reCAPTCHA v2 \"I'm not a robot\" Checkbox site key "
+"from <a href=\"%s\">Google's reCAPTCHA admin dashboard</a>."
+msgstr ""
+"Bạn có thể truy xuất khóa trang web Hộp kiểm reCAPTCHA v2 \"Tôi không phải "
+"là rô-bốt\" từ trang tổng quan <a href=\"%s\">quản trị reCAPTCHA của Google</"
+"a> ."
+
+#: includes/admin/class-wp-job-manager-settings.php:332
+msgid "Secret Key"
+msgstr "Chìa khoá bí mật"
+
+#. translators: Placeholder %s is URL to set up Google reCAPTCHA API key.
+#: includes/admin/class-wp-job-manager-settings.php:334
+#, fuzzy, php-format
+msgid ""
+"You can retrieve your reCAPTCHA v2 \"I'm not a robot\" Checkbox secret key "
+"from <a href=\"%s\">Google's reCAPTCHA admin dashboard</a>."
+msgstr ""
+"Bạn có thể truy xuất khóa bí mật Hộp kiểm reCAPTCHA v2 \"Tôi không phải là "
+"rô-bốt\" từ <a href=\"%s\">trang tổng quan quản trị reCAPTCHA của Google</"
+"a> ."
+
+#: includes/admin/class-wp-job-manager-settings.php:340
+msgid "Job Submission Form"
+msgstr "Mẫu đơn xin việc"
+
+#: includes/admin/class-wp-job-manager-settings.php:341
+msgid "Display a reCAPTCHA field on job submission form."
+msgstr "Hiển thị trường reCAPTCHA trên biểu mẫu công việc."
+
+#: includes/admin/class-wp-job-manager-settings.php:342
+#, fuzzy
+msgid ""
+"This will help prevent bots from submitting job listings. You must have "
+"entered a valid site key and secret key above."
+msgstr ""
+"Điều này sẽ giúp ngăn không cho bot gửi danh sách việc làm. Bạn phải nhập "
+"khóa trang hợp lệ và khóa bí mật ở trên."
+
+#: includes/admin/class-wp-job-manager-settings.php:349
+msgid "Pages"
+msgstr "Trang"
+
+#: includes/admin/class-wp-job-manager-settings.php:354
+msgid "Submit Job Form Page"
+msgstr "Gửi trang mẫu công việc"
+
+#: includes/admin/class-wp-job-manager-settings.php:355
+msgid ""
+"Select the page where you've used the [submit_job_form] shortcode. This lets "
+"the plugin know the location of the form."
+msgstr ""
+"Chọn trang bạn đã sử dụng mã ngắn [submit_job_form]. Điều này cho phép "
+"plugin biết vị trí của biểu mẫu."
+
+#: includes/admin/class-wp-job-manager-settings.php:361
+msgid "Job Dashboard Page"
+msgstr "Trang bảng điều khiển công việc"
+
+#: includes/admin/class-wp-job-manager-settings.php:362
+msgid ""
+"Select the page where you've used the [job_dashboard] shortcode. This lets "
+"the plugin know the location of the dashboard."
+msgstr ""
+"Chọn trang bạn đã sử dụng mã ngắn [job_dashboard]. Điều này cho phép plugin "
+"biết vị trí của dashboar."
+
+#: includes/admin/class-wp-job-manager-settings.php:368
+msgid "Job Listings Page"
+msgstr "Trang danh sách công việc"
+
+#: includes/admin/class-wp-job-manager-settings.php:369
+#, fuzzy
+msgid ""
+"Select the page where you've used the [jobs] shortcode. This lets the plugin "
+"know the location of the job listings page."
+msgstr ""
+"Chọn trang mà bạn đã sử dụng shortcode [công việc]. Điều này cho phép plugin "
+"biết vị trí của trang danh sách việc làm."
+
+#: includes/admin/class-wp-job-manager-settings.php:417
+msgid "Settings successfully saved"
+msgstr "Cài đặt đã lưu thành công"
+
+#: includes/admin/class-wp-job-manager-settings.php:442
+msgid "Save Changes"
+msgstr "Lưu thay đổi"
+
+#: includes/admin/class-wp-job-manager-settings.php:641
+msgid "--no page--"
+msgstr "- không có trang--"
+
+#: includes/admin/class-wp-job-manager-settings.php:647
+msgid "Select a page&hellip;"
+msgstr "Chọn một trang&hellip;"
+
+#: includes/admin/class-wp-job-manager-setup.php:58
+msgid "Setup"
+msgstr "Thiết lập"
+
+#: includes/admin/class-wp-job-manager-setup.php:127
+msgid "Error in nonce. Try again."
+msgstr "Lỗi trong nonce. Thử lại."
+
+#: includes/admin/class-wp-job-manager-taxonomy-meta.php:87
+#: includes/admin/class-wp-job-manager-taxonomy-meta.php:110
+#: includes/admin/class-wp-job-manager-taxonomy-meta.php:129
+#: includes/class-wp-job-manager-post-types.php:291
+msgid "Employment Type"
+msgstr "Loại việc làm"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:64
+#: includes/class-wp-job-manager-email-notifications.php:324
+msgid "Posted by"
+msgstr "Đăng bởi"
+
+#. translators: Placeholder %s is the singular name for a job listing post type.
+#: includes/admin/class-wp-job-manager-writepanels.php:153
+#, php-format
+msgid "%s Data"
+msgstr "%s Dữ liệu"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:232
+#: includes/admin/class-wp-job-manager-writepanels.php:293
+msgid "Use file"
+msgstr "Sử dụng tập tin"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:233
+#: includes/admin/class-wp-job-manager-writepanels.php:293
+msgid "Upload"
+msgstr "Tải lên"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:293
+msgid "Add file"
+msgstr "Thêm tập tin"
+
+#. translators: Used in user select. %1$s is the user's display name; #%2$s is the user ID; %3$s is the user email.
+#: includes/admin/class-wp-job-manager-writepanels.php:527
+#: includes/class-wp-job-manager-ajax.php:419
+#, php-format
+msgid "%1$s (#%2$s – %3$s)"
+msgstr "%1$s (#%2$s – %3$s)"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:534
+msgid "Guest User"
+msgstr "Tài khoản khách"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:538
+msgid "Change"
+msgstr "Thay đổi"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:541
+msgid "Guest"
+msgstr "Khách"
+
+#. translators: %1$s is placeholder for singular name of the job listing post type; %2$s is the intl formatted date the listing was last modified.
+#: includes/admin/class-wp-job-manager-writepanels.php:614
+#, php-format
+msgid "%1$s was last modified by the user on %2$s."
+msgstr "%1$s được người dùng sửa đổi lần cuối trên %2$s."
+
+#: includes/admin/views/html-admin-notice-core-setup.php:15
+msgid ""
+"You are nearly ready to start listing jobs with <strong>WP Job Manager</"
+"strong>."
+msgstr ""
+"Bạn gần như đã sẵn sàng để bắt đầu liệt kê các công việc với <strong> Trình "
+"quản lý công việc WP </ strong>."
+
+#: includes/admin/views/html-admin-notice-core-setup.php:19
+msgid "Run Setup Wizard"
+msgstr "Chạy Trình hướng dẫn cài đặt"
+
+#: includes/admin/views/html-admin-notice-core-setup.php:20
+msgid "Skip Setup"
+msgstr "Bỏ qua thiết lập"
+
+#: includes/admin/views/html-admin-page-addons.php:23
+msgid "More Information &rarr;"
+msgstr "Thêm thông tin&rarr;"
+
+#: includes/admin/views/html-admin-page-addons.php:54
+msgid "No add-ons were found."
+msgstr "Không add-on nào được tìm thấy."
+
+#: includes/admin/views/html-admin-setup-header.php:13
+msgid "WP Job Manager Setup"
+msgstr "Thiết lập WP Job Manager"
+
+#: includes/admin/views/html-admin-setup-header.php:20
+msgid "1. Introduction"
+msgstr "1. Giới thiệu"
+
+#: includes/admin/views/html-admin-setup-header.php:21
+msgid "2. Page Setup"
+msgstr "2. Page Setup"
+
+#: includes/admin/views/html-admin-setup-header.php:22
+msgid "3. Done"
+msgstr "3. Xong"
+
+#: includes/admin/views/html-admin-setup-step-1.php:12
+msgid "Welcome to the Setup Wizard!"
+msgstr "Chào mừng đến với Trình hướng dẫn cài đặt!"
+
+#: includes/admin/views/html-admin-setup-step-1.php:14
+msgid ""
+"Thanks for installing <em>WP Job Manager</em>! Let's get your site ready to "
+"accept job listings."
+msgstr ""
+"Cảm ơn bạn đã cài đặt <em> Trình quản lý công việc WP </ em>! Hãy để trang "
+"web của bạn sẵn sàng để chấp nhận danh sách công việc."
+
+#: includes/admin/views/html-admin-setup-step-1.php:15
+#, fuzzy
+msgid ""
+"This setup wizard will walk you through the process of creating pages for "
+"job submissions, management, and listings."
+msgstr ""
+"Trình hướng dẫn thiết lập này sẽ hướng dẫn bạn qua quá trình tạo các trang "
+"để gửi, quản lý và danh sách công việc."
+
+#. translators: Placeholder %s is the path to WPJM documentation site.
+#: includes/admin/views/html-admin-setup-step-1.php:19
+#, fuzzy, php-format
+msgid ""
+"If you'd prefer to skip this and set up your pages manually, our <a href=\"%s"
+"\">documentation</a> will walk you through each step."
+msgstr ""
+"Nếu bạn muốn bỏ qua bước này và thiết lập các trang của mình theo cách thủ "
+"công, <a href=\"%s\">tài liệu</a> của chúng tôi sẽ hướng dẫn bạn từng bước."
+
+#: includes/admin/views/html-admin-setup-step-1.php:29
+msgid "Start setup"
+msgstr "Bắt đầu thiết lập"
+
+#: includes/admin/views/html-admin-setup-step-1.php:30
+#, fuzzy
+msgid "Skip setup. I will set up the plugin manually."
+msgstr "Bỏ qua thiết lập. Tôi sẽ thiết lập plugin theo cách thủ công."
+
+#: includes/admin/views/html-admin-setup-step-2.php:12
+msgid "Page Setup"
+msgstr "Thiết lập trang"
+
+#: includes/admin/views/html-admin-setup-step-2.php:14
+#, fuzzy
+msgid ""
+"With WP Job Manager, employers and applicants can post, manage, and browse "
+"job listings right on your website. Tell us which of these common pages "
+"you'd like your site to have and we'll create and configure them for you."
+msgstr ""
+"Với WP Job Manager, nhà tuyển dụng và ứng viên có thể đăng, quản lý và duyệt "
+"danh sách việc làm ngay trên trang web của bạn. Hãy cho chúng tôi biết bạn "
+"muốn trang web của mình có những trang phổ biến nào và chúng tôi sẽ tạo và "
+"định cấu hình chúng cho bạn."
+
+#: includes/admin/views/html-admin-setup-step-2.php:21
+#, fuzzy, php-format
+msgid ""
+"(These pages are created using <a href=\"%1$s\" title=\"What is a shortcode?"
+"\" class=\"help-page-link\">shortcodes</a>,\n"
+"\t\t\t\t\t\t\t\twhich we take care of in this step. If you'd like to build "
+"these pages yourself or want to add one of these options to an existing\n"
+"\t\t\t\t\t\t\t\tpage on your site, you can skip this step and take a look at "
+"<a href=\"%2$s\" class=\"help-page-link\">shortcode documentation</a> for "
+"detailed instructions.)"
+msgstr ""
+"(Các trang này được tạo bằng cách sử dụng <a href=\"%1$s\" title=\"What is a "
+"shortcode?\" class=\"help-page-link\">mã ngắn</a> , chúng tôi sẽ xử lý ở "
+"bước này. Nếu bạn muốn tự tạo các trang này hoặc muốn thêm một trong các tùy "
+"chọn này vào trang hiện có trên trang web của mình, bạn có thể bỏ qua bước "
+"này và thực hiện xem <a href=\"%2$s\" class=\"help-page-link\">tài liệu "
+"shortcode</a> để biết hướng dẫn chi tiết.)"
+
+#: includes/admin/views/html-admin-setup-step-2.php:39
+msgid "Page Title"
+msgstr "Tiêu đề trang"
+
+#: includes/admin/views/html-admin-setup-step-2.php:40
+msgid "Page Description"
+msgstr "Mô tả trang"
+
+#: includes/admin/views/html-admin-setup-step-2.php:41
+msgid "Content Shortcode"
+msgstr "Nội dung shortcode"
+
+#: includes/admin/views/html-admin-setup-step-2.php:47
+msgctxt "Default page title (wizard)"
+msgid "Post a Job"
+msgstr "Đăng một công việc"
+
+#: includes/admin/views/html-admin-setup-step-2.php:49
+msgid ""
+"Creates a page that allows employers to post new jobs directly from a page "
+"on your website, instead of requiring them to log in to an admin area. If "
+"you'd rather not allow this -- for example, if you want employers to use the "
+"admin dashboard only -- you can uncheck this setting."
+msgstr ""
+"Tạo một trang cho phép nhà tuyển dụng đăng công việc mới trực tiếp từ một "
+"trang trên trang web của bạn, thay vì yêu cầu họ đăng nhập vào khu vực quản "
+"trị. Nếu bạn không muốn cho phép điều này - ví dụ: nếu bạn muốn nhà tuyển "
+"dụng chỉ sử dụng bảng điều khiển quản trị - bạn có thể bỏ chọn cài đặt này."
+
+#: includes/admin/views/html-admin-setup-step-2.php:55
+msgctxt "Default page title (wizard)"
+msgid "Job Dashboard"
+msgstr "Bảng điều khiển công việc"
+
+#: includes/admin/views/html-admin-setup-step-2.php:57
+msgid ""
+"Creates a page that allows employers to manage their job listings directly "
+"from a page on your website, instead of requiring them to log in to an admin "
+"area. If you want to manage all job listings from the admin dashboard only, "
+"you can uncheck this setting."
+msgstr ""
+"Tạo một trang cho phép nhà tuyển dụng quản lý danh sách công việc của họ "
+"trực tiếp từ một trang trên trang web của bạn, thay vì yêu cầu họ đăng nhập "
+"vào khu vực quản trị. Nếu bạn chỉ muốn quản lý tất cả các danh sách công "
+"việc từ bảng điều khiển quản trị viên, bạn có thể bỏ chọn cài đặt này."
+
+#: includes/admin/views/html-admin-setup-step-2.php:63
+msgctxt "Default page title (wizard)"
+msgid "Jobs"
+msgstr "Việc"
+
+#: includes/admin/views/html-admin-setup-step-2.php:64
+msgid ""
+"Creates a page where visitors can browse, search, and filter job listings."
+msgstr ""
+"Tạo một trang nơi khách truy cập có thể duyệt, tìm kiếm và lọc danh sách "
+"công việc."
+
+#: includes/admin/views/html-admin-setup-step-2.php:72
+msgid "Skip this step"
+msgstr "Bỏ qua bước này"
+
+#: includes/admin/views/html-admin-setup-step-3.php:12
+#, fuzzy
+msgid "You're ready to start using WP Job Manager!"
+msgstr "Bạn đã sẵn sàng để bắt đầu sử dụng Trình quản lý công việc WP!"
+
+#: includes/admin/views/html-admin-setup-step-3.php:14
+#, fuzzy
+msgid "Wondering what to do now? Here are some of the most common next steps:"
+msgstr ""
+"Tự hỏi phải làm gì bây giờ? Dưới đây là một số bước tiếp theo phổ biến nhất:"
+
+#: includes/admin/views/html-admin-setup-step-3.php:17
+msgid "Tweak your settings"
+msgstr "Tinh chỉnh cài đặt của bạn"
+
+#: includes/admin/views/html-admin-setup-step-3.php:18
+msgid "Add a job using the admin dashboard"
+msgstr "Thêm một công việc bằng bảng điều khiển quản trị"
+
+#: includes/admin/views/html-admin-setup-step-3.php:23
+msgid "View submitted job listings"
+msgstr "Xem danh sách công việc đã nộp"
+
+#: includes/admin/views/html-admin-setup-step-3.php:25
+msgid "Add job listings to a page using the [jobs] shortcode"
+msgstr ""
+"Thêm danh sách công việc vào một trang bằng cách sử dụng shortcode [jobs]"
+
+#: includes/admin/views/html-admin-setup-step-3.php:32
+msgid "Add a job via the front-end"
+msgstr "Thêm một công việc thông qua front-end"
+
+#: includes/admin/views/html-admin-setup-step-3.php:34
+#, fuzzy
+msgid "Learn to use the front-end job submission board"
+msgstr "Tìm hiểu cách sử dụng bảng đệ trình công việc đầu cuối"
+
+#: includes/admin/views/html-admin-setup-step-3.php:41
+msgid "View the job dashboard"
+msgstr "Xem bảng điều khiển công việc"
+
+#: includes/admin/views/html-admin-setup-step-3.php:43
+#, fuzzy
+msgid "Learn to use the front-end job dashboard"
+msgstr "Tìm hiểu cách sử dụng bảng điều khiển công việc giao diện người dùng"
+
+#: includes/admin/views/html-admin-setup-step-3.php:53
+#, fuzzy, php-format
+msgid ""
+"If you need help, you can find more detail in our\n"
+"\t\t\t\t\t\t\t<a href=\"%1$s\">support documentation</a> or post your "
+"question on the\n"
+"\t\t\t\t\t\t\t<a href=\"%2$s\">WP Job Manager support forums</a>. Happy "
+"hiring!"
+msgstr ""
+"Nếu bạn cần trợ giúp, bạn có thể tìm thêm thông tin chi tiết trong <a href="
+"\"%1$s\">tài liệu hỗ trợ</a> của chúng tôi hoặc đăng câu hỏi của bạn trên <a "
+"href=\"%2$s\">diễn đàn hỗ trợ WP Job Manager</a> . Chúc bạn tuyển dụng vui "
+"vẻ!"
+
+#: includes/admin/views/html-admin-setup-step-3.php:66
+#, fuzzy
+msgid "Support WP Job Manager's Ongoing Development"
+msgstr "Hỗ trợ sự phát triển đang diễn ra của WP Job Manager"
+
+#: includes/admin/views/html-admin-setup-step-3.php:67
+msgid ""
+"There are lots of ways you can support open source software projects like "
+"this one: contributing code, fixing a bug, assisting with non-English "
+"translation, or just telling your friends about WP Job Manager to help "
+"spread the word. We appreciate your support!"
+msgstr ""
+"Có rất nhiều cách bạn có thể hỗ trợ các dự án phần mềm nguồn mở như thế này: "
+"đóng góp mã, sửa lỗi, hỗ trợ dịch thuật không phải tiếng Anh hoặc chỉ nói "
+"với bạn bè của bạn về Trình quản lý công việc WP để giúp quảng bá. Chúng tôi "
+"đánh giá cao sự hỗ trợ của bạn!"
+
+#: includes/admin/views/html-admin-setup-step-3.php:69
+msgid "Leave a positive review"
+msgstr "Để lại một đánh giá tích cực"
+
+#: includes/admin/views/html-admin-setup-step-3.php:70
+msgid "Contribute a localization"
+msgstr "Đóng góp một địa phương hóa"
+
+#: includes/admin/views/html-admin-setup-step-3.php:71
+#, fuzzy
+msgid "Contribute code or report a bug"
+msgstr "Đóng góp mã hoặc báo cáo lỗi"
+
+#: includes/admin/views/html-admin-setup-step-3.php:72
+msgid "Help other users on the forums"
+msgstr "Giúp người dùng khác trên diễn đàn"
+
+#. translators: Placeholder %d is the number of found search results.
+#: includes/class-wp-job-manager-ajax.php:186
+#, php-format
+msgid "Search completed. Found %d matching record."
+msgid_plural "Search completed. Found %d matching records."
+msgstr[0] "Tìm kiếm hoàn thành. Tìm thấy% d khớp hồ sơ."
+
+#: includes/class-wp-job-manager-ajax.php:284
+msgid "You must be logged in to upload files using this method."
+msgstr "Bạn phải đăng nhập để tải lên các tệp bằng phương pháp này."
+
+#. Plugin Name of the plugin/theme
+#: includes/class-wp-job-manager-data-exporter.php:27
+msgid "WP Job Manager"
+msgstr "WP Job Manager"
+
+#: includes/class-wp-job-manager-data-exporter.php:51
+#: includes/class-wp-job-manager-post-types.php:355
+msgid "Company Logo"
+msgstr "Logo công ty"
+
+#: includes/class-wp-job-manager-data-exporter.php:52
+#: includes/class-wp-job-manager-post-types.php:1506
+msgid "Company Name"
+msgstr "Tên công ty"
+
+#: includes/class-wp-job-manager-data-exporter.php:53
+#: includes/class-wp-job-manager-post-types.php:1514
+msgid "Company Website"
+msgstr "Trang web của công ty"
+
+#: includes/class-wp-job-manager-data-exporter.php:54
+#: includes/class-wp-job-manager-post-types.php:1523
+msgid "Company Tagline"
+msgstr "Dòng thẻ công ty"
+
+#: includes/class-wp-job-manager-data-exporter.php:55
+#: includes/class-wp-job-manager-post-types.php:1531
+msgid "Company Twitter"
+msgstr "Twitter"
+
+#: includes/class-wp-job-manager-data-exporter.php:56
+#: includes/class-wp-job-manager-post-types.php:1539
+msgid "Company Video"
+msgstr "Video công ty"
+
+#: includes/class-wp-job-manager-data-exporter.php:81
+msgid "WP Job Manager User Data"
+msgstr "Dữ Liệu Người Dùng WP Job Manager"
+
+#. translators: %1$s is version of PHP that WP Job Manager requires; %2$s is the version of PHP WordPress is running on.
+#: includes/class-wp-job-manager-dependency-checker.php:66
+#, fuzzy, php-format
+msgid ""
+"<strong>WP Job Manager</strong> requires a minimum PHP version of %1$s, but "
+"you are running %2$s."
+msgstr ""
+"<strong>WP Job Manager</strong> yêu cầu phiên bản PHP tối thiểu của %1$s, "
+"nhưng bạn đang chạy %2$s."
+
+#: includes/class-wp-job-manager-dependency-checker.php:77
+#, fuzzy
+msgid "Learn more about updating PHP"
+msgstr "Tìm hiểu thêm về cập nhật PHP"
+
+#. translators: accessibility text
+#: includes/class-wp-job-manager-dependency-checker.php:79
+msgid "(opens in a new tab)"
+msgstr "(mở trong tab mới)"
+
+#. translators: %s is the URL for the page where users can go to update WordPress.
+#: includes/class-wp-job-manager-dependency-checker.php:118
+#, php-format
+msgid "Please <a href=\"%s\">update WordPress</a> to avoid issues."
+msgstr "Vui lòng <a href=\"%s\"> cập nhật WordPress </a> để tránh sự cố."
+
+#: includes/class-wp-job-manager-dependency-checker.php:122
+#, fuzzy
+msgid ""
+"<strong>WP Job Manager</strong> requires a more recent version of WordPress."
+msgstr "<strong>WP Job Manager</strong> yêu cầu phiên bản WordPress mới hơn."
+
+#: includes/class-wp-job-manager-dependency-checker.php:136
+#: includes/class-wp-job-manager-dependency-checker.php:138
+msgid "WordPress Update Required"
+msgstr "Yêu cầu cập nhật WordPress"
+
+#: includes/class-wp-job-manager-email-notifications.php:259
+msgid "Job title"
+msgstr "Tiêu đề công việc"
+
+#: includes/class-wp-job-manager-email-notifications.php:279
+#: includes/class-wp-job-manager-post-types.php:222
+#: includes/forms/class-wp-job-manager-form-submit-job.php:225
+msgid "Job type"
+msgstr "Loại công việc"
+
+#: includes/class-wp-job-manager-email-notifications.php:289
+#: includes/class-wp-job-manager-post-types.php:158
+#: includes/forms/class-wp-job-manager-form-submit-job.php:234
+msgid "Job category"
+msgstr "Danh mục công việc"
+
+#: includes/class-wp-job-manager-email-notifications.php:298
+#: includes/forms/class-wp-job-manager-form-submit-job.php:259
+msgid "Company name"
+msgstr "Tên công ty"
+
+#: includes/class-wp-job-manager-email-notifications.php:306
+msgid "Company website"
+msgstr "Trang web của công ty"
+
+#: includes/class-wp-job-manager-email-notifications.php:315
+msgid "Listing expires"
+msgstr "Danh sách hết hạn"
+
+#: includes/class-wp-job-manager-email-notifications.php:474
+msgid "Email Notifications"
+msgstr "Thông báo Email"
+
+#: includes/class-wp-job-manager-email-notifications.php:477
+msgid "Select the email notifications to enable."
+msgstr "Chọn thông báo email để kích hoạt."
+
+#: includes/class-wp-job-manager-email-notifications.php:631
+msgid "Format"
+msgstr "Định dạng"
+
+#: includes/class-wp-job-manager-email-notifications.php:634
+msgid "Send plain text email"
+msgstr "Gửi email văn bản đơn giản"
+
+#: includes/class-wp-job-manager-email-notifications.php:635
+msgid "Send rich text email"
+msgstr "Gửi email văn bản phong phú"
+
+#: includes/class-wp-job-manager-geocode.php:234
+msgid "No results found"
+msgstr "Không tìm thấy kết quả"
+
+#: includes/class-wp-job-manager-geocode.php:237
+msgid "Query limit reached"
+msgstr "Đạt đến giới hạn truy vấn"
+
+#: includes/class-wp-job-manager-geocode.php:241
+#: includes/class-wp-job-manager-geocode.php:244
+msgid "Geocoding error"
+msgstr "Lỗi mã hóa địa lý"
+
+#: includes/class-wp-job-manager-install.php:84
+msgid "Employer"
+msgstr "Nhà tuyển dụng"
+
+#: includes/class-wp-job-manager-post-types.php:159
+msgid "Job categories"
+msgstr "Danh mục Công việc"
+
+#. translators: Placeholder %s is the plural label of the job listing category taxonomy type.
+#. translators: Placeholder %s is the plural label of the job listing job type taxonomy type.
+#. translators: Placeholder %s is the singular label of the job listing post type.
+#: includes/class-wp-job-manager-post-types.php:187
+#: includes/class-wp-job-manager-post-types.php:250
+#: includes/class-wp-job-manager-post-types.php:348
+#, php-format
+msgid "Search %s"
+msgstr "Tìm kiếm %s"
+
+#. translators: Placeholder %s is the plural label of the job listing category taxonomy type.
+#. translators: Placeholder %s is the plural label of the job listing job type taxonomy type.
+#. translators: Placeholder %s is the plural label of the job listing post type.
+#: includes/class-wp-job-manager-post-types.php:189
+#: includes/class-wp-job-manager-post-types.php:252
+#: includes/class-wp-job-manager-post-types.php:334
+#, php-format
+msgid "All %s"
+msgstr "Tất cả %s"
+
+#. translators: Placeholder %s is the singular label of the job listing category taxonomy type.
+#. translators: Placeholder %s is the singular label of the job listing job type taxonomy type.
+#. translators: Placeholder %s is the singular label of the job listing post type.
+#: includes/class-wp-job-manager-post-types.php:191
+#: includes/class-wp-job-manager-post-types.php:254
+#: includes/class-wp-job-manager-post-types.php:354
+#, php-format
+msgid "Parent %s"
+msgstr "Cha %s"
+
+#. translators: Placeholder %s is the singular label of the job listing category taxonomy type.
+#. translators: Placeholder %s is the singular label of the job listing job type taxonomy type.
+#: includes/class-wp-job-manager-post-types.php:193
+#: includes/class-wp-job-manager-post-types.php:256
+#, php-format
+msgid "Parent %s:"
+msgstr "Gốc %s:"
+
+#. translators: Placeholder %s is the singular label of the job listing category taxonomy type.
+#. translators: Placeholder %s is the singular label of the job listing job type taxonomy type.
+#. translators: Placeholder %s is the singular label of the job listing post type.
+#: includes/class-wp-job-manager-post-types.php:195
+#: includes/class-wp-job-manager-post-types.php:258
+#: includes/class-wp-job-manager-post-types.php:340
+#, php-format
+msgid "Edit %s"
+msgstr "Cài đặt %s"
+
+#. translators: Placeholder %s is the singular label of the job listing category taxonomy type.
+#. translators: Placeholder %s is the singular label of the job listing job type taxonomy type.
+#: includes/class-wp-job-manager-post-types.php:197
+#: includes/class-wp-job-manager-post-types.php:260
+#, php-format
+msgid "Update %s"
+msgstr "Cập nhật %s"
+
+#. translators: Placeholder %s is the singular label of the job listing category taxonomy type.
+#. translators: Placeholder %s is the singular label of the job listing job type taxonomy type.
+#: includes/class-wp-job-manager-post-types.php:199
+#: includes/class-wp-job-manager-post-types.php:262
+#, php-format
+msgid "Add New %s"
+msgstr "Thêm mới %s"
+
+#. translators: Placeholder %s is the singular label of the job listing category taxonomy type.
+#. translators: Placeholder %s is the singular label of the job listing job type taxonomy type.
+#: includes/class-wp-job-manager-post-types.php:201
+#: includes/class-wp-job-manager-post-types.php:264
+#, php-format
+msgid "New %s Name"
+msgstr "Tên %s mới"
+
+#: includes/class-wp-job-manager-post-types.php:223
+msgid "Job types"
+msgstr "Các loại công việc"
+
+#: includes/class-wp-job-manager-post-types.php:301
+msgid "Job"
+msgstr "Công việc"
+
+#: includes/class-wp-job-manager-post-types.php:302
+msgid "Jobs"
+msgstr "Việc"
+
+#: includes/class-wp-job-manager-post-types.php:335
+msgid "Add New"
+msgstr "Thêm mới"
+
+#. translators: Placeholder %s is the singular label of the job listing post type.
+#: includes/class-wp-job-manager-post-types.php:337
+#, php-format
+msgid "Add %s"
+msgstr "Thêm %s"
+
+#. translators: Placeholder %s is the singular label of the job listing post type.
+#: includes/class-wp-job-manager-post-types.php:342
+#, php-format
+msgid "New %s"
+msgstr "Mới %s"
+
+#. translators: Placeholder %s is the singular label of the job listing post type.
+#: includes/class-wp-job-manager-post-types.php:344
+#: includes/class-wp-job-manager-post-types.php:346
+#, php-format
+msgid "View %s"
+msgstr "Xem %s"
+
+#. translators: Placeholder %s is the singular label of the job listing post type.
+#: includes/class-wp-job-manager-post-types.php:350
+#, php-format
+msgid "No %s found"
+msgstr "Không tìm thấy %s"
+
+#. translators: Placeholder %s is the plural label of the job listing post type.
+#: includes/class-wp-job-manager-post-types.php:352
+#, php-format
+msgid "No %s found in trash"
+msgstr "Không tìm thấy %s trong thùng rác"
+
+#: includes/class-wp-job-manager-post-types.php:356
+msgid "Set company logo"
+msgstr "Đặt logo công ty"
+
+#: includes/class-wp-job-manager-post-types.php:357
+msgid "Remove company logo"
+msgstr "Xóa logo công ty"
+
+#: includes/class-wp-job-manager-post-types.php:358
+msgid "Use as company logo"
+msgstr "Sử dụng làm logo công ty"
+
+#. translators: Placeholder %s is the plural label of the job listing post type.
+#: includes/class-wp-job-manager-post-types.php:361
+#, php-format
+msgid "This is where you can create and manage %s."
+msgstr "Đây là nơi bạn có thể tạo và quản lý %s."
+
+#: includes/class-wp-job-manager-post-types.php:396
+#: wp-job-manager-functions.php:335
+msgctxt "post status"
+msgid "Expired"
+msgstr "Đã hết hạn"
+
+#. translators: Placeholder %s is the number of expired posts of this type.
+#: includes/class-wp-job-manager-post-types.php:403
+#, php-format
+msgid "Expired <span class=\"count\">(%s)</span>"
+msgid_plural "Expired <span class=\"count\">(%s)</span>"
+msgstr[0] "Đã hết hạn <span class = \"Count\"> (% s) </ span>"
+
+#: includes/class-wp-job-manager-post-types.php:409
+#: wp-job-manager-functions.php:336
+msgctxt "post status"
+msgid "Preview"
+msgstr "Xem trước"
+
+#. translators: Placeholder %s is the number of posts in a preview state.
+#: includes/class-wp-job-manager-post-types.php:415
+#, php-format
+msgid "Preview <span class=\"count\">(%s)</span>"
+msgid_plural "Preview <span class=\"count\">(%s)</span>"
+msgstr[0] "Xem trước <span class = \"Count\"> (% s) </ span>"
+
+#: includes/class-wp-job-manager-post-types.php:1152
+msgctxt "Post type archive slug - resave permalinks after changing this"
+msgid "jobs"
+msgstr "những việc làm"
+
+#: includes/class-wp-job-manager-post-types.php:1469
+#: includes/forms/class-wp-job-manager-form-submit-job.php:194
+msgid "Application email/URL"
+msgstr "Email / URL ứng dụng"
+
+#: includes/class-wp-job-manager-post-types.php:1470
+#: includes/forms/class-wp-job-manager-form-submit-job.php:195
+msgid "Enter an email address or website URL"
+msgstr "Nhập địa chỉ email hoặc URL trang web"
+
+#: includes/class-wp-job-manager-post-types.php:1473
+#: includes/forms/class-wp-job-manager-form-submit-job.php:184
+msgid "Application email"
+msgstr "Email Ứng viên"
+
+#: includes/class-wp-job-manager-post-types.php:1474
+#: includes/forms/class-wp-job-manager-form-submit-job.php:185
+msgid "you@example.com"
+msgstr "shopviet@example.com"
+
+#: includes/class-wp-job-manager-post-types.php:1476
+#: includes/forms/class-wp-job-manager-form-submit-job.php:189
+msgid "Application URL"
+msgstr "URL ứng dụng"
+
+#: includes/class-wp-job-manager-post-types.php:1477
+#: includes/forms/class-wp-job-manager-form-submit-job.php:190
+msgid "https://"
+msgstr "https://"
+
+#: includes/class-wp-job-manager-post-types.php:1480
+#, fuzzy
+msgid "Job listing expires at the end of the day."
+msgstr "Danh sách công việc sẽ hết hạn vào cuối ngày."
+
+#: includes/class-wp-job-manager-post-types.php:1482
+#, fuzzy
+msgid "Job listing expires at the start of the day."
+msgstr "Danh sách công việc sẽ hết hạn vào đầu ngày."
+
+#: includes/class-wp-job-manager-post-types.php:1488
+#: includes/forms/class-wp-job-manager-form-submit-job.php:221
+msgid "e.g. \"London\""
+msgstr "ví dụ. \"London\""
+
+#: includes/class-wp-job-manager-post-types.php:1489
+msgid "Leave this blank if the location is not important."
+msgstr "Để trống này nếu vị trí không quan trọng."
+
+#: includes/class-wp-job-manager-post-types.php:1498
+msgid ""
+"This field is required for the \"application\" area to appear beneath the "
+"listing."
+msgstr ""
+"Trường này là bắt buộc để khu vực \"ứng dụng\" xuất hiện bên dưới danh sách."
+
+#: includes/class-wp-job-manager-post-types.php:1524
+msgid "Brief description about the company"
+msgstr "Mô tả ngắn gọn về công ty"
+
+#: includes/class-wp-job-manager-post-types.php:1540
+msgid "URL to the company video"
+msgstr "URL tới video công ty"
+
+#: includes/class-wp-job-manager-post-types.php:1549
+msgid "Position Filled"
+msgstr "Vị trí được đầy"
+
+#: includes/class-wp-job-manager-post-types.php:1555
+msgid "Filled listings will no longer accept applications."
+msgstr "Danh sách đầy sẽ không còn chấp nhận các ứng dụng."
+
+#: includes/class-wp-job-manager-post-types.php:1558
+msgid "Featured Listing"
+msgstr "Danh sách tiêu biểu"
+
+#: includes/class-wp-job-manager-post-types.php:1560
+msgid ""
+"Featured listings will be sticky during searches, and can be styled "
+"differently."
+msgstr ""
+"Danh sách nổi bật sẽ bị dính trong khi tìm kiếm và có thể được tạo kiểu khác "
+"nhau."
+
+#: includes/class-wp-job-manager-post-types.php:1568
+msgid "Listing Expiry Date"
+msgstr "Ngày hết hạn niêm yết"
+
+#: includes/class-wp-job-manager-shortcodes.php:150
+msgid "Invalid ID"
+msgstr "ID không hợp lệ"
+
+#: includes/class-wp-job-manager-shortcodes.php:157
+msgid "This position has already been filled"
+msgstr "Vị trí này đã được lấp đầy"
+
+#. translators: Placeholder %s is the job listing title.
+#: includes/class-wp-job-manager-shortcodes.php:165
+#, php-format
+msgid "%s has been filled"
+msgstr "% s đã được điền"
+
+#: includes/class-wp-job-manager-shortcodes.php:170
+msgid "This position is not filled"
+msgstr "Vị trí này không được lấp đầy"
+
+#. translators: Placeholder %s is the job listing title.
+#: includes/class-wp-job-manager-shortcodes.php:178
+#, php-format
+msgid "%s has been marked as not filled"
+msgstr "% s đã được đánh dấu là không điền"
+
+#. translators: Placeholder %s is the job listing title.
+#: includes/class-wp-job-manager-shortcodes.php:186
+#, php-format
+msgid "%s has been deleted"
+msgstr "% s đã bị xóa"
+
+#: includes/class-wp-job-manager-shortcodes.php:191
+#: includes/class-wp-job-manager-shortcodes.php:205
+msgid "Missing submission page."
+msgstr "Thiếu trang trình."
+
+#: includes/class-wp-job-manager-shortcodes.php:341
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:36
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:52
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:36
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: includes/class-wp-job-manager-shortcodes.php:343
+msgid "Date Posted"
+msgstr "Ngày đăng"
+
+#: includes/class-wp-job-manager-shortcodes.php:344
+msgid "Listing Expires"
+msgstr "Danh sách hết hạn"
+
+#: includes/class-wp-job-manager-shortcodes.php:396
+msgid "Mark not filled"
+msgstr "Đánh dấu không điền"
+
+#: includes/class-wp-job-manager-shortcodes.php:401
+msgid "Mark filled"
+msgstr "Đánh dấu đã điền"
+
+#: includes/class-wp-job-manager-shortcodes.php:407
+msgid "Duplicate"
+msgstr "Nhân bản"
+
+#: includes/class-wp-job-manager-shortcodes.php:414
+msgid "Relist"
+msgstr "Làm mới tin đăng"
+
+#: includes/class-wp-job-manager-shortcodes.php:431
+msgid "Continue Submission"
+msgstr "Tiếp tục gửi"
+
+#: includes/class-wp-job-manager-shortcodes.php:626
+#: includes/class-wp-job-manager-shortcodes.php:664
+msgid "Load more listings"
+msgstr "Tải thêm danh sách"
+
+#: includes/class-wp-job-manager-usage-tracking.php:229
+#, fuzzy, php-format
+msgid ""
+"We'd love if you helped us make WP Job Manager better by allowing us to "
+"collect\n"
+"\t\t\t\t<a href=\"%s\">usage tracking data</a>. No sensitive information is\n"
+"\t\t\t\tcollected, and you can opt out at any time."
+msgstr ""
+"Chúng tôi rất muốn nếu bạn đã giúp chúng tôi cải thiện WP Job Manager bằng "
+"cách cho phép chúng tôi thu thập <a href=\"%s\">dữ liệu theo dõi việc sử "
+"dụng</a> . Không có thông tin nhạy cảm nào được thu thập và bạn có thể chọn "
+"không tham gia bất kỳ lúc nào."
+
+#: includes/class-wp-job-manager-usage-tracking.php:294
+#, fuzzy, php-format
+msgid ""
+"Help us make WP Job Manager better by allowing us to collect\n"
+"\t\t\t\t<a href=\"%s\">usage tracking data</a>.\n"
+"\t\t\t\tNo sensitive information is collected."
+msgstr ""
+"Giúp chúng tôi cải thiện WP Job Manager bằng cách cho phép chúng tôi thu "
+"thập <a href=\"%s\">dữ liệu theo dõi việc sử dụng</a> . Không có thông tin "
+"nhạy cảm được thu thập."
+
+#: includes/class-wp-job-manager-usage-tracking.php:320
+#: lib/usage-tracking/class-usage-tracking-base.php:483
+msgid "Enable Usage Tracking"
+msgstr "Bật theo dõi sử dụng"
+
+#: includes/class-wp-job-manager.php:140
+#, fuzzy, php-format
+msgid ""
+"This site adds the following cookies to help users resume job submissions "
+"that they\n"
+"\t\t\t\thave started but have not completed: %1$s and %2$s"
+msgstr ""
+"Trang web này thêm các cookie sau để giúp người dùng tiếp tục các công việc "
+"mà họ\n"
+"đã bắt đầu nhưng chưa hoàn thành: %1$s và %2$s"
+
+#: includes/class-wp-job-manager.php:360
+msgid "Load previous listings"
+msgstr "Tải danh sách trước"
+
+#: includes/class-wp-job-manager.php:488
+msgid "Invalid file type. Accepted types:"
+msgstr "Loại tệp không hợp lệ. Các loại được chấp nhận:"
+
+#: includes/class-wp-job-manager.php:506
+msgid "Any Category"
+msgstr "Bất Kỳ Danh Mục"
+
+#. translators: Placeholder %d is the number of files to that users are limited to.
+#: includes/class-wp-job-manager.php:522
+#: includes/forms/class-wp-job-manager-form-submit-job.php:446
+#, php-format
+msgid "You are only allowed to upload a maximum of %d files."
+msgstr "Bạn chỉ được phép tải lên tối đa% d tệp."
+
+#: includes/class-wp-job-manager.php:530
+msgid "Are you sure you want to delete this listing?"
+msgstr "Bạn có chắc chắn muốn xóa danh sách này?"
+
+#: includes/class-wp-job-manager.php:538
+msgid "This field is required."
+msgstr "Trường này là bắt buộc."
+
+#: includes/emails/class-wp-job-manager-email-admin-expiring-job.php:34
+msgid "Admin Notice of Expiring Job Listings"
+msgstr "Thông báo của quản trị viên về danh sách công việc hết hạn"
+
+#: includes/emails/class-wp-job-manager-email-admin-expiring-job.php:44
+msgid "Send notices to the site administrator before a job listing expires."
+msgstr ""
+"Gửi thông báo cho quản trị viên trang web trước khi danh sách công việc hết "
+"hạn."
+
+#: includes/emails/class-wp-job-manager-email-admin-new-job.php:34
+msgid "Admin Notice of New Listing"
+msgstr "Thông báo của quản trị viên về danh sách mới"
+
+#: includes/emails/class-wp-job-manager-email-admin-new-job.php:44
+msgid ""
+"Send a notice to the site administrator when a new job is submitted on the "
+"frontend."
+msgstr ""
+"Gửi thông báo cho quản trị viên trang web khi một công việc mới được gửi "
+"trên frontend."
+
+#. translators: Placeholder %s is the job listing post title.
+#: includes/emails/class-wp-job-manager-email-admin-new-job.php:63
+#, php-format
+msgid "New Job Listing Submitted: %s"
+msgstr "Danh sách công việc mới đã gửi:% s"
+
+#: includes/emails/class-wp-job-manager-email-admin-updated-job.php:34
+msgid "Admin Notice of Updated Listing"
+msgstr "Thông báo của quản trị viên về danh sách cập nhật"
+
+#: includes/emails/class-wp-job-manager-email-admin-updated-job.php:44
+msgid ""
+"Send a notice to the site administrator when a job is updated on the "
+"frontend."
+msgstr ""
+"Gửi thông báo cho quản trị viên trang khi công việc được cập nhật trên "
+"frontend."
+
+#. translators: Placeholder %s is the job listing post title.
+#: includes/emails/class-wp-job-manager-email-admin-updated-job.php:63
+#, php-format
+msgid "Job Listing Updated: %s"
+msgstr "Danh sách công việc được cập nhật:% s"
+
+#: includes/emails/class-wp-job-manager-email-employer-expiring-job.php:37
+msgid "Employer Notice of Expiring Job Listings"
+msgstr "Thông báo tuyển dụng của danh sách công việc hết hạn"
+
+#: includes/emails/class-wp-job-manager-email-employer-expiring-job.php:47
+msgid "Send notices to employers before a job listing expires."
+msgstr ""
+"Gửi thông báo cho nhà tuyển dụng trước khi danh sách công việc hết hạn."
+
+#. translators: Placeholder %s is the job listing post title.
+#: includes/emails/class-wp-job-manager-email-employer-expiring-job.php:79
+#, php-format
+msgid "Job Listing Expiring: %s"
+msgstr "Danh sách công việc sắp hết hạn:% s"
+
+#: includes/emails/class-wp-job-manager-email-employer-expiring-job.php:132
+msgid "Notice Period"
+msgstr "Giai đoạn báo trước"
+
+#: includes/emails/class-wp-job-manager-email-employer-expiring-job.php:134
+msgid "days"
+msgstr "ngày"
+
+#: includes/forms/class-wp-job-manager-form-edit-job.php:104
+msgid "Invalid listing"
+msgstr "Danh sách không hợp lệ"
+
+#: includes/forms/class-wp-job-manager-form-edit-job.php:136
+msgid "Save changes"
+msgstr "Lưu thay đổi"
+
+#: includes/forms/class-wp-job-manager-form-edit-job.php:141
+msgid "Submit changes for approval"
+msgstr "Submit changes for approval"
+
+#: includes/forms/class-wp-job-manager-form-edit-job.php:195
+msgid "Your changes have been saved."
+msgstr "Thay đổi của bạn đã được lưu."
+
+#: includes/forms/class-wp-job-manager-form-edit-job.php:201
+msgid "View &rarr;"
+msgstr "Lượt xem &rarr;"
+
+#: includes/forms/class-wp-job-manager-form-edit-job.php:203
+msgid ""
+"Your changes have been submitted and your listing will be visible again once "
+"approved."
+msgstr ""
+"Những thay đổi của bạn đã được gửi và danh sách của bạn sẽ được hiển thị lại "
+"sau khi được phê duyệt."
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:82
+msgid "Submit Details"
+msgstr "Gửi chi tiết"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:88
+#: includes/forms/class-wp-job-manager-form-submit-job.php:609
+#: templates/job-preview.php:30
+msgid "Preview"
+msgstr "Xem trước"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:94
+msgid "Done"
+msgstr "Xong"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:210
+msgid "Job Title"
+msgstr "Chức danh"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:218
+msgid "Leave this blank if the location is not important"
+msgstr "Để trống nếu vị trí không quan trọng"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:228
+msgid "Choose job type&hellip;"
+msgstr "Chọn loại công việc&hellip;"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:243
+msgid "Description"
+msgstr "Mô tả"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:262
+msgid "Enter the name of the company"
+msgstr "Nhập tên của công ty"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:266
+#: templates/content-single-job_listing-company.php:30
+msgid "Website"
+msgstr "Trang web"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:270
+msgid "http://"
+msgstr "http://"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:274
+msgid "Tagline"
+msgstr "Tagline"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:277
+msgid "Briefly describe your company"
+msgstr "Mô tả ngắn gọn về công ty của bạn"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:282
+msgid "Video"
+msgstr "Video"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:286
+msgid "A link to a video about your company"
+msgstr "Liên kết đến video về công ty của bạn"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:290
+msgid "Twitter username"
+msgstr "Tên tài khoản Twitter"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:293
+msgid "@yourcompany"
+msgstr "@Công ty của bạn"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:297
+msgid "Logo"
+msgstr "Logo"
+
+#. translators: Placeholder %s is the label for the required field.
+#: includes/forms/class-wp-job-manager-form-submit-job.php:367
+#, php-format
+msgid "%s is a required field"
+msgstr "%s không được để trống"
+
+#. translators: Placeholder %s is the field label that is did not validate.
+#: includes/forms/class-wp-job-manager-form-submit-job.php:378
+#, php-format
+msgid "%s is invalid"
+msgstr "%s không hợp lệ"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:408
+msgid "Invalid image path."
+msgstr "Đường dẫn hình ảnh không hợp lệ."
+
+#. translators: Placeholder %1$s is field label; %2$s is the file mime type; %3$s is the allowed mime-types.
+#. translators: %1$s is the file field label; %2$s is the file type; %3$s is the list of allowed file types.
+#: includes/forms/class-wp-job-manager-form-submit-job.php:419
+#: wp-job-manager-functions.php:1368
+#, php-format
+msgid ""
+"\"%1$s\" (filetype %2$s) needs to be one of the following file types: %3$s"
+msgstr "\"%1$s\" (filetype%2$s) cần phải là một trong các loại tệp sau:%3$s"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:429
+msgid "Invalid attachment provided."
+msgstr "Tập tin đính kèm không hợp lệ được cung cấp."
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:473
+msgid "Please enter a valid application email address"
+msgstr "Vui lòng nhập một địa chỉ email ứng dụng hợp lệ"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:478
+msgid "Please enter a valid application URL"
+msgstr "Vui lòng nhập URL ứng dụng hợp lệ"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:484
+msgid "Please enter a valid application email address or URL"
+msgstr "Vui lòng nhập địa chỉ email ứng dụng hợp lệ hoặc URL"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:668
+msgid "Please enter a username."
+msgstr "Vui lòng nhập tên tài khoản."
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:672
+msgid "Please enter a password."
+msgstr "Vui lòng nhập mật khẩu."
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:676
+msgid "Please enter your email address."
+msgstr "Xin hãy điền email của bạn."
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:682
+msgid "Passwords must match."
+msgstr "Mật khẩu phải trùng khớp."
+
+#. translators: Placeholder %s is the password hint.
+#: includes/forms/class-wp-job-manager-form-submit-job.php:688
+#, php-format
+msgid "Invalid Password: %s"
+msgstr "Mật khẩu không hợp lệ:% s"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:690
+msgid "Password is not valid."
+msgstr "Mật khẩu không hợp lệ."
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:722
+msgid "You must be signed in to post a new listing."
+msgstr "Bạn phải đăng nhập để đăng một danh sách mới."
+
+#. translators: placeholder is the URL to the job dashboard page.
+#: includes/forms/class-wp-job-manager-form-submit-job.php:748
+#, php-format
+msgid ""
+"Draft was saved. Job listing drafts can be resumed from the <a href=\"%s"
+"\">job dashboard</a>."
+msgstr ""
+"Dự thảo đã được lưu. Bản nháp danh sách công việc có thể được nối lại từ <a "
+"href=\"%s\"> bảng điều khiển công việc </a>."
+
+#: includes/helper/class-wp-job-manager-helper.php:279
+#, fuzzy
+msgid "Manage License (Requires Attention)"
+msgstr "Quản lý Giấy phép (Yêu cầu Chú ý)"
+
+#: includes/helper/class-wp-job-manager-helper.php:282
+msgid "Manage License"
+msgstr "Quản Lý Bản Quyền"
+
+#: includes/helper/class-wp-job-manager-helper.php:285
+#: includes/helper/views/html-licences.php:75
+msgid "Activate License"
+msgstr "Kích hoạt bản quyền"
+
+#: includes/helper/class-wp-job-manager-helper.php:494
+msgid ""
+"Please enter a valid license key and email address in order to activate this "
+"plugin's license."
+msgstr ""
+"Vui lòng nhập mã cấp phép và địa chỉ email hợp lệ để kích hoạt giấy phép của "
+"plugin này."
+
+#: includes/helper/class-wp-job-manager-helper.php:526
+#, fuzzy
+msgid ""
+"Connection failed to the License Key API server - possible server issue."
+msgstr ""
+"Không kết nối được với máy chủ API Khóa cấp phép - có thể có sự cố máy chủ."
+
+#: includes/helper/class-wp-job-manager-helper.php:535
+msgid "Plugin license has been activated."
+msgstr "Giấy phép plugin đã được kích hoạt."
+
+#: includes/helper/class-wp-job-manager-helper.php:538
+msgid "An unknown error occurred while attempting to activate the license"
+msgstr "Đã xảy ra lỗi không xác định trong khi cố gắng kích hoạt giấy phép"
+
+#: includes/helper/class-wp-job-manager-helper.php:558
+msgid "license is not active."
+msgstr "giấy phép không hoạt động."
+
+#: includes/helper/class-wp-job-manager-helper.php:574
+msgid "Plugin license has been deactivated."
+msgstr "Giấy phép plugin đã bị vô hiệu hóa."
+
+#: includes/helper/views/html-licence-key-error.php:13
+#: includes/helper/views/html-licence-key-notice.php:13
+msgid "Hide notice"
+msgstr "Ẩn thông báo"
+
+#. translators: %1$s is the plugin name, %2$s is the license setting page URL.
+#: includes/helper/views/html-licence-key-error.php:15
+#, php-format
+msgid ""
+"There is a problem with the license for \"%1$s\". Please <a href=\"%2$s"
+"\">manage the license</a> to check for a solution and continue receiving "
+"updates."
+msgstr ""
+"Có vấn đề với giấy phép cho \"%1$s\". Vui lòng <a href=\"%2$s\"> quản lý "
+"giấy phép </a> để kiểm tra giải pháp và tiếp tục nhận cập nhật."
+
+#. translators: %1$s is the license setting page URL, %2$s is the plugin name.
+#: includes/helper/views/html-licence-key-notice.php:15
+#, fuzzy, php-format
+msgid ""
+"<a href=\"%1$s\">Please enter your license key</a> to get updates for \"%2$s"
+"\"."
+msgstr ""
+"<a href=\"%1$s\">Vui lòng nhập khóa cấp phép của bạn</a> để nhận các bản cập "
+"nhật cho \"%2$s\"."
+
+#: includes/helper/views/html-licences.php:56
+#: includes/helper/views/html-licences.php:69
+msgid "License"
+msgstr "Giấy phép"
+
+#: includes/helper/views/html-licences.php:59
+#: includes/helper/views/html-licences.php:72
+msgid "Email"
+msgstr "Email"
+
+#: includes/helper/views/html-licences.php:60
+#: includes/helper/views/html-licences.php:73
+msgid "Email address"
+msgstr "Địa chỉ email"
+
+#: includes/helper/views/html-licences.php:63
+msgid "Deactivate License"
+msgstr "Gỡ bỏ bản quyền"
+
+#. translators: Placeholder %s is the lost license key URL.
+#: includes/helper/views/html-licences.php:84
+#, php-format
+msgid "Lost your license key? <a href=\"%s\">Retrieve it here</a>."
+msgstr ""
+"Mất chìa khóa giấy phép của bạn? <a href=\"%s\"> Truy xuất tại đây </a>."
+
+#: includes/helper/views/html-licences.php:86
+#, fuzzy
+msgid "No plugins are activated that have licenses managed by WP Job Manager."
+msgstr ""
+"Không có plugin nào được kích hoạt có giấy phép do WP Job Manager quản lý."
+
+#. translators: Placeholder %s is the plural label for the job listing post type.
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:27
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:35
+#, php-format
+msgid "Featured %s"
+msgstr "Nổi bật% s"
+
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:29
+msgid "Display a list of featured listings on your site."
+msgstr "Hiển thị danh sách các danh sách nổi bật trên trang web của bạn."
+
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:44
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:54
+msgid "Number of listings to show"
+msgstr "Số lượng danh sách để hiển thị"
+
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:49
+msgid "Sort By"
+msgstr "Sắp xếp theo"
+
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:51
+msgid "Date"
+msgstr "Ngày"
+
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:53
+msgid "Author"
+msgstr "Tác giả"
+
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:54
+msgid "Random"
+msgstr "Ngẫu nhiên"
+
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:60
+msgid "Sort Direction"
+msgstr "Hướng sắp xếp"
+
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:62
+msgid "Ascending"
+msgstr "Tăng dần"
+
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:63
+msgid "Descending"
+msgstr "Giảm dần"
+
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:69
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:59
+msgid "Show Company Logo"
+msgstr "Hiển thị Logo công ty"
+
+#. translators: Placeholder %s is the plural label for the job listing post type.
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:27
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:35
+#, php-format
+msgid "Recent %s"
+msgstr "%s gần đây"
+
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:29
+msgid ""
+"Display a list of recent listings on your site, optionally matching a "
+"keyword and location."
+msgstr ""
+"Hiển thị danh sách các danh sách gần đây trên trang web của bạn, tùy ý khớp "
+"với từ khóa và vị trí."
+
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:41
+msgid "Keyword"
+msgstr "Từ khóa"
+
+#: lib/usage-tracking/class-usage-tracking-base.php:344
+msgid "Every Two Weeks"
+msgstr "Mỗi hai tuần"
+
+#: lib/usage-tracking/class-usage-tracking-base.php:486
+msgid "Disable Usage Tracking"
+msgstr "Vô hiệu hóa theo dõi sử dụng"
+
+#: lib/usage-tracking/class-usage-tracking-base.php:492
+msgid "Usage data enabled. Thank you!"
+msgstr "Dữ liệu sử dụng được kích hoạt. Cảm ơn bạn!"
+
+#: lib/usage-tracking/class-usage-tracking-base.php:495
+msgid "Disabled usage tracking."
+msgstr "Vô hiệu hóa theo dõi sử dụng."
+
+#: lib/usage-tracking/class-usage-tracking-base.php:498
+msgid "Something went wrong. Please try again later."
+msgstr "Có lỗi xảy ra. Xin vui lòng thử lại."
+
+#: templates/account-signin.php:21
+msgid "Your account"
+msgstr "Tài khoản của bạn"
+
+#. translators: Placeholder %s is the username.
+#: templates/account-signin.php:26
+#, php-format
+msgid "You are currently signed in as <strong>%s</strong>."
+msgstr "Bạn hiện đang đăng nhập là <strong>% s </ strong>."
+
+#: templates/account-signin.php:29
+msgid "Sign out"
+msgstr "Đăng xuất"
+
+#: templates/account-signin.php:40
+msgid "Have an account?"
+msgstr "Có một tài khoản?"
+
+#: templates/account-signin.php:42 templates/job-dashboard-login.php:20
+msgid "Sign in"
+msgstr "Đăng nhập"
+
+#. translators: Placeholder %s is the optionally text.
+#: templates/account-signin.php:47
+#, php-format
+msgid ""
+"If you don't have an account you can %screate one below by entering your "
+"email address/username."
+msgstr ""
+"Nếu bạn không có tài khoản, bạn có thể %stạo một tài khoản dưới đây bằng "
+"cách nhập địa chỉ email/tên người dùng của bạn."
+
+#: templates/account-signin.php:47
+msgid "optionally"
+msgstr "tùy chọn"
+
+#: templates/account-signin.php:49
+msgid "Your account details will be confirmed via email."
+msgstr "Chi tiết tài khoản của bạn sẽ được xác nhận qua email."
+
+#: templates/account-signin.php:54
+msgid "You must sign in to create a new listing."
+msgstr "Bạn phải đăng nhập để tạo danh sách mới."
+
+#: templates/account-signin.php:65 templates/job-submit.php:43
+#: templates/job-submit.php:60
+msgid "(optional)"
+msgstr "(tùy chọn)"
+
+#: templates/content-no-jobs-found.php:20
+msgid "There are no listings matching your search."
+msgstr "Không có danh sách phù hợp với tìm kiếm của bạn."
+
+#: templates/content-no-jobs-found.php:22
+msgid "There are currently no vacancies."
+msgstr "Hiện tại không có chỗ trống."
+
+#: templates/content-single-job_listing-meta.php:42
+msgid "This position has been filled"
+msgstr "Vị trí này đã được lấp đầy"
+
+#: templates/content-single-job_listing-meta.php:44
+msgid "Applications have closed"
+msgstr "Ứng dung đã đóng"
+
+#: templates/content-single-job_listing.php:23
+msgid "This listing has expired."
+msgstr "Danh sách này đã hết hạn."
+
+#. translators: %1$s placeholder is URL to the blog. %2$s placeholder is the name of the site.
+#: templates/emails/admin-expiring-job.php:32
+#, php-format
+msgid ""
+"The following job listing is expiring today from <a href=\"%1$s\">%2$s</a>."
+msgstr ""
+"Danh sách công việc sau đây sẽ hết hạn vào ngày hôm nay từ <a href=\"%1$s\">"
+"%2$s </a>."
+
+#. translators: %1$s placeholder is URL to the blog. %2$s placeholder is the name of the site.
+#: templates/emails/admin-expiring-job.php:35
+#, php-format
+msgid ""
+"The following job listing is expiring soon from <a href=\"%1$s\">%2$s</a>."
+msgstr "Danh sách công việc sau đây sắp hết hạn từ <a href=\"%1$s\">%2$s</a>."
+
+#. translators: Placeholder is URL to site's WP admin.
+#: templates/emails/admin-expiring-job.php:41
+#, php-format
+msgid "Visit <a href=\"%s\">WordPress admin</a> to manage the listing."
+msgstr ""
+"Truy cập <a href=\"%s\"> quản trị viên WordPress </a> để quản lý danh sách."
+
+#. translators: %1$s placeholder is URL to the blog. %2$s placeholder is the name of the site.
+#: templates/emails/admin-new-job.php:27
+#, php-format
+msgid "A new job listing has been submitted to <a href=\"%s\">%s</a>."
+msgstr "Danh sách công việc mới đã được gửi tới <a href=\"%s\">% s </a>."
+
+#: templates/emails/admin-new-job.php:34
+#: templates/emails/plain/admin-new-job.php:27
+msgid "It has been published and is now available to the public."
+msgstr "Nó đã được xuất bản và hiện có sẵn cho công chúng."
+
+#. translators: Placeholder %s is the admin job listings URL.
+#: templates/emails/admin-new-job.php:40
+#, php-format
+msgid ""
+"It is awaiting approval by an administrator in <a href=\"%s\">WordPress "
+"admin</a>."
+msgstr ""
+"Nó đang chờ phê duyệt bởi quản trị viên trong <a href=\"%s\"> quản trị viên "
+"WordPress </a>."
+
+#. translators: %1$s placeholder is URL to the blog. %2$s placeholder is the name of the site.
+#: templates/emails/admin-updated-job.php:26
+#, php-format
+msgid "A job listing has been updated on <a href=\"%s\">%s</a>."
+msgstr "Danh sách công việc đã được cập nhật trên <a href=\"%s\">% s </a>."
+
+#: templates/emails/admin-updated-job.php:29
+#: templates/emails/plain/admin-updated-job.php:27
+msgid "The changes have been published and are now available to the public."
+msgstr "Những thay đổi đã được công bố và hiện có sẵn cho công chúng."
+
+#. translators: Placeholder %s is the admin job listings URL.
+#: templates/emails/admin-updated-job.php:34
+#, php-format
+msgid ""
+"The job listing is not publicly available until the changes are approved by "
+"an administrator in the site's <a href=\"%s\">WordPress admin</a>."
+msgstr ""
+"Danh sách công việc không có sẵn công khai cho đến khi các thay đổi được "
+"quản trị viên phê duyệt trong <a href=\"%s\"> quản trị viên WordPress </a> "
+"của trang web."
+
+#. translators: %1$s placeholder is URL to the blog. %2$s placeholder is the name of the site.
+#: templates/emails/employer-expiring-job.php:33
+#, php-format
+msgid "The following job listing is expiring today from <a href=\"%s\">%s</a>."
+msgstr ""
+"Danh sách công việc sau đây sẽ hết hạn vào ngày hôm nay từ <a href=\"%s\">"
+"% s </a>."
+
+#. translators: %1$s placeholder is URL to the blog. %2$s placeholder is the name of the site.
+#: templates/emails/employer-expiring-job.php:42
+#, php-format
+msgid "The following job listing is expiring soon from <a href=\"%s\">%s</a>."
+msgstr "Danh sách công việc sau đây sắp hết hạn từ <a href=\"%s\">% s </a>."
+
+#. translators: Placeholder %s is the job listing dashboard URL.
+#: templates/emails/employer-expiring-job.php:51
+#, php-format
+msgid ""
+"Visit the <a href=\"%s\">job listing dashboard</a> to manage the listing."
+msgstr ""
+"Truy cập <a href=\"%s\"> bảng điều khiển danh sách công việc </a> để quản lý "
+"danh sách."
+
+#. translators: %1$s placeholder is the name of the site, %2$s placeholder is URL to the blog.
+#: templates/emails/plain/admin-expiring-job.php:31
+#: templates/emails/plain/employer-expiring-job.php:30
+#, php-format
+msgid "The following job listing is expiring today from %1$s (%2$s)."
+msgstr "Danh sách công việc sau đây sẽ hết hạn ngày hôm nay từ %1$s (%2$s)."
+
+#. translators: %1$s placeholder is the name of the site, %2$s placeholder is URL to the blog.
+#: templates/emails/plain/admin-expiring-job.php:38
+#: templates/emails/plain/employer-expiring-job.php:33
+#, php-format
+msgid "The following job listing is expiring soon from %1$s (%2$s)."
+msgstr "Danh sách công việc sau đây sắp hết hạn từ %1$s (%2$s)."
+
+#. translators: Placeholder %s is the edit job URL.
+#: templates/emails/plain/admin-expiring-job.php:46
+#, php-format
+msgid "Visit WordPress admin (%s) to manage the listing."
+msgstr "Truy cập quản trị viên WordPress (% s) để quản lý danh sách."
+
+#. translators: %1$s placeholder is the name of the site, %2$s placeholder is URL to the blog.
+#: templates/emails/plain/admin-new-job.php:24
+#, php-format
+msgid "A new job listing has been submitted to %1$s (%2$s)."
+msgstr "Một danh sách công việc mới đã được gửi tới %1$s (%2$s)."
+
+#. translators: Placeholder %s is the admin job listings URL.
+#: templates/emails/plain/admin-new-job.php:31
+#, php-format
+msgid "It is awaiting approval by an administrator in WordPress admin (%s)."
+msgstr ""
+"Nó đang chờ phê duyệt bởi quản trị viên trong quản trị viên WordPress (% s)."
+
+#. translators: %1$s placeholder is the name of the site, %2$s placeholder is URL to the blog.
+#: templates/emails/plain/admin-updated-job.php:24
+#, php-format
+msgid "A job listing has been updated on %1$s (%2$s)."
+msgstr "Danh sách công việc đã được cập nhật trên %1$s (%2$s)."
+
+#. translators: Placeholder %s is the admin job listings URL.
+#: templates/emails/plain/admin-updated-job.php:31
+#, php-format
+msgid ""
+"The job listing is not publicly available until the changes are approved by "
+"an administrator in the site's WordPress admin (%s)."
+msgstr ""
+"Danh sách công việc không có sẵn công khai cho đến khi các thay đổi được phê "
+"duyệt bởi quản trị viên trong quản trị viên WordPress của trang web (% s)."
+
+#. translators: Placeholder %s is the job listing dashboard URL.
+#: templates/emails/plain/employer-expiring-job.php:36
+#, php-format
+msgid "Visit the job listing dashboard (%s) to manage the listing."
+msgstr ""
+"Truy cập bảng điều khiển danh sách công việc (% s) để quản lý danh sách."
+
+#: templates/form-fields/file-field.php:60
+#, php-format
+msgid "Maximum file size: %s."
+msgstr "Kích thước tệp tối đa:% s."
+
+#: templates/form-fields/multiselect-field.php:20
+#: wp-job-manager-functions.php:1135
+msgid "No results match"
+msgstr "Không có kết quả phù hợp"
+
+#: templates/form-fields/multiselect-field.php:20
+#: wp-job-manager-functions.php:1136
+msgid "Select Some Options"
+msgstr "Chọn một số tùy chọn"
+
+#: templates/form-fields/uploaded-file-html.php:28
+#: templates/form-fields/uploaded-file-html.php:30
+msgid "remove"
+msgstr "xóa"
+
+#. translators: %1$s is the email address, %2$s is the subject query args.
+#: templates/job-application-email.php:19
+#, php-format
+msgid ""
+"To apply for this job <strong>email your details to</strong> <a class="
+"\"job_application_email\" href=\"mailto:%1$s%2$s\">%1$s</a>"
+msgstr ""
+"Để áp dụng cho công việc này <strong>gửi email thông tin chi tiết của bạn "
+"tới</strong> <a class=\"job_application_email\" href=\"mailto:%1$s%2$s\">"
+"%1$s</a>"
+
+#: templates/job-application-url.php:18
+msgid "To apply for this job please visit"
+msgstr "Để áp dụng cho công việc này xin vui lòng truy cập"
+
+#: templates/job-application.php:24
+msgid "Apply for job"
+msgstr "Xin việc"
+
+#: templates/job-dashboard-login.php:20
+msgid "You need to be signed in to manage your listings."
+msgstr ""
+"Bạn cần <a href=\"#login-dialog\" class=\"small-dialog popup-with-zoom-anim"
+"\"><i class=\"fa fa-lock\"></i> Đăng nhập</a> để quản lý danh sách của mình."
+
+#: templates/job-dashboard.php:27
+msgid "Your listings are shown in the table below."
+msgstr "Danh sách của bạn được hiển thị trong bảng dưới đây."
+
+#: templates/job-dashboard.php:39
+msgid "You do not have any active listings."
+msgstr "Bạn không có bất kỳ danh sách hoạt động nào."
+
+#: templates/job-dashboard.php:52
+msgid "Featured Job"
+msgstr "Công việc đặc thù"
+
+#: templates/job-filters.php:30 templates/job-filters.php:31
+msgid "Keywords"
+msgstr "Từ khóa"
+
+#: templates/job-filters.php:47
+msgid "Category"
+msgstr "Thể loại"
+
+#: templates/job-filters.php:51
+msgid "Any category"
+msgstr "Bất kỳ thể loại"
+
+#: templates/job-filters.php:68
+msgid "Search Jobs"
+msgstr "Tìm việc làm"
+
+#: templates/job-filters.php:80
+msgid ""
+"Your browser does not support JavaScript, or it is disabled. JavaScript must "
+"be enabled in order to view listings."
+msgstr ""
+"Trình duyệt của bạn không hỗ trợ JavaScript hoặc bị tắt. JavaScript phải "
+"được kích hoạt để xem danh sách."
+
+#: templates/job-preview.php:28
+#, fuzzy
+msgid "Submit Listing"
+msgstr "Gửi địa điểm"
+
+#: templates/job-preview.php:29
+msgid "Edit listing"
+msgstr "Chỉnh sửa danh sách"
+
+#: templates/job-submit.php:24
+#, php-format
+msgid "You are editing an existing job. %s"
+msgstr "Bạn đang chỉnh sửa một công việc hiện có. %s"
+
+#: templates/job-submit.php:24
+msgid "Create A New Job"
+msgstr "Tạo một công việc mới"
+
+#: templates/job-submit.php:54
+msgid "Company Details"
+msgstr "Chi tiết công ty"
+
+#: templates/job-submit.php:79
+msgid "Save Draft"
+msgstr "Lưu bản nháp"
+
+#. translators: %1$s is the job listing post type name, %2$s is the job listing URL.
+#: templates/job-submitted.php:25
+#, php-format
+msgid ""
+"%1$s listed successfully. To view your listing <a href=\"%2$s\">click here</"
+"a>."
+msgstr ""
+"%1$s được liệt kê thành công. Để xem danh sách của bạn <a href=\"%2$s\">nhấp "
+"vào đây</a>."
+
+#. translators: Placeholder %s is the job listing post type name.
+#: templates/job-submitted.php:35
+#, php-format
+msgid "%s submitted successfully. Your listing will be visible once approved."
+msgstr ""
+"%s đã gửi thành công. Tin đăng của bạn sẽ được hiển thị sau khi được chúng "
+"tôi kiểm duyệt."
+
+#: wp-job-manager-functions.php:334
+msgctxt "post status"
+msgid "Draft"
+msgstr "Bản nháp"
+
+#: wp-job-manager-functions.php:337
+msgctxt "post status"
+msgid "Pending approval"
+msgstr "Chờ phê duyệt"
+
+#: wp-job-manager-functions.php:338
+msgctxt "post status"
+msgid "Pending payment"
+msgstr "Chờ thanh toán"
+
+#: wp-job-manager-functions.php:339
+msgctxt "post status"
+msgid "Active"
+msgstr "Kích hoạt"
+
+#: wp-job-manager-functions.php:460
+msgid "Reset"
+msgstr "Đặt lại"
+
+#: wp-job-manager-functions.php:464
+msgid "RSS"
+msgstr "RSS"
+
+#: wp-job-manager-functions.php:572
+msgid "Invalid email address."
+msgstr "Địa chỉ email không hợp lệ."
+
+#: wp-job-manager-functions.php:580
+msgid "Your email address isn&#8217;t correct."
+msgstr "Địa chỉ email của bạn không chính xác."
+
+#: wp-job-manager-functions.php:584
+msgid "This email is already registered, please choose another one."
+msgstr "Email này đã được đăng ký, hãy chọn một email khác."
+
+#: wp-job-manager-functions.php:895
+msgid "Full Time"
+msgstr "Toàn thời gian"
+
+#: wp-job-manager-functions.php:896
+msgid "Part Time"
+msgstr "Bán thời gian"
+
+#: wp-job-manager-functions.php:897
+msgid "Contractor"
+msgstr "Nhà thầu"
+
+#: wp-job-manager-functions.php:898
+msgid "Temporary"
+msgstr "Tạm thời"
+
+#: wp-job-manager-functions.php:899
+msgid "Intern"
+msgstr "Nội bộ"
+
+#: wp-job-manager-functions.php:900
+msgid "Volunteer"
+msgstr "Tình nguyện viên"
+
+#: wp-job-manager-functions.php:901
+#, fuzzy
+msgid "Per Diem"
+msgstr "Per Diem"
+
+#: wp-job-manager-functions.php:902
+msgid "Other"
+msgstr "Khác"
+
+#: wp-job-manager-functions.php:969
+msgid "Passwords must be at least 8 characters long."
+msgstr "Mật khẩu phải dài ít nhất 8 ký tự."
+
+#: wp-job-manager-functions.php:1134
+msgid "Choose a category&hellip;"
+msgstr "Chọn một ngành nghề&hellip;"
+
+#. translators: %s is the list of allowed file types.
+#: wp-job-manager-functions.php:1371
+#, php-format
+msgid "Uploaded files need to be one of the following file types: %s"
+msgstr "Các tệp đã tải lên cần phải là một trong các loại tệp sau:% s"
+
+#: wp-job-manager-template.php:155
+msgid "Inactive"
+msgstr "Không hoạt động"
+
+#. translators: %1$s is the job listing title; %2$s is the URL for the current WordPress instance.
+#: wp-job-manager-template.php:249
+#, php-format
+msgid "Application via %1$s listing on %2$s"
+msgstr "Đăng ký qua danh sách %1$s trên %2$s"
+
+#: wp-job-manager-template.php:692
+msgid "Your email"
+msgstr "Email của bạn"
+
+#: wp-job-manager-template.php:693
+msgid "you@yourdomain.com"
+msgstr "you@yourdomain.com"
+
+#: wp-job-manager-template.php:701
+msgid "Username"
+msgstr "Tên đăng nhập"
+
+#: wp-job-manager-template.php:710
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: wp-job-manager-template.php:720
+msgid "Verify Password"
+msgstr "Xác nhận lại mật khẩu"
+
+#: wp-job-manager-template.php:747
+msgid "Posted on "
+msgstr "Đăng lúc "
+
+#. translators: Placeholder %s is the relative, human readable time since the job listing was posted.
+#: wp-job-manager-template.php:750 wp-job-manager-template.php:771
+#, php-format
+msgid "Posted %s ago"
+msgstr "Đăng %s trước"
+
+#: wp-job-manager-template.php:800
+msgid "Anywhere"
+msgstr "Mọi nơi"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://wpjobmanager.com/"
+msgstr "https://wpjobmanager.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"Manage job listings from the WordPress admin panel, and allow users to post "
+"jobs directly to your site."
+msgstr ""
+"Quản lý danh sách công việc từ bảng quản trị WordPress và cho phép người "
+"dùng đăng công việc trực tiếp lên trang web của bạn."
+
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr "Tự động"

@@ -1,0 +1,6191 @@
+# Translation of Plugins - Email Marketing Automation, Newsletter and CRM Plugin for WordPress by FluentCRM - Stable (latest release) in Vietnamese
+# This file is distributed under the same license as the Plugins - Email Marketing Automation, Newsletter and CRM Plugin for WordPress by FluentCRM - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-30 20:03+0700\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.4.3\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Plugins - Email Marketing Automation, Newsletter and CRM Plugin for WordPress by FluentCRM - Stable (latest release)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: Anh Le <anh.legiang@gmail.com>\n"
+"Language-Team: \n"
+
+#: app/Services/TransStrings.php:663
+msgid "Sunday"
+msgstr "Chủ nhật"
+
+#: app/Services/TransStrings.php:662
+msgid "Saturday"
+msgstr "Thứ bảy"
+
+#: app/Services/TransStrings.php:661
+msgid "Friday"
+msgstr "Thứ sáu"
+
+#: app/Services/TransStrings.php:660
+msgid "Thursday"
+msgstr "Thứ năm"
+
+#: app/Services/TransStrings.php:659
+msgid "Wednesday"
+msgstr "Thứ tư"
+
+#: app/Services/TransStrings.php:658
+msgid "Tuesday"
+msgstr "Thứ ba"
+
+#: app/Services/TransStrings.php:657
+msgid "Monday"
+msgstr "Thứ hai"
+
+#: app/Services/TransStrings.php:656
+msgid "Please select allowed days to send emails"
+msgstr "Vui lòng chọn ngày được phép để gửi email"
+
+#: app/Services/TransStrings.php:655
+msgid "Enable Specific Days Only"
+msgstr "Chỉ Bật Ngày Cụ Thể"
+
+#: app/Hooks/Handlers/AdminMenu.php:140
+#, fuzzy
+msgid "Thank you for using <a href=\"%s\">FluentCRM</a>"
+msgstr "Cảm ơn bạn đã sử <a href=\"%s\">dụng FluentCRM</a>"
+
+#: app/Hooks/Handlers/AdminMenu.php:126 app/Hooks/Handlers/AdminMenu.php:127
+msgid "Help"
+msgstr "Trợ giúp"
+
+#: app/Services/TransStrings.php:21
+#, fuzzy
+msgid "Add Action/Benchmark/Conditions"
+msgstr "Thêm Hành động/Điểm chuẩn/Điều kiện"
+
+#: app/Services/AutoSubscribe.php:307
+#, fuzzy
+msgid "Do not show the checkbox if current user already in subscribed state"
+msgstr "Không hiện hộp kiểm nếu người dùng hiện tại đã ở trạng thái đã đăng ký"
+
+#: app/Services/AutoSubscribe.php:295
+#, fuzzy
+msgid "Enable auto checked status on checkout page checkbox"
+msgstr "Hộp kiểm Bật trạng thái tự động được chọn trên trang thanh toán"
+
+#: app/Services/AutoSubscribe.php:285
+#, fuzzy
+msgid "Select the tags that will be assigned when checkbox checked"
+msgstr "Chọn các thẻ sẽ được gán khi hộp kiểm được chọn"
+
+#: app/Services/AutoSubscribe.php:272
+#, fuzzy
+msgid "Select the list that will be assigned when checkbox checked"
+msgstr "Chọn danh sách sẽ được gán khi hộp kiểm được chọn"
+
+#: app/Services/AutoSubscribe.php:257 app/Services/AutoSubscribe.php:259
+#, fuzzy
+msgid "Checkbox Label for Checkout checkbox"
+msgstr "Hộp kiểm Nhãn hộp kiểm cho Thanh toán"
+
+#: app/Services/AutoSubscribe.php:254
+#, fuzzy
+msgid "Enable Subscription Checkbox to WooCommerce Checkout Page"
+msgstr "Bật hộp kiểm đăng ký để WooCommerce Checkout Page"
+
+#: app/Services/AutoSubscribe.php:247
+#, fuzzy
+msgid "Add a subscription box to WooCommerce Checkout Form"
+msgstr "Thêm hộp đăng ký vào Biểu mẫu thanh toán WooCommerce"
+
+#: app/Services/AutoSubscribe.php:246
+#, fuzzy
+msgid "Woocommerce Checkout Subscription Field"
+msgstr "Trường đăng ký thanh toán Woocommerce"
+
+#: app/Services/AutoSubscribe.php:226
+msgid "Sign me up for the newsletter!"
+msgstr "Đăng ký cho tôi nhận bản tin!"
+
+#: app/Services/Funnel/ProFunnelItems.php:230
+#, fuzzy
+msgid "Check If the contact match specific data properties"
+msgstr "Kiểm tra Xem người liên hệ có khớp với thuộc tính dữ liệu cụ thể không"
+
+#: app/Services/Funnel/ProFunnelItems.php:229
+#, fuzzy
+msgid "Check Contact's Properties"
+msgstr "Kiểm tra Thuộc tính của Liên hệ"
+
+#: app/Services/Funnel/ProFunnelItems.php:216
+#, fuzzy
+msgid "Update custom fields or few main property of a contact"
+msgstr "Cập nhật trường tùy chỉnh hoặc một vài thuộc tính chính của một liên hệ"
+
+#: app/Services/Funnel/ProFunnelItems.php:215
+#, fuzzy
+msgid "Update Contact Property"
+msgstr "Cập nhật Thuộc tính Liên hệ"
+
+#: app/Hooks/Handlers/ExternalPages.php:213
+#, fuzzy
+msgid "We're sorry to see you go! Enter your email address to unsubscribe from this list."
+msgstr "Chúng tôi rất tiếc khi thấy bạn đi! Nhập địa chỉ email của bạn để hủy đăng ký khỏi danh sách này."
+
+#: app/Hooks/Handlers/ExternalPages.php:195
+#, fuzzy
+msgid "Sorry! This is not a valid unsubscribe url"
+msgstr "Xin lỗi! Đây không phải là url hủy đăng ký hợp lệ"
+
+#: app/Hooks/Handlers/ExternalPages.php:187
+#, fuzzy
+msgid "Sorry! This is not a valid unsubscribe url. Please try again"
+msgstr "Xin lỗi! Đây không phải là url hủy đăng ký hợp lệ. Vui lòng thử lại"
+
+#: app/Hooks/Handlers/FunnelHandler.php:177
+#, fuzzy
+msgid "Sorry, You do not have permission to do this action"
+msgstr "Rất tiếc, bạn không có quyền thực hiện hành động này"
+
+#: app/Hooks/Handlers/AdminBar.php:70
+msgid "Load More"
+msgstr "Tải thêm"
+
+#: app/Hooks/Handlers/AdminBar.php:69
+#, fuzzy
+msgid "Sorry no contact found"
+msgstr "Rất tiếc không tìm thấy liên lạc nào"
+
+#: app/Hooks/Handlers/AdminBar.php:67
+msgid "Type to search contacts"
+msgstr "Nhập để tìm kiếm liên hệ"
+
+#: app/Hooks/Handlers/AdminBar.php:66
+msgid "Type and press enter"
+msgstr "Nhập và nhấn enter"
+
+#: app/Hooks/Handlers/AdminBar.php:65 app/Hooks/Handlers/AdminBar.php:77
+msgid "Search Contacts"
+msgstr "Tìm kiếm Liên hệ"
+
+#: app/Hooks/Handlers/CountryNames.php:985
+msgid "Virgin Islands (US)"
+msgstr "Quần đảo Virgin (Hoa Kỳ)"
+
+#: app/Hooks/Handlers/CountryNames.php:981
+msgid "Virgin Islands (British)"
+msgstr "Quần đảo Virgin (Anh)"
+
+#: app/Hooks/Handlers/CountryNames.php:533
+msgid "North Macedonia"
+msgstr "Bắc Macedonia"
+
+#: app/Hooks/Handlers/CountryNames.php:529
+msgid "Macao"
+msgstr "Ma Cao"
+
+#: app/Hooks/Handlers/CountryNames.php:253
+msgid "Czechia (Czech Republic)"
+msgstr "Tiếng Séc (Cộng hòa Séc)"
+
+#: app/Http/Controllers/TagsController.php:149
+#, fuzzy
+msgid "Successfully saved the tags."
+msgstr "Lưu thành công các thẻ."
+
+#: app/Http/Controllers/TagsController.php:91
+#: app/Http/Controllers/TagsController.php:117
+#, fuzzy
+msgid "Successfully saved the tag."
+msgstr "Lưu thẻ thành công."
+
+#: app/Http/Controllers/FunnelController.php:478
+#, fuzzy
+msgid "Status has been updated to %s"
+msgstr "Trạng thái đã được cập nhật %s"
+
+#: app/Http/Controllers/FunnelController.php:470
+#, fuzzy
+msgid "The status already completed state"
+msgstr "Trạng thái đã hoàn tất trạng thái"
+
+#: app/Http/Controllers/FunnelController.php:464
+#, fuzzy
+msgid "No Corresponding report found"
+msgstr "Không tìm thấy báo cáo Tương ứng"
+
+#: app/Http/Controllers/FunnelController.php:454
+#, fuzzy
+msgid "Subscription status is required"
+msgstr "Trạng thái đăng ký là bắt buộc"
+
+#: app/Http/Controllers/FunnelController.php:410
+#, fuzzy
+msgid "Funnel has been successfully imported"
+msgstr "Phễu đã được nhập thành công"
+
+#: app/Http/Controllers/CsvController.php:33
+#, fuzzy
+msgid "The file must be a valid CSV."
+msgstr "Tệp phải là TỆP CSV hợp lệ."
+
+#: app/Http/Controllers/SubscriberController.php:439
+#, fuzzy
+msgid "Double OptIn email has been sent"
+msgstr "Email OptIn kép đã được gửi"
+
+#: app/Http/Controllers/SubscriberController.php:432
+#, fuzzy
+msgid "Contact Already Subscribed"
+msgstr "Liên hệ đã đăng ký"
+
+#: app/Http/Controllers/SubscriberController.php:202
+#, fuzzy
+msgid "Successfully added the subscriber."
+msgstr "Đã thêm thành công người đăng ký."
+
+#: app/Http/Controllers/SubscriberController.php:156
+#, fuzzy
+msgid "Selected Subscribers has been deleted"
+msgstr "Người đăng ký đã chọn đã bị xóa"
+
+#: app/Http/Controllers/CustomContactFieldsController.php:26
+#, fuzzy
+msgid "Fields saved successfully!"
+msgstr "Các trường được lưu thành công!"
+
+#: app/Http/Controllers/FormsController.php:252
+msgid "Subscription Form"
+msgstr "Biểu mẫu đăng ký"
+
+#: app/Http/Controllers/FormsController.php:242
+#, fuzzy
+msgid "Simple Opt-in Form"
+msgstr "Biểu mẫu chọn tham gia đơn giản"
+
+#: app/Http/Controllers/FormsController.php:232
+#, fuzzy
+msgid "Inline Opt-in Form"
+msgstr "Biểu mẫu chọn tham gia nội tuyến"
+
+#: app/Http/Controllers/FormsController.php:217
+#, fuzzy
+msgid "Form has been created"
+msgstr "Biểu mẫu đã được tạo"
+
+#: app/Http/Controllers/FormsController.php:178
+#, fuzzy
+msgid "FluentCRM Integration Feed"
+msgstr "Nguồn cấp dữ liệu tích hợp FluentCRM"
+
+#: app/Http/Controllers/FormsController.php:168
+#, fuzzy
+msgid "You are successfully subscribed to our email list"
+msgstr "Bạn đã đăng ký thành công vào danh sách email của chúng tôi"
+
+#: app/Http/Controllers/FormsController.php:166
+#, fuzzy
+msgid "Please check your inbox to confirm your subscription"
+msgstr "Vui lòng kiểm tra hộp thư đến của bạn để xác nhận đăng ký của bạn"
+
+#: app/Http/Controllers/CampaignController.php:671
+#, fuzzy
+msgid "Campaign has been updated"
+msgstr "Chiến dịch đã được cập nhật"
+
+#: app/Http/Controllers/CampaignController.php:645
+#, fuzzy
+msgid "Campaign has been successfully resumed"
+msgstr "Chiến dịch đã được nối lại thành công"
+
+#: app/Http/Controllers/CampaignController.php:619
+#, fuzzy
+msgid "Campaign has been successfully marked as paused"
+msgstr "Chiến dịch đã được đánh dấu thành công là đã tạm dừng"
+
+#: app/Http/Controllers/CampaignController.php:233
+#: app/Http/Controllers/CampaignController.php:257
+#, fuzzy
+msgid "Sorry, No subscribers found based on your filters"
+msgstr "Rất tiếc, Không tìm thấy người đăng ký nào dựa trên bộ lọc của bạn"
+
+#: app/Http/Controllers/SettingsController.php:313
+#, fuzzy
+msgid "The provided hook name is not valid"
+msgstr "Tên móc được cung cấp không hợp lệ"
+
+#: app/Http/Controllers/SettingsController.php:185
+#, fuzzy
+msgid "All FluentCRM Database Tables have been resetted"
+msgstr "Tất cả các Bảng Cơ sở dữ liệu FluentCRM đã được đặt lại"
+
+#: app/Http/Controllers/SettingsController.php:147
+#, fuzzy
+msgid "Development mode is not activated. So you can not use this feature. You can define \"FLUENTCRM_IS_DEV_FEATURES\" in your wp-config to enable this feature"
+msgstr "Chế độ phát triển không được kích hoạt. Vì vậy, bạn không thể sử dụng tính năng này. Bạn có thể định nghĩa \"FLUENTCRM_IS_DEV_FEATURES\" trong wp-config của mình để bật tính năng này"
+
+#: app/Http/Controllers/SettingsController.php:141
+#, fuzzy
+msgid "Sorry, You do not have admin permission to reset database"
+msgstr "Rất tiếc, bạn không có quyền quản trị để đặt lại cơ sở dữ liệu"
+
+#: app/Http/Controllers/SettingsController.php:117
+#, fuzzy
+msgid "Email Body need to contains activation link"
+msgstr "Nội dung email cần chứa liên kết kích hoạt"
+
+#: app/Http/Controllers/SettingsController.php:106
+#, fuzzy
+msgid "After Confirmation Message is required"
+msgstr "Sau khi thông báo xác nhận là bắt buộc"
+
+#: app/Http/Controllers/SettingsController.php:105
+msgid "Email Body is required"
+msgstr "Nội dung Email là bắt buộc"
+
+#: app/Http/Controllers/SettingsController.php:104
+msgid "Email Subject is required"
+msgstr "Chủ đề Email là bắt buộc"
+
+#: app/Http/Controllers/SettingsController.php:87
+#, fuzzy
+msgid "This message will be shown after a subscriber confirm subscription"
+msgstr "Thông báo này sẽ được hiển thị sau khi người đăng ký xác nhận đăng ký"
+
+#: app/Http/Controllers/SettingsController.php:85
+#: app/Http/Controllers/SettingsController.php:86
+#, fuzzy
+msgid "After Confirmation Message"
+msgstr "Sau khi xác nhận tin nhắn"
+
+#: app/Http/Controllers/SettingsController.php:80
+#, fuzzy
+msgid "Email Design Template for this double-optin email"
+msgstr "Mẫu Thiết kế Email cho email chọn tham gia kép này"
+
+#: app/Http/Controllers/SettingsController.php:79
+msgid "Design Template"
+msgstr "Thiết kế biểu mẫu"
+
+#: app/Http/Controllers/SettingsController.php:74
+#, fuzzy
+msgid "Provide Email Body for the double-optin"
+msgstr "Cung cấp Nội dung Email cho optin kép"
+
+#: app/Http/Controllers/SettingsController.php:72
+#, fuzzy
+msgid "Double-Optin Email Body"
+msgstr "Nội dung email Double-Optin"
+
+#: app/Http/Controllers/SettingsController.php:68
+#, fuzzy
+msgid "Your double-optin email subject"
+msgstr "Chủ đề email chọn hai lựa chọn của bạn"
+
+#: app/Http/Controllers/SettingsController.php:66
+#, fuzzy
+msgid "Optin Email Subject"
+msgstr "Chủ đề Email Optin"
+
+#: app/Http/Controllers/TemplateController.php:122
+#, fuzzy
+msgid "The template has been deleted successfully."
+msgstr "Mẫu đã bị xóa thành công."
+
+#: app/Http/Controllers/SetupController.php:35
+#, fuzzy
+msgid "Installation has been completed"
+msgstr "Quá trình cài đặt đã hoàn tất"
+
+#: app/Http/Controllers/ListsController.php:151
+#, fuzzy
+msgid "Successfully removed the list."
+msgstr "Loại bỏ thành công danh sách."
+
+#: app/Http/Controllers/ListsController.php:135
+#, fuzzy
+msgid "Provided Lists have been successfully created"
+msgstr "Danh sách Được cung cấp đã được tạo thành công"
+
+#: app/Services/Funnel/Benchmarks/ListAppliedBenchmark.php:66
+#, fuzzy
+msgid "contact added in all of the selected lists"
+msgstr "liên hệ được thêm vào trong tất cả các danh sách đã chọn"
+
+#: app/Services/Funnel/Benchmarks/ListAppliedBenchmark.php:62
+#, fuzzy
+msgid "contact added in any of the selected Lists"
+msgstr "liên hệ được thêm vào bất kỳ Danh sách nào đã chọn"
+
+#: app/Services/Funnel/Benchmarks/RemoveFromTagBenchmark.php:67
+#, fuzzy
+msgid "Need all selected tags removed from the contact"
+msgstr "Cần xóa tất cả các thẻ đã chọn khỏi liên hệ"
+
+#: app/Services/Funnel/Benchmarks/RemoveFromTagBenchmark.php:63
+#, fuzzy
+msgid "Run if any selected tag removed from a contact"
+msgstr "Chạy nếu bất kỳ thẻ đã chọn nào bị xóa khỏi một liên hệ"
+
+#: app/Services/Funnel/Benchmarks/RemoveFromTagBenchmark.php:55
+msgid "Select a Tag"
+msgstr "Chọn một thẻ"
+
+#: app/Services/Funnel/Benchmarks/RemoveFromTagBenchmark.php:47
+#, fuzzy
+msgid "Tag Removed From Contact"
+msgstr "Thẻ bị xóa khỏi liên hệ"
+
+#: app/Services/Funnel/BaseBenchMark.php:81
+#: app/Services/Funnel/Benchmarks/RemoveFromListBenchmark.php:89
+#: app/Services/Funnel/Benchmarks/ListAppliedBenchmark.php:88
+#, fuzzy
+msgid "If you select [Optional Point] it will work as an Optional Trigger otherwise, it will wait for full-fill this action"
+msgstr "Nếu bạn chọn [Điểm tùy chọn], nó sẽ hoạt động như một Trình kích hoạt tùy chọn nếu không, nó sẽ đợi hoàn thành đầy đủ hành động này"
+
+#: app/Services/Funnel/BaseBenchMark.php:78
+#: app/Services/Funnel/Benchmarks/RemoveFromListBenchmark.php:86
+#: app/Services/Funnel/Benchmarks/ListAppliedBenchmark.php:85
+#, fuzzy
+msgid "[Essential Point] Select IF this step is required for processing further actions"
+msgstr "[Điểm cần thiết] Chọn NẾU bước này là bắt buộc để xử lý các hành động tiếp theo"
+
+#: app/Services/Funnel/BaseBenchMark.php:74
+#: app/Services/Funnel/Benchmarks/RemoveFromListBenchmark.php:82
+#: app/Services/Funnel/Benchmarks/ListAppliedBenchmark.php:81
+#, fuzzy
+msgid "[Optional Point] This is an optional trigger point"
+msgstr "[Điểm tùy chọn] Đây là điểm kích hoạt tùy chọn"
+
+#: app/Services/Funnel/BaseBenchMark.php:69
+#: app/Services/Funnel/Benchmarks/RemoveFromListBenchmark.php:77
+#: app/Services/Funnel/Benchmarks/ListAppliedBenchmark.php:76
+#, fuzzy
+msgid "Benchmark type"
+msgstr "Loại điểm chuẩn"
+
+#: app/Services/Funnel/Benchmarks/RemoveFromListBenchmark.php:67
+#, fuzzy
+msgid "contact removed from all of the selected lists"
+msgstr "liên hệ bị loại bỏ khỏi tất cả các danh sách đã chọn"
+
+#: app/Services/Funnel/Benchmarks/RemoveFromListBenchmark.php:63
+#, fuzzy
+msgid "contact removed from any of the selected Lists"
+msgstr "liên hệ bị loại bỏ khỏi bất kỳ Danh sách nào đã chọn"
+
+#: app/Services/Funnel/Benchmarks/RemoveFromListBenchmark.php:47
+#, fuzzy
+msgid "List Removed From Contact"
+msgstr "Danh sách Bị loại bỏ khỏi Liên hệ"
+
+#: app/Services/Funnel/Benchmarks/TagAppliedBenchmark.php:68
+#, fuzzy
+msgid "contact added in all of the selected Tags"
+msgstr "liên hệ được thêm vào trong tất cả các Thẻ đã chọn"
+
+#: app/Services/Funnel/Benchmarks/TagAppliedBenchmark.php:64
+#, fuzzy
+msgid "contact added in any of the selected Tags"
+msgstr "liên hệ được thêm vào bất kỳ Thẻ nào đã chọn"
+
+#: app/Services/Funnel/Benchmarks/TagAppliedBenchmark.php:59
+#: app/Services/Funnel/Benchmarks/RemoveFromListBenchmark.php:58
+#: app/Services/Funnel/Benchmarks/ListAppliedBenchmark.php:57
+#: app/Services/Funnel/Benchmarks/RemoveFromTagBenchmark.php:58
+#, fuzzy
+msgid "Run When"
+msgstr "Chạy Khi nào"
+
+#: app/Services/Funnel/Benchmarks/TagAppliedBenchmark.php:25
+#: app/Services/Funnel/Benchmarks/TagAppliedBenchmark.php:48
+#, fuzzy
+msgid "This will run when selected Tags have been applied to a contact"
+msgstr "Điều này sẽ chạy khi Thẻ đã chọn đã được áp dụng cho một liên hệ"
+
+#: app/Services/Funnel/Actions/WaitTimeAction.php:50
+msgid "Hours"
+msgstr "Giờ"
+
+#: app/Services/Funnel/Actions/WaitTimeAction.php:41
+#, fuzzy
+msgid "Wait Time Unit"
+msgstr "Đơn vị thời gian chờ"
+
+#: app/Services/Funnel/Actions/WaitTimeAction.php:37
+msgid "Wait Time"
+msgstr "Thời Gian Chờ"
+
+#: app/Services/Funnel/Actions/WaitTimeAction.php:21
+#: app/Services/Funnel/Actions/WaitTimeAction.php:34
+#, fuzzy
+msgid "Wait defined timespan before execute the next action"
+msgstr "Đợi khoảng thời gian đã xác định trước khi thực hiện hành động tiếp theo"
+
+#: app/Services/Funnel/Actions/WaitTimeAction.php:20
+#: app/Services/Funnel/Actions/WaitTimeAction.php:33
+#, fuzzy
+msgid "Wait X Days/Hours"
+msgstr "Chờ X Ngày/Giờ"
+
+#: app/Services/Funnel/Actions/DetachTagAction.php:34
+#, fuzzy
+msgid "Select Tags that you want to remove from targeted Contact"
+msgstr "Chọn Thẻ bạn muốn xóa khỏi Liên hệ được nhắm mục tiêu"
+
+#: app/Services/Funnel/Actions/DetachTagAction.php:33
+#, fuzzy
+msgid "Remove Contact from the Selected Tags"
+msgstr "Loại bỏ Liên hệ khỏi Thẻ Đã chọn"
+
+#: app/Services/Funnel/Actions/DetachTagAction.php:22
+#, fuzzy
+msgid "Remove this contact from the selected Tags"
+msgstr "Loại bỏ liên hệ này khỏi Thẻ đã chọn"
+
+#: app/Services/Funnel/Actions/DetachTagAction.php:21
+msgid "Remove From Tag"
+msgstr "Xóa khỏi Thẻ"
+
+#: app/Services/Funnel/Actions/ApplyListAction.php:34
+#, fuzzy
+msgid "Select which list will be added to the contact"
+msgstr "Chọn danh sách nào sẽ được thêm vào liên hệ"
+
+#: app/Services/Funnel/Actions/ApplyListAction.php:33
+#, fuzzy
+msgid "Apply List to the contact"
+msgstr "Áp dụng Danh sách cho liên hệ"
+
+#: app/Services/Funnel/Actions/ApplyListAction.php:22
+#, fuzzy
+msgid "Add this contact to the selected lists"
+msgstr "Thêm liên hệ này vào danh sách đã chọn"
+
+#: app/Services/Funnel/Actions/ApplyListAction.php:21
+#, fuzzy
+msgid "Apply List"
+msgstr "Danh sách Áp dụng"
+
+#: app/Services/Funnel/Actions/DetachListAction.php:41
+#: app/Services/Funnel/Actions/ApplyListAction.php:41
+#: app/Services/Funnel/Benchmarks/RemoveFromListBenchmark.php:55
+#: app/Services/Funnel/Benchmarks/ListAppliedBenchmark.php:54
+msgid "Select List"
+msgstr "Chọn Danh sách"
+
+#: app/Services/Funnel/Actions/DetachListAction.php:40
+#: app/Services/Funnel/Actions/ApplyListAction.php:40
+#: app/Services/Funnel/Benchmarks/RemoveFromListBenchmark.php:54
+#: app/Services/Funnel/Benchmarks/ListAppliedBenchmark.php:53
+#, fuzzy
+msgid "Select Lists"
+msgstr "Chọn Danh sách"
+
+#: app/Services/Funnel/Actions/DetachListAction.php:34
+#, fuzzy
+msgid "Select Lists that you want to remove from targeted Contact"
+msgstr "Chọn Danh sách bạn muốn loại bỏ khỏi Liên hệ được nhắm mục tiêu"
+
+#: app/Services/Funnel/Actions/DetachListAction.php:33
+#, fuzzy
+msgid "Remove Contact from the Selected Lists"
+msgstr "Loại bỏ Liên hệ khỏi Danh sách Đã chọn"
+
+#: app/Services/Funnel/Actions/DetachListAction.php:22
+#, fuzzy
+msgid "Remove this contact from the selected lists"
+msgstr "Loại bỏ liên hệ này khỏi danh sách đã chọn"
+
+#: app/Services/Funnel/Actions/DetachListAction.php:21
+msgid "Remove From List"
+msgstr "Loại bỏ khỏi Danh Sách"
+
+#: app/Services/Funnel/Actions/SendEmailAction.php:87
+#, fuzzy
+msgid "If schedule date is past in the runtime then email will be sent immediately"
+msgstr "Nếu ngày lên lịch quá hạn trong thời gian chạy thì email sẽ được gửi ngay lập tức"
+
+#: app/Services/Funnel/Actions/SendEmailAction.php:86
+msgid "Select Date and Time"
+msgstr "Chọn Ngày và Giờ"
+
+#: app/Services/Funnel/Actions/SendEmailAction.php:83
+msgid "Schedule Date and Time"
+msgstr "Lên Lịch Ngày và Giờ"
+
+#: app/Services/Funnel/Actions/SendEmailAction.php:79
+#, fuzzy
+msgid "Schedule this email to a specific date"
+msgstr "Lên lịch email này đến một ngày cụ thể"
+
+#: app/Services/Funnel/Actions/SendEmailAction.php:66
+#, fuzzy
+msgid "Use comma separated values for multiple"
+msgstr "Sử dụng các giá trị phân tách bằng dấu phẩy cho nhiều"
+
+#: app/Services/Funnel/Actions/SendEmailAction.php:65
+msgid "Custom Email Addresses"
+msgstr "Địa chỉ Email Tùy Chỉnh"
+
+#: app/Services/Funnel/Actions/SendEmailAction.php:64
+#, fuzzy
+msgid "Send To Email Addresses (If Custom)"
+msgstr "Gửi đến địa chỉ email (nếu tùy chỉnh)"
+
+#: app/Services/Funnel/Actions/SendEmailAction.php:57
+#, fuzzy
+msgid "Send to Custom Email Address"
+msgstr "Gửi đến Địa chỉ Email Tùy chỉnh"
+
+#: app/Services/Funnel/Actions/SendEmailAction.php:53
+#, fuzzy
+msgid "Send To the contact"
+msgstr "Gửi đến liên hệ"
+
+#: app/Services/Funnel/Actions/SendEmailAction.php:49
+msgid "Send Email to"
+msgstr "Gửi Email đến"
+
+#: app/Services/Funnel/Actions/SendEmailAction.php:44
+#, fuzzy
+msgid "Please provide email details that you want to send"
+msgstr "Vui lòng cung cấp chi tiết email mà bạn muốn gửi"
+
+#: app/Services/Funnel/Actions/SendEmailAction.php:27
+#, fuzzy
+msgid "Send a custom Email to your subscriber or custom email address"
+msgstr "Gửi Email tùy chỉnh đến người đăng ký hoặc địa chỉ email tùy chỉnh của bạn"
+
+#: app/Services/Funnel/Actions/ApplyTagAction.php:34
+#, fuzzy
+msgid "Select which tag will be added to the contact"
+msgstr "Chọn thẻ nào sẽ được thêm vào liên hệ"
+
+#: app/Services/Funnel/Actions/ApplyTagAction.php:33
+msgid "Apply Tag to the contact"
+msgstr "Áp dụng Thẻ cho liên hệ"
+
+#: app/Services/Funnel/Actions/ApplyTagAction.php:22
+#, fuzzy
+msgid "Add this contact to the selected Tags"
+msgstr "Thêm liên hệ này vào Thẻ đã chọn"
+
+#: app/Services/Funnel/Actions/ApplyTagAction.php:21
+msgid "Apply Tag"
+msgstr "Áp dụng Thẻ"
+
+#: app/Services/Funnel/Triggers/UserRegistrationTrigger.php:85
+#, fuzzy
+msgid "Leave blank to run for all user roles"
+msgstr "Để trống để chạy cho tất cả vai trò người dùng"
+
+#: app/Services/Funnel/Triggers/UserRegistrationTrigger.php:83
+msgid "Select Roles"
+msgstr "Chọn Vai trò"
+
+#: app/Services/Funnel/Triggers/UserRegistrationTrigger.php:82
+#, fuzzy
+msgid "Select which roles registration will run this automation Funnel"
+msgstr "Chọn vai trò đăng ký sẽ chạy Kênh tự động hóa này"
+
+#: app/Services/Funnel/Triggers/UserRegistrationTrigger.php:81
+#, fuzzy
+msgid "Targeted User Roles"
+msgstr "Vai trò người dùng được nhắm mục tiêu"
+
+#: app/Services/Funnel/Triggers/UserRegistrationTrigger.php:75
+#, fuzzy
+msgid "Please specify what will happen if the subscriber already exist in the database"
+msgstr "Vui lòng chỉ định điều gì sẽ xảy ra nếu người đăng ký đã tồn tại trong cơ sở dữ liệu"
+
+#: app/Services/Funnel/Triggers/UserRegistrationTrigger.php:74
+#, fuzzy
+msgid "If Contact Already Exist?"
+msgstr "Nếu Liên hệ đã tồn tại?"
+
+#: app/Services/Funnel/Triggers/UserRegistrationTrigger.php:50
+#, fuzzy
+msgid "An Automated double-optin email will be sent for new subscribers"
+msgstr "Email chọn tham gia kép tự động sẽ được gửi cho người đăng ký mới"
+
+#: app/Services/Funnel/Triggers/UserRegistrationTrigger.php:38
+#, fuzzy
+msgid "New User Sign Up Funnel"
+msgstr "Kênh đăng ký người dùng mới"
+
+#: app/Services/Funnel/Triggers/UserRegistrationTrigger.php:24
+#: app/Services/Funnel/Triggers/UserRegistrationTrigger.php:39
+#, fuzzy
+msgid "This Funnel will be initiated when a new user has been registered in your site"
+msgstr "Kênh này sẽ được bắt đầu khi người dùng mới đã được đăng ký trên trang web của bạn"
+
+#: app/Services/Funnel/Triggers/UserRegistrationTrigger.php:23
+#, fuzzy
+msgid "New User Sign Up"
+msgstr "Đăng ký người dùng mới"
+
+#: app/Services/Funnel/Triggers/UserRegistrationTrigger.php:22
+#, fuzzy
+msgid "WordPress Triggers"
+msgstr "Trình kích hoạt WordPress"
+
+#: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:161
+#, fuzzy
+msgid "If you enable this then this will run only once per customer otherwise, It will delete the existing automation flow and start new"
+msgstr "Nếu bạn bật tính năng này thì điều này sẽ chỉ chạy một lần cho mỗi khách hàng nếu không, Nó sẽ xóa luồng tự động hóa hiện có và bắt đầu mới"
+
+#: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:160
+#, fuzzy
+msgid "Run this automation only once per contact. If unchecked then it will over-write existing flow"
+msgstr "Chạy tự động hóa này chỉ một lần cho mỗi liên hệ. Nếu không được chọn thì nó sẽ ghi quá mức luồng hiện có"
+
+#: app/Services/Funnel/Triggers/UserRegistrationTrigger.php:45
+#: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:97
+msgid "Subscription Status"
+msgstr "Trạng Thái Đăng Ký"
+
+#: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:88
+#, fuzzy
+msgid "Select Form Field"
+msgstr "Chọn Trường Biểu mẫu"
+
+#: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:87
+#, fuzzy
+msgid "Select Contact Property"
+msgstr "Chọn Thuộc tính Liên hệ"
+
+#: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:84
+#, fuzzy
+msgid "Map Other Data"
+msgstr "Ánh xạ dữ liệu khác"
+
+#: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:79
+#, fuzzy
+msgid "Contact Field (CRM)"
+msgstr "Trường liên hệ (CRM)"
+
+#: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:76
+#, fuzzy
+msgid "Map Primary Data"
+msgstr "Ánh xạ dữ liệu chính"
+
+#: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:72
+msgid "Select your form"
+msgstr "Chọn biểu mẫu của bạn"
+
+#: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:67
+#, fuzzy
+msgid "New Fluent Forms Submission Funnel"
+msgstr "Kênh gửi biểu mẫu trôi chảy mới"
+
+#: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:60
+#, fuzzy
+msgid "This Funnel will be initiated when a new form submission has been submitted."
+msgstr "Phễu này sẽ được bắt đầu khi gửi biểu mẫu mới."
+
+#: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:31
+#, fuzzy
+msgid "This Funnel will be initiated when a new form submission has been submitted"
+msgstr "Phễu này sẽ được bắt đầu khi gửi biểu mẫu mới"
+
+#: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:30
+#, fuzzy
+msgid "New Form Submission (Fluent Forms)"
+msgstr "Đệ trình biểu mẫu mới (Biểu mẫu trôi chảy)"
+
+#: app/Services/Funnel/FunnelHelper.php:170
+msgid "country"
+msgstr "quốc gia"
+
+#: app/Services/Funnel/FunnelHelper.php:36
+#, fuzzy
+msgid "Skip this automation if contact already exist"
+msgstr "Bỏ qua tự động hóa này nếu liên hệ đã tồn tại"
+
+#: app/Services/Funnel/FunnelHelper.php:32
+#, fuzzy
+msgid "Update if Exist"
+msgstr "Cập nhật nếu Tồn tại"
+
+#: app/Services/Funnel/ProFunnelItems.php:344
+#: app/Services/Funnel/Benchmarks/ListAppliedBenchmark.php:24
+#: app/Services/Funnel/Benchmarks/ListAppliedBenchmark.php:47
+#, fuzzy
+msgid "This will run when selected lists have been applied to a contact"
+msgstr "Điều này sẽ chạy khi các danh sách đã chọn đã được áp dụng cho một liên hệ"
+
+#: app/Services/Funnel/ProFunnelItems.php:343
+#: app/Services/Funnel/Benchmarks/ListAppliedBenchmark.php:23
+#: app/Services/Funnel/Benchmarks/ListAppliedBenchmark.php:46
+msgid "List Applied"
+msgstr "Danh Sách Áp Dụng"
+
+#: app/Services/Funnel/ProFunnelItems.php:338
+#: app/Services/Funnel/Benchmarks/RemoveFromListBenchmark.php:25
+#: app/Services/Funnel/Benchmarks/RemoveFromListBenchmark.php:48
+#, fuzzy
+msgid "This will run when selected lists have been removed from a contact"
+msgstr "Điều này sẽ chạy khi các danh sách đã chọn đã bị loại bỏ khỏi một liên hệ"
+
+#: app/Services/Funnel/ProFunnelItems.php:337
+#: app/Services/Funnel/Benchmarks/RemoveFromListBenchmark.php:24
+#, fuzzy
+msgid "List Removed"
+msgstr "Danh sách Bị loại bỏ"
+
+#: app/Services/Funnel/ProFunnelItems.php:332
+#: app/Services/Funnel/Benchmarks/RemoveFromTagBenchmark.php:25
+#: app/Services/Funnel/Benchmarks/RemoveFromTagBenchmark.php:48
+#, fuzzy
+msgid "This will run when selected Tags have been removed from a contact"
+msgstr "Điều này sẽ chạy khi Thẻ đã chọn đã bị loại bỏ khỏi một liên hệ"
+
+#: app/Services/Funnel/ProFunnelItems.php:331
+#: app/Services/Funnel/Benchmarks/RemoveFromTagBenchmark.php:24
+#, fuzzy
+msgid "Tag Removed"
+msgstr "Thẻ đã xóa"
+
+#: app/Services/Funnel/ProFunnelItems.php:326
+#, fuzzy
+msgid "This will run when selected tags have been applied to a contact"
+msgstr "Điều này sẽ chạy khi các thẻ đã chọn đã được áp dụng cho một liên hệ"
+
+#: app/Services/Funnel/ProFunnelItems.php:325
+#: app/Services/Funnel/Benchmarks/TagAppliedBenchmark.php:24
+#: app/Services/Funnel/Benchmarks/TagAppliedBenchmark.php:47
+msgid "Tag Applied"
+msgstr "Thẻ Được Áp Dụng"
+
+#: app/Services/Funnel/ProFunnelItems.php:308
+#, fuzzy
+msgid "[TutorLMS] Check if the contact enroll a course"
+msgstr "[Gia sưLMS] Kiểm tra xem người liên hệ có đăng ký một khóa học không"
+
+#: app/Services/Funnel/ProFunnelItems.php:299
+#, fuzzy
+msgid "Conditionally check if contact has an active membership level"
+msgstr "Kiểm tra có điều kiện nếu liên hệ có cấp thành viên đang hoạt động"
+
+#: app/Services/Funnel/ProFunnelItems.php:298
+#, fuzzy
+msgid "[LifterLMS] Check if the contact has a Membership"
+msgstr "[LifterLMS] Kiểm tra xem người liên hệ có tư cách thành viên hay không"
+
+#: app/Services/Funnel/ProFunnelItems.php:291
+#, fuzzy
+msgid "[LifterLMS] Check if the contact enroll a course"
+msgstr "[LifterLMS] Kiểm tra xem người liên hệ có đăng ký một khóa học không"
+
+#: app/Services/Funnel/ProFunnelItems.php:282
+#, fuzzy
+msgid "Conditionally check if contact is in a group"
+msgstr "Kiểm tra có điều kiện nếu liên hệ trong một nhóm"
+
+#: app/Services/Funnel/ProFunnelItems.php:281
+#, fuzzy
+msgid "[LearnDash] Check if the contact is in a group"
+msgstr "[Tìm hiểuDash] Kiểm tra xem liên hệ có nằm trong nhóm không"
+
+#: app/Services/Funnel/ProFunnelItems.php:275
+#: app/Services/Funnel/ProFunnelItems.php:292
+#: app/Services/Funnel/ProFunnelItems.php:309
+#, fuzzy
+msgid "Conditionally check if contact enrolled or completed a course"
+msgstr "Kiểm tra có điều kiện nếu liên hệ đã đăng ký hoặc hoàn thành một khóa học"
+
+#: app/Services/Funnel/ProFunnelItems.php:274
+#, fuzzy
+msgid "[LearnDash] Check if the contact enroll a course"
+msgstr "[Tìm hiểuDash] Kiểm tra xem người liên hệ có đăng ký một khóa học không"
+
+#: app/Services/Funnel/ProFunnelItems.php:265
+#, fuzzy
+msgid "This will run once new order has been placed as processing"
+msgstr "Điều này sẽ chạy sau khi đơn hàng mới được đặt làm quy trình xử lý"
+
+#: app/Services/Funnel/ProFunnelItems.php:264
+#, fuzzy
+msgid "Order Received in WooCommerce"
+msgstr "Đơn đặt hàng nhận được trong WooCommerce"
+
+#: app/Services/Funnel/ProFunnelItems.php:247
+#: app/Services/Funnel/ProFunnelItems.php:257
+#, fuzzy
+msgid "Check If user purchased selected products and run sequences conditionally"
+msgstr "Kiểm tra Nếu người dùng đã mua các sản phẩm đã chọn và chạy trình tự có điều kiện"
+
+#: app/Services/Funnel/ProFunnelItems.php:246
+#: app/Services/Funnel/ProFunnelItems.php:256
+#, fuzzy
+msgid "Check if the contact purchased a specific product"
+msgstr "Kiểm tra xem người liên hệ đã mua một sản phẩm cụ thể không"
+
+#: app/Services/Funnel/ProFunnelItems.php:240
+#, fuzzy
+msgid "This will run once new order will be placed as processing in EDD"
+msgstr "Điều này sẽ chạy sau khi đơn hàng mới sẽ được đặt làm xử lý trong EDD"
+
+#: app/Services/Funnel/ProFunnelItems.php:239
+#, fuzzy
+msgid "New Order Success in EDD"
+msgstr "Thành công đặt hàng mới trong EDD"
+
+#: app/Services/Funnel/ProFunnelItems.php:209
+#, fuzzy
+msgid "Send Automated Emails based on your Sequence settings"
+msgstr "Gửi email tự động dựa trên cài đặt Trình tự của bạn"
+
+#: app/Services/Funnel/ProFunnelItems.php:208
+#, fuzzy
+msgid "Set Sequence Emails"
+msgstr "Đặt Email Theo trình tự"
+
+#: app/Services/Funnel/ProFunnelItems.php:223
+#, fuzzy
+msgid "No further action will run once a contact hit this point"
+msgstr "Không có hành động nào khác sẽ chạy sau khi một liên hệ nhấn điểm này"
+
+#: app/Services/Funnel/ProFunnelItems.php:222
+msgid "End This Funnel Here"
+msgstr "Kết Thúc Funnel Này Ở Đây"
+
+#: app/Services/Funnel/ProFunnelItems.php:202
+#, fuzzy
+msgid "Cancel Sequence Emails for the contact"
+msgstr "Hủy email trình tự cho liên hệ"
+
+#: app/Services/Funnel/ProFunnelItems.php:201
+#, fuzzy
+msgid "Cancel Sequence Emails"
+msgstr "Hủy email theo trình tự"
+
+#: app/Services/Funnel/ProFunnelItems.php:195
+#, fuzzy
+msgid "Pause/Cancel another automation for contact"
+msgstr "Tạm dừng/Hủy tự động hóa khác cho liên hệ"
+
+#: app/Services/Funnel/ProFunnelItems.php:194
+#, fuzzy
+msgid "Cancel Automations"
+msgstr "Hủy bỏ tự động hóa"
+
+#: app/Services/Funnel/ProFunnelItems.php:188
+#, fuzzy
+msgid "Send an Email from your existing campaign"
+msgstr "Gửi Email từ chiến dịch hiện có của bạn"
+
+#: app/Services/Funnel/ProFunnelItems.php:187
+#, fuzzy
+msgid "Send Campaign Email"
+msgstr "Gửi email chiến dịch"
+
+#: app/Services/Funnel/ProFunnelItems.php:181
+#, fuzzy
+msgid "This will run once a subscriber click on this provided link"
+msgstr "Điều này sẽ chạy sau khi người đăng ký nhấp vào liên kết được cung cấp này"
+
+#: app/Services/Funnel/ProFunnelItems.php:180
+msgid "Link Click"
+msgstr "Số lần nhấp vào liên kết"
+
+#: app/Services/Funnel/ProFunnelItems.php:174
+#, fuzzy
+msgid "Check If the contact has specific tags"
+msgstr "Kiểm tra Xem liên hệ có thẻ cụ thể không"
+
+#: app/Services/Funnel/ProFunnelItems.php:173
+#, fuzzy
+msgid "Has Selected tags"
+msgstr "Đã chọn thẻ"
+
+#: app/Services/Funnel/ProFunnelItems.php:167
+#, fuzzy
+msgid "Check If the contact has specific lists"
+msgstr "Kiểm tra Xem liên hệ có danh sách cụ thể không"
+
+#: app/Services/Funnel/ProFunnelItems.php:166
+#, fuzzy
+msgid "Has In Selected Lists"
+msgstr "Có trong danh sách đã chọn"
+
+#: app/Services/Funnel/ProFunnelItems.php:149
+#, fuzzy
+msgid "This Funnel will be initiated when affiliate will be approved or register as direct approved"
+msgstr "Phễu này sẽ được bắt đầu khi đơn vị liên kết sẽ được phê duyệt hoặc đăng ký dưới dạng được phê duyệt trực tiếp"
+
+#: app/Services/Funnel/ProFunnelItems.php:148
+#, fuzzy
+msgid "AffiliateWP - New Affiliate Approved/Active Register"
+msgstr "AffiliateWP - Đăng ký liên kết mới được phê duyệt / đăng ký hoạt động"
+
+#: app/Services/Funnel/ProFunnelItems.php:140
+#, fuzzy
+msgid "This Funnel will start once new order will be added as successful payment"
+msgstr "Phễu này sẽ bắt đầu sau khi đơn hàng mới được thêm vào dưới dạng thanh toán thành công"
+
+#: app/Services/Funnel/ProFunnelItems.php:139
+#, fuzzy
+msgid "Edd - New Order Success"
+msgstr "Edd - Thành công trật tự mới"
+
+#: app/Services/Funnel/ProFunnelItems.php:132
+#, fuzzy
+msgid "This funnel will start when a user is enrolled in a group"
+msgstr "Kênh này sẽ bắt đầu khi người dùng được đăng ký vào một nhóm"
+
+#: app/Services/Funnel/ProFunnelItems.php:131
+#, fuzzy
+msgid "Enrolls in a Group"
+msgstr "Ghi danh vào một nhóm"
+
+#: app/Services/Funnel/ProFunnelItems.php:125
+#, fuzzy
+msgid "Completes a Course"
+msgstr "Hoàn thành khóa học"
+
+#: app/Services/Funnel/ProFunnelItems.php:120
+#, fuzzy
+msgid "This funnel will start when a user is completes a lesson topic"
+msgstr "Kênh này sẽ bắt đầu khi người dùng hoàn thành chủ đề bài học"
+
+#: app/Services/Funnel/ProFunnelItems.php:119
+#, fuzzy
+msgid "Completes a Topic"
+msgstr "Hoàn thành chủ đề"
+
+#: app/Services/Funnel/ProFunnelItems.php:113
+#, fuzzy
+msgid "Completes a Lesson"
+msgstr "Hoàn thành một bài học"
+
+#: app/Services/Funnel/ProFunnelItems.php:108
+#, fuzzy
+msgid "This funnel will start when a student is enrolled in a course"
+msgstr "Phễu này sẽ bắt đầu khi học sinh đăng ký một khóa học"
+
+#: app/Services/Funnel/ProFunnelItems.php:107
+#, fuzzy
+msgid "Enrolls in a Course"
+msgstr "Ghi danh vào một khóa học"
+
+#: app/Services/Funnel/ProFunnelItems.php:93
+#, fuzzy
+msgid "This Funnel will start when a student completes a lesson"
+msgstr "Phễu này sẽ bắt đầu khi học sinh hoàn thành bài học"
+
+#: app/Services/Funnel/ProFunnelItems.php:92
+#, fuzzy
+msgid "Student completes a Lesson"
+msgstr "Học sinh hoàn thành một bài học"
+
+#: app/Services/Funnel/ProFunnelItems.php:87
+#, fuzzy
+msgid "This Funnel will start when a student has been enrolled in a membership level"
+msgstr "Phễu này sẽ bắt đầu khi học sinh đã được ghi danh vào cấp độ thành viên"
+
+#: app/Services/Funnel/ProFunnelItems.php:86
+#, fuzzy
+msgid "Enrollment in a Membership"
+msgstr "Đăng ký thành viên"
+
+#: app/Services/Funnel/ProFunnelItems.php:81
+#, fuzzy
+msgid "This funnel will start when a contact has been enrolled in a course"
+msgstr "Kênh này sẽ bắt đầu khi một liên hệ đã được đăng ký vào một khóa học"
+
+#: app/Services/Funnel/ProFunnelItems.php:80
+#, fuzzy
+msgid "Enrollment in a course"
+msgstr "Ghi danh vào một khóa học"
+
+#: app/Services/Funnel/ProFunnelItems.php:72
+#, fuzzy
+msgid "This funnel will start when a membership level get activated for a member"
+msgstr "Kênh này sẽ bắt đầu khi cấp độ thành viên được kích hoạt cho thành viên"
+
+#: app/Services/Funnel/ProFunnelItems.php:63
+#, fuzzy
+msgid "This funnel will start when a user is assigned to specified membership levels"
+msgstr "Kênh này sẽ bắt đầu khi người dùng được chỉ định cho các cấp độ thành viên được chỉ định"
+
+#: app/Services/Funnel/ProFunnelItems.php:62
+#, fuzzy
+msgid "Membership Level assignment of a User"
+msgstr "Phân công cấp độ thành viên của người dùng"
+
+#: app/Services/Funnel/ProFunnelItems.php:54
+#, fuzzy
+msgid "This funnel will start when a member is added to a level for the first time"
+msgstr "Kênh này sẽ bắt đầu khi một thành viên được thêm vào một cấp độ lần đầu tiên"
+
+#: app/Services/Funnel/ProFunnelItems.php:45
+#: app/Services/Funnel/ProFunnelItems.php:114
+#, fuzzy
+msgid "This Funnel will start a student completes a lesson"
+msgstr "Phễu này sẽ bắt đầu học sinh hoàn thành một bài học"
+
+#: app/Services/Funnel/ProFunnelItems.php:44
+#, fuzzy
+msgid "Student Complete a Lesson"
+msgstr "Học sinh hoàn thành một bài học"
+
+#: app/Services/Funnel/ProFunnelItems.php:38
+#: app/Services/Funnel/ProFunnelItems.php:99
+#, fuzzy
+msgid "This Funnel will start a student completes a Course"
+msgstr "Phễu này sẽ bắt đầu học sinh hoàn thành khóa học"
+
+#: app/Services/Funnel/ProFunnelItems.php:37
+#: app/Services/Funnel/ProFunnelItems.php:98
+#, fuzzy
+msgid "Student completes a Course"
+msgstr "Học viên hoàn thành khóa học"
+
+#: app/Services/Funnel/ProFunnelItems.php:29
+#, fuzzy
+msgid "This funnel will start when a member is added to a level"
+msgstr "Kênh này sẽ bắt đầu khi một thành viên được thêm vào một cấp độ"
+
+#: app/Services/Funnel/ProFunnelItems.php:28
+#: app/Services/Funnel/ProFunnelItems.php:53
+#: app/Services/Funnel/ProFunnelItems.php:71
+#, fuzzy
+msgid "A member added to a membership level"
+msgstr "Thành viên được thêm vào cấp độ thành viên"
+
+#: app/Services/Funnel/ProFunnelItems.php:20
+#, fuzzy
+msgid "This Funnel will start once new order will be added as processing"
+msgstr "Phễu này sẽ bắt đầu sau khi đơn hàng mới được thêm vào dưới dạng xử lý"
+
+#: app/Services/Funnel/ProFunnelItems.php:19
+#, fuzzy
+msgid "WooCommerce - New Order"
+msgstr "WooCommerce - Đơn hàng mới"
+
+#: app/Services/PermissionManager.php:53
+#, fuzzy
+msgid "Automation Write/Edit/Delete"
+msgstr "Tự động hóa Ghi/Chỉnh sửa/Xóa"
+
+#: app/Services/PermissionManager.php:49
+#, fuzzy
+msgid "Automation Read"
+msgstr "Tự động hóa đọc"
+
+#: app/Services/PermissionManager.php:45
+msgid "Manage Forms"
+msgstr "Quản Lý Biểu Mẫu"
+
+#: app/Services/PermissionManager.php:41
+#, fuzzy
+msgid "Email Templates Manage"
+msgstr "Quản lý Mẫu Email"
+
+#: app/Services/PermissionManager.php:35
+#, fuzzy
+msgid "Emails Write/Send/Delete"
+msgstr "Email Ghi/Gửi/Xóa"
+
+#: app/Services/PermissionManager.php:31
+#, fuzzy
+msgid "Emails Read"
+msgstr "Email Đã đọc"
+
+#: app/Services/PermissionManager.php:25
+#, fuzzy
+msgid "Contact Tags/List/Segment Manage"
+msgstr "Liên hệ Thẻ/Danh sách/Phân đoạn Quản lý"
+
+#: app/Services/PermissionManager.php:19
+#, fuzzy
+msgid "Contacts Edit/Update/Delete"
+msgstr "Sửa/Cập nhật/Xóa Liên hệ"
+
+#: app/Services/PermissionManager.php:15
+#, fuzzy
+msgid "Contacts Read"
+msgstr "Liên hệ Đọc"
+
+#: app/Services/PermissionManager.php:11
+msgid "CRM Dashboard"
+msgstr "Bảng điều khiển CRM"
+
+#: app/Services/AutoSubscribe.php:216
+#, fuzzy
+msgid "Enable Sync between WP User Data and Fluent CRM Contact Data"
+msgstr "Bật Đồng bộ hóa giữa Dữ liệu Người dùng WP và Dữ liệu Liên hệ CRM trôi chảy"
+
+#: app/Services/AutoSubscribe.php:209
+#, fuzzy
+msgid "Automatically Sync your WP User Data and Fluent CRM Contact Data"
+msgstr "Tự động đồng bộ hóa dữ liệu người dùng WP của bạn và dữ liệu liên hệ CRM trôi chảy"
+
+#: app/Services/AutoSubscribe.php:208
+#, fuzzy
+msgid "Auto Sync User Data and Contact Data"
+msgstr "Tự động đồng bộ dữ liệu người dùng và dữ liệu liên hệ"
+
+#: app/Services/AutoSubscribe.php:165
+#, fuzzy
+msgid "Do not show the checkbox if current user already subscribed state"
+msgstr "Không hiện hộp kiểm nếu người dùng hiện tại đã đăng ký trạng thái"
+
+#: app/Services/AutoSubscribe.php:153
+#, fuzzy
+msgid "Enable auto checked status on Comment Form subscription"
+msgstr "Bật trạng thái tự động kiểm tra trên thuê bao Biểu mẫu Chú thích"
+
+#: app/Services/AutoSubscribe.php:143
+#, fuzzy
+msgid "Select the tags that will be assigned for new comment will be made in comment forms"
+msgstr "Chọn các thẻ sẽ được chỉ định cho nhận xét mới sẽ được thực hiện trong biểu mẫu nhận xét"
+
+#: app/Services/AutoSubscribe.php:130
+#, fuzzy
+msgid "Select the list that will be assigned for comment will be made in comment forms"
+msgstr "Chọn danh sách sẽ được chỉ định cho nhận xét sẽ được thực hiện trong biểu mẫu nhận xét"
+
+#: app/Services/AutoSubscribe.php:115 app/Services/AutoSubscribe.php:117
+#, fuzzy
+msgid "Checkbox Label for Comment Form"
+msgstr "Nhãn Hộp kiểm cho Biểu mẫu Chú thích"
+
+#: app/Services/AutoSubscribe.php:112
+#, fuzzy
+msgid "Enable Create new contacts in FluentCRM when a visitor add a comment in your comment form"
+msgstr "Bật Tạo liên hệ mới trong FluentCRM khi khách truy cập thêm nhận xét vào biểu mẫu nhận xét của bạn"
+
+#: app/Services/AutoSubscribe.php:105
+#, fuzzy
+msgid "Automatically add your site commenter as subscriber in FluentCRM"
+msgstr "Tự động thêm người bình luận trang web của bạn làm người đăng ký trong FluentCRM"
+
+#: app/Services/AutoSubscribe.php:104
+#, fuzzy
+msgid "Comment Form Subscription Settings"
+msgstr "Thiết đặt Đăng ký Biểu mẫu Chú thích"
+
+#: app/Services/AutoSubscribe.php:67 app/Services/AutoSubscribe.php:177
+#: app/Services/AutoSubscribe.php:319
+#, fuzzy
+msgid "Enable Double-Optin Email Confirmation"
+msgstr "Bật Xác nhận Email Double-Optin"
+
+#: app/Services/AutoSubscribe.php:57
+#, fuzzy
+msgid "Select the tags that will be assigned for new user registration in your site"
+msgstr "Chọn các thẻ sẽ được gán để đăng ký người dùng mới trong trang web của bạn"
+
+#: app/Services/AutoSubscribe.php:56 app/Services/AutoSubscribe.php:142
+#: app/Services/AutoSubscribe.php:284
+#, fuzzy
+msgid "Select Assign Tag"
+msgstr "Chọn Gán Thẻ"
+
+#: app/Services/AutoSubscribe.php:53 app/Services/AutoSubscribe.php:139
+#: app/Services/AutoSubscribe.php:281
+#, fuzzy
+msgid "Assign Tags"
+msgstr "Gán Thẻ"
+
+#: app/Services/AutoSubscribe.php:44
+#, fuzzy
+msgid "Select the list that will be assigned for new user registration in your site"
+msgstr "Chọn danh sách sẽ được chỉ định để đăng ký người dùng mới trong trang web của bạn"
+
+#: app/Services/AutoSubscribe.php:43 app/Services/AutoSubscribe.php:129
+#: app/Services/AutoSubscribe.php:271
+#, fuzzy
+msgid "Select Assign List"
+msgstr "Chọn Gán Danh sách"
+
+#: app/Services/AutoSubscribe.php:40 app/Services/AutoSubscribe.php:126
+#: app/Services/AutoSubscribe.php:268
+#, fuzzy
+msgid "Assign List"
+msgstr "Gán Danh sách"
+
+#: app/Services/AutoSubscribe.php:34
+#, fuzzy
+msgid "Enable Create new contacts in FluentCRM when users register in WordPress"
+msgstr "Bật Tạo danh bạ mới trong FluentCRM khi người dùng đăng ký trong WordPress"
+
+#: app/Services/AutoSubscribe.php:29
+#, fuzzy
+msgid "Automatically add your new user signups as subscriber in FluentCRM"
+msgstr "Tự động thêm đăng ký người dùng mới của bạn với tư cách là người đăng ký trong FluentCRM"
+
+#: app/Services/AutoSubscribe.php:28
+#, fuzzy
+msgid "User Signup Optin Settings"
+msgstr "Thiết đặt Optin Đăng ký Người dùng"
+
+#: app/Services/TransStrings.php:653
+#, fuzzy
+msgid "benchmark"
+msgstr "Chuẩn"
+
+#: app/Services/TransStrings.php:652
+msgid "action"
+msgstr "hành động"
+
+#: app/Services/TransStrings.php:651
+msgid "cancelled"
+msgstr "đã hủy"
+
+#: app/Services/TransStrings.php:650
+msgid "draft"
+msgstr "bản nháp"
+
+#: app/Services/TransStrings.php:649
+msgid "failed"
+msgstr "thất bại"
+
+#: app/Services/TransStrings.php:648
+msgid "processing"
+msgstr "đang xử lý"
+
+#: app/Services/TransStrings.php:647
+msgid "completed"
+msgstr "hoàn thành"
+
+#: app/Services/TransStrings.php:646
+msgid "scheduled"
+msgstr "lập kế hoạch"
+
+#: app/Services/TransStrings.php:645
+msgid "sent"
+msgstr "gửi đi"
+
+#: app/Services/TransStrings.php:644
+msgid "customer"
+msgstr "khách hàng"
+
+#: app/Services/TransStrings.php:643
+msgid "lead"
+msgstr "KH tiềm năng"
+
+#: app/Services/TransStrings.php:642
+msgid "statuses"
+msgstr "trạng thái"
+
+#: app/Http/Controllers/OptionsController.php:144
+#: app/Http/Controllers/OptionsController.php:179
+#: app/Services/TransStrings.php:638
+msgid "Complained"
+msgstr "Phàn Nàn"
+
+#: app/Http/Controllers/OptionsController.php:143
+#: app/Http/Controllers/OptionsController.php:178
+#: app/Services/TransStrings.php:637
+msgid "Bounced"
+msgstr "Bị trả lại"
+
+#: app/Services/TransStrings.php:633
+msgid "list"
+msgstr "danh sách"
+
+#: app/Services/TransStrings.php:632
+msgid "tag"
+msgstr "thẻ"
+
+#: app/Services/TransStrings.php:631
+msgid "lists"
+msgstr "danh sách"
+
+#: app/Services/TransStrings.php:630
+msgid "tags"
+msgstr "thẻ"
+
+#: app/Services/TransStrings.php:628
+#, fuzzy
+msgid "subscribed contacts"
+msgstr "liên hệ đã đăng ký"
+
+#: app/Services/TransStrings.php:627
+#, fuzzy
+msgid "street, state, zip, country"
+msgstr "đường phố, tiểu bang, zip, quốc gia"
+
+#: app/Services/TransStrings.php:626
+#, fuzzy
+msgid "Fluent Forms is a free form plugin for WordPress that is integrated with FluentCRM"
+msgstr "Fluent Forms là một plugin biểu mẫu miễn phí cho WordPress được tích hợp với FluentCRM"
+
+#: app/Services/TransStrings.php:625
+#, fuzzy
+msgid "Looks like you do not have permission to view the requested resource."
+msgstr "Có vẻ như bạn không có quyền xem tài nguyên được yêu cầu."
+
+#: app/Services/TransStrings.php:624
+#, fuzzy
+msgid "Please contact your site administrator to request the permission"
+msgstr "Vui lòng liên hệ với người quản trị site của bạn để yêu cầu quyền"
+
+#: app/Services/TransStrings.php:623
+#, fuzzy
+msgid "Looks like you did not install FluentSMTP yet. FluentSMTP is the the ultimate SMTP & Email Service Connection Plugin for WordPress."
+msgstr "Có vẻ như bạn chưa cài đặt FluentSMTP. FluentSMTP là Plugin kết nối dịch vụ SMTP &Email cuối cùng cho WordPress."
+
+#: app/Services/TransStrings.php:622
+#, fuzzy
+msgid "eg: Active Contacts"
+msgstr "ví dụ: Liên hệ hiện hoạt"
+
+#: app/Services/TransStrings.php:621
+msgid "edit"
+msgstr "sửa"
+
+#: app/Services/TransStrings.php:620
+#, fuzzy
+msgid "Please provide a name so you can identify easily"
+msgstr "Vui lòng cung cấp tên để bạn có thể xác định dễ dàng"
+
+#: app/Services/TransStrings.php:619
+#, fuzzy
+msgid "Please make sure your csv file has unique headers. Otherwise, it may fail to import"
+msgstr "Hãy chắc chắn rằng tệp csv của bạn có tiêu đề duy nhất. Nếu không, nó có thể không nhập được"
+
+#: app/Services/TransStrings.php:618
+msgid "confirm"
+msgstr "xác nhận"
+
+#: app/Services/TransStrings.php:617
+msgid "cancel"
+msgstr "hủy"
+
+#: app/Services/TransStrings.php:616
+#, fuzzy
+msgid "Your Business name will be used in Emails, Unsubscribe Pages and public front interfaces"
+msgstr "Tên doanh nghiệp của bạn sẽ được sử dụng trong Email, Hủy đăng ký Trang và giao diện trước công khai"
+
+#: app/Services/TransStrings.php:615
+#, fuzzy
+msgid "Your Business Logo, It will be used in Public Facing pages"
+msgstr "Logo doanh nghiệp của bạn, Nó sẽ được sử dụng trong các trang Đối mặt Công khai"
+
+#: app/Services/TransStrings.php:614
+#, fuzzy
+msgid "Your Business Address will be used in Emails. The address is required as per anti-spam rules"
+msgstr "Địa chỉ doanh nghiệp của bạn sẽ được sử dụng trong Email. Địa chỉ được yêu cầu theo quy tắc chống thư rác"
+
+#: app/Services/TransStrings.php:613
+#, fuzzy
+msgid "Subscribers has been added to this email sequence"
+msgstr "Người đăng ký đã được thêm vào chuỗi email này"
+
+#: app/Services/TransStrings.php:612
+#, fuzzy
+msgid "Subscribers have been added successfully to this sequence."
+msgstr "Người đăng ký đã được thêm thành công vào trình tự này."
+
+#: app/Services/TransStrings.php:611
+#, fuzzy
+msgid "Please note that, sequences emails will be scheduled to the contacts as per the current state"
+msgstr "Xin lưu ý rằng, các chuỗi email sẽ được lên lịch cho các liên hệ theo trạng thái hiện tại"
+
+#: app/Services/TransStrings.php:610
+#, fuzzy
+msgid "Invalid selection of lists and tags in subscribers included."
+msgstr "Bao gồm lựa chọn danh sách và thẻ không hợp lệ trong người đăng ký."
+
+#: app/Services/TransStrings.php:609
+#, fuzzy
+msgid "All Selected List and subscribers has been added Successfully to this sequence. Emails will be sent as per your configuration"
+msgstr "Tất cả danh sách đã chọn và người đăng ký đã được thêm thành công vào trình tự này. Email sẽ được gửi theo cấu hình của bạn"
+
+#: app/Services/TransStrings.php:608
+msgid " - Waiting for next action"
+msgstr " - Chờ đợi hành động tiếp theo"
+
+#: app/Services/TransStrings.php:607
+#, fuzzy
+msgid " - Waiting for double opt-in confirmation"
+msgstr " - Đang chờ xác nhận chọn tham gia kép"
+
+#: app/Services/TransStrings.php:606
+#, fuzzy
+msgid " - Waiting for double-optin confirmation"
+msgstr " - Đang chờ xác nhận optin kép"
+
+#: app/Services/TransStrings.php:605
+#, fuzzy
+msgid "Estimated Contacts based on your selections:"
+msgstr "Liên hệ ước tính dựa trên lựa chọn của bạn:"
+
+#: app/Services/TransStrings.php:604
+#, fuzzy
+msgid "Your form has been created successfully"
+msgstr "Biểu mẫu của bạn đã được tạo thành công"
+
+#: app/Services/TransStrings.php:602
+#, fuzzy
+msgid "Please use the following smart url and when a user click a link in an email, on your site or anywhere then your selected tags and lists will be applied."
+msgstr "Vui lòng sử dụng url thông minh sau đây và khi người dùng nhấp vào liên kết trong email, trên trang web của bạn hoặc bất cứ nơi nào thì các thẻ và danh sách đã chọn của bạn sẽ được áp dụng."
+
+#: app/Services/TransStrings.php:601
+msgid "Please fill up all the fields"
+msgstr "Vui lòng điền vào tất cả các trường"
+
+#: app/Services/TransStrings.php:599
+#, fuzzy
+msgid "Create an Automation Funnel"
+msgstr "Tạo Phễu Tự động hóa"
+
+#: app/Services/TransStrings.php:598
+#, fuzzy
+msgid "failed to send to recipients. Try Resending"
+msgstr "không thể gửi cho người nhận. Dùng thử Resending"
+
+#: app/Services/TransStrings.php:597
+#, fuzzy
+msgid "Please upgrade to pro to use this feature"
+msgstr "Vui lòng nâng cấp lên pro để sử dụng tính năng này"
+
+#: app/Services/TransStrings.php:596
+#, fuzzy
+msgid "Use the blocks to create separate path for your segmented contacts"
+msgstr "Sử dụng các khối để tạo đường dẫn riêng cho các liên hệ được phân đoạn của bạn"
+
+#: app/Services/TransStrings.php:595
+#, fuzzy
+msgid "These are your goal/trigger item that your user will do and you can measure these steps or adding into this funnel"
+msgstr "Đây là mục mục tiêu/kích hoạt mà người dùng của bạn sẽ làm và bạn có thể đo lường các bước này hoặc thêm vào kênh này"
+
+#: app/Services/TransStrings.php:594
+#, fuzzy
+msgid "Actions blocks are tasks that you want to fire from your side for the target contact"
+msgstr "Khối hành động là nhiệm vụ mà bạn muốn bắn từ phía bạn cho liên hệ mục tiêu"
+
+#: app/Services/TransStrings.php:593
+msgid "ZIP Code"
+msgstr "Mã Bưu Điện"
+
+#: app/Services/TransStrings.php:592
+#, fuzzy
+msgid "Your Note Title"
+msgstr "Tiêu đề ghi chú của bạn"
+
+#: app/Services/TransStrings.php:591
+#, fuzzy
+msgid "Yes, I want to delete Old Logs"
+msgstr "Có, tôi muốn xóa Nhật ký Cũ"
+
+#: app/Services/TransStrings.php:590
+msgid "Yes"
+msgstr "Có"
+
+#: app/Services/TransStrings.php:588
+#, fuzzy
+msgid "When you send the emails?"
+msgstr "Khi bạn gửi email?"
+
+#: app/Services/TransStrings.php:587
+msgid "Weeks"
+msgstr "Tuần"
+
+#: app/Services/TransStrings.php:586
+#, fuzzy
+msgid "Webhook Info"
+msgstr "Thông tin Webhook"
+
+#: app/Services/TransStrings.php:585
+msgid "Warning"
+msgstr "Cảnh báo"
+
+#: app/Services/TransStrings.php:584
+msgid "WP Users"
+msgstr "Người dùng WP"
+
+#: app/Services/TransStrings.php:583
+#, fuzzy
+msgid "View Subscribers"
+msgstr "Xem người đăng ký"
+
+#: app/Services/TransStrings.php:582
+msgid "View Reports"
+msgstr "Xem báo cáo"
+
+#: app/Services/TransStrings.php:581
+msgid "View Report"
+msgstr "Xem báo cáo"
+
+#: app/Services/TransStrings.php:580
+msgid "View Emails"
+msgstr "Xem Email"
+
+#: app/Services/TransStrings.php:579
+#, fuzzy
+msgid "View Campaign Emails"
+msgstr "Xem email chiến dịch"
+
+#: app/Services/TransStrings.php:578
+msgid "View"
+msgstr "Xem"
+
+#: app/Services/TransStrings.php:577
+#, fuzzy
+msgid "Your emails are sending right now...."
+msgstr "Email của bạn đang gửi ngay bây giờ...."
+
+#: app/Services/TransStrings.php:576
+#, fuzzy
+msgid "This campaign is now on \"Paused\" state. No Emails will be sent"
+msgstr "Chiến dịch này hiện đang ở trạng thái \"Tạm dừng\". Không có Email nào được gửi"
+
+#: app/Services/TransStrings.php:575
+#, fuzzy
+msgid "This campaign has been scheduled."
+msgstr "Chiến dịch này đã được lên lịch."
+
+#: app/Services/TransStrings.php:574
+#, fuzzy
+msgid "The emails will be sent based on your set date and time."
+msgstr "Các email sẽ được gửi dựa trên ngày và giờ đã đặt của bạn."
+
+#: app/Services/TransStrings.php:573
+#, fuzzy
+msgid "Set Custom From Name and Email"
+msgstr "Đặt Tùy chỉnh từ Tên và Email"
+
+#: app/Services/TransStrings.php:572
+#, fuzzy
+msgid "Please make sure this email is supported by your SMTP/SES"
+msgstr "Vui lòng đảm bảo email này được hỗ trợ bởi SMTP / SES của bạn"
+
+#: app/Services/TransStrings.php:571
+#, fuzzy
+msgid "Get started with adding an email to this sequence"
+msgstr "Bắt đầu với việc thêm email vào trình tự này"
+
+#: app/Services/TransStrings.php:570
+#, fuzzy
+msgid "Emails are sending at this moment"
+msgstr "Email đang được gửi tại thời điểm này"
+
+#: app/Services/TransStrings.php:569
+#, fuzzy
+msgid "Add another Sequence Email"
+msgstr "Thêm email trình tự khác"
+
+#: app/Services/TransStrings.php:568
+#, fuzzy
+msgid "Verify License"
+msgstr "Xác minh Giấy phép"
+
+#: app/Services/TransStrings.php:567
+#, fuzzy
+msgid "User data from database"
+msgstr "Dữ liệu người dùng từ cơ sở dữ liệu"
+
+#: app/Services/TransStrings.php:565
+#, fuzzy
+msgid "User Email Address"
+msgstr "Địa chỉ email người dùng mới."
+
+#: app/Services/TransStrings.php:564
+msgid "User Email"
+msgstr "Email người dùng"
+
+#: app/Services/TransStrings.php:563
+#, fuzzy
+msgid "Some of the users matching your criteria"
+msgstr "Một số người dùng phù hợp với tiêu chí của bạn"
+
+#: app/Services/TransStrings.php:562
+#, fuzzy
+msgid "Please do not close this modal."
+msgstr "Vui lòng không đóng phương thức này."
+
+#: app/Services/TransStrings.php:561
+#, fuzzy
+msgid "Use Email Template"
+msgstr "Sử dụng Mẫu Email"
+
+#: app/Services/TransStrings.php:560
+#, fuzzy
+msgid "Upload Your CSV file"
+msgstr "Tải tệp CSV lên"
+
+#: app/Services/TransStrings.php:559
+msgid "Upload CSV"
+msgstr "Tải lên CSV"
+
+#: app/Services/TransStrings.php:558
+#, fuzzy
+msgid "Update if already in DB"
+msgstr "Cập nhật nếu đã ở trong CSDL"
+
+#: app/Services/TransStrings.php:557
+#, fuzzy
+msgid "Update Subscribers"
+msgstr "Cập nhật người đăng ký"
+
+#: app/Services/TransStrings.php:556
+#, fuzzy
+msgid "Update Smart Link"
+msgstr "Cập nhật Liên kết thông minh"
+
+#: app/Services/TransStrings.php:555
+msgid "Update Settings"
+msgstr "Cập Nhật cài đặt"
+
+#: app/Services/TransStrings.php:554
+msgid "Update Note"
+msgstr "Cập nhật ghi chú"
+
+#: app/Services/TransStrings.php:553
+msgid "Update Custom Field"
+msgstr "Cập nhật trường tùy chọn"
+
+#: app/Services/TransStrings.php:552
+#, fuzzy
+msgid "Update Contact"
+msgstr "Cập nhật Liên hệ"
+
+#: app/Http/Controllers/OptionsController.php:142
+#: app/Http/Controllers/OptionsController.php:177
+#: app/Services/TransStrings.php:551 app/Services/TransStrings.php:636
+msgid "Unsubscribed"
+msgstr "Đã bỏ đăng ký"
+
+#: app/Services/TransStrings.php:550
+msgid "Unique Clicks"
+msgstr "Unique Clicks"
+
+#: app/Services/TransStrings.php:548
+msgid "Type"
+msgstr "Loại"
+
+#: app/Services/TransStrings.php:547
+msgid "Trigger"
+msgstr "Nút kích hoạt"
+
+#: app/Services/TransStrings.php:546
+#, fuzzy
+msgid "Total Updated:"
+msgstr "Tổng số đã cập nhật:"
+
+#: app/Services/TransStrings.php:545
+msgid "Total Recipients"
+msgstr "Người nhận"
+
+#: app/Services/TransStrings.php:544
+#, fuzzy
+msgid "Total Inserted:"
+msgstr "Tổng số đã chèn:"
+
+#: app/Services/TransStrings.php:543
+#, fuzzy
+msgid "Total Found Result:"
+msgstr "Tổng kết quả tìm thấy:"
+
+#: app/Services/TransStrings.php:542
+#, fuzzy
+msgid "Total Emails"
+msgstr "Tổng số email"
+
+#: app/Services/TransStrings.php:541
+#, fuzzy
+msgid "Total Contact"
+msgstr "Tổng số Liên hệ"
+
+#: app/Services/TransStrings.php:540
+msgid "Total Clicks"
+msgstr "Tổng số lần nhấp"
+
+#: app/Services/TransStrings.php:539
+msgid "Tools"
+msgstr "Công cụ"
+
+#: app/Services/TransStrings.php:538
+msgid "To"
+msgstr "Đến"
+
+#: app/Services/TransStrings.php:537
+#, fuzzy
+msgid "Title field is required"
+msgstr "Trường Tiêu đề là bắt buộc"
+
+#: app/Services/TransStrings.php:535
+#, fuzzy
+msgid "This email footer text will be used to all your email"
+msgstr "Văn bản chân trang email này sẽ được sử dụng cho tất cả email của bạn"
+
+#: app/Services/TransStrings.php:534
+msgid "Template Title"
+msgstr "Tiêu đề của mẫu"
+
+#: app/Services/TransStrings.php:533
+msgid "Target URL"
+msgstr "URL mục tiêu"
+
+#: app/Services/TransStrings.php:532
+#, fuzzy
+msgid "Tags are like Lists but more ways to filter your contacts inside a list"
+msgstr "Thẻ giống như Danh sách nhưng có nhiều cách hơn để lọc liên hệ của bạn bên trong danh sách"
+
+#: app/Services/TransStrings.php:529
+msgid "Subscribers"
+msgstr "Người đăng ký"
+
+#: app/Services/TransStrings.php:528
+#, fuzzy
+msgid "Subscriber Fields"
+msgstr "Trường Người đăng ký"
+
+#: app/Services/TransStrings.php:527
+#, fuzzy
+msgid "Subscriber Clicks"
+msgstr "Số lần nhấp của người đăng ký"
+
+#: app/Services/TransStrings.php:526
+msgid "Subscriber"
+msgstr "Người đăng ký"
+
+#: app/Http/Controllers/OptionsController.php:140
+#: app/Http/Controllers/OptionsController.php:175
+#: app/Services/TransStrings.php:525 app/Services/TransStrings.php:634
+msgid "Subscribed"
+msgstr "Đã đăng ký"
+
+#: app/Services/TransStrings.php:524
+#, fuzzy
+msgid "Subject Analytics"
+msgstr "Phân tích chủ đề"
+
+#: app/Services/TransStrings.php:523
+#, fuzzy
+msgid "Subject & Settings"
+msgstr "Chủ đề & Thiết đặt"
+
+#: app/Services/TransStrings.php:522
+msgid "Subject"
+msgstr "Tiêu đề"
+
+#: app/Services/TransStrings.php:521
+#, fuzzy
+msgid "Step Report"
+msgstr "Báo cáo Bước"
+
+#: app/Services/TransStrings.php:519
+msgid "Stats"
+msgstr "Thống kê"
+
+#: app/Services/TransStrings.php:517
+msgid "Starts With"
+msgstr "Bắt Đầu Với"
+
+#: app/Services/TransStrings.php:516
+msgid "Started At"
+msgstr "Bắt Đầu Vào"
+
+#: app/Services/TransStrings.php:515
+#, fuzzy
+msgid "StartOver"
+msgstr "Bắt đầu"
+
+#: app/Services/TransStrings.php:514
+msgid "Start date"
+msgstr "Ngày bắt đầu"
+
+#: app/Services/TransStrings.php:513
+#, fuzzy
+msgid "Start Using SmartLinks"
+msgstr "Bắt đầu sử dụng SmartLinks"
+
+#: app/Services/TransStrings.php:512
+#, fuzzy
+msgid "Start Range"
+msgstr "Phạm vi Bắt đầu"
+
+#: app/Services/TransStrings.php:509
+#, fuzzy
+msgid "Sorry, No emails found in this automation"
+msgstr "Rất tiếc, Không tìm thấy email nào trong tự động hóa này"
+
+#: app/Services/TransStrings.php:507
+#, fuzzy
+msgid "Smart URL"
+msgstr "URL thông minh"
+
+#: app/Services/TransStrings.php:506
+msgid "Smart Links"
+msgstr "Liên kết Thông minh"
+
+#: app/Services/TransStrings.php:505
+#, fuzzy
+msgid "Slug (Optional)"
+msgstr "Sên (Tùy chọn)"
+
+#: app/Services/TransStrings.php:504
+msgid "Slug"
+msgstr "Slug"
+
+#: app/Services/TransStrings.php:503
+#, fuzzy
+msgid "Skip if already in DB"
+msgstr "Bỏ qua nếu đã ở trong CSDL"
+
+#: app/Services/TransStrings.php:502
+#, fuzzy
+msgid "Show Subscribers"
+msgstr "Hiển thị người đăng ký"
+
+#: app/Services/TransStrings.php:501
+#, fuzzy
+msgid "Show Individual Emails"
+msgstr "Hiển thị email cá nhân"
+
+#: app/Services/TransStrings.php:499
+msgid "Setup"
+msgstr "Thiết lập"
+
+#: app/Services/TransStrings.php:498
+msgid "Settings Updated."
+msgstr "Cập nhật cấu hình."
+
+#: app/Services/TransStrings.php:497
+#, fuzzy
+msgid "SMTP/Email Service Settings"
+msgstr "Thiết đặt Dịch vụ SMTP/Email"
+
+#: app/Services/TransStrings.php:496
+#, fuzzy
+msgid "Set up your schedule"
+msgstr "Thiết lập lịch biểu của bạn"
+
+#: app/Services/TransStrings.php:495
+#, fuzzy
+msgid "Sequence Title"
+msgstr "Tiêu đề Trình tự"
+
+#: app/Services/TransStrings.php:494
+#, fuzzy
+msgid "Sequence Subscribers"
+msgstr "Người đăng ký trình tự"
+
+#: app/Services/TransStrings.php:493
+msgid "Sequence"
+msgstr "Thứ tự"
+
+#: app/Services/TransStrings.php:492
+msgid "Sent"
+msgstr "Đã gửi"
+
+#: app/Services/TransStrings.php:491
+#, fuzzy
+msgid "Sending Time Range"
+msgstr "Phạm vi thời gian gửi"
+
+#: app/Services/TransStrings.php:490
+#, fuzzy
+msgid "Send the emails right now"
+msgstr "Gửi email ngay bây giờ"
+
+#: app/Services/TransStrings.php:489
+#, fuzzy
+msgid "Send a test email"
+msgstr "Gửi email kiểm tra"
+
+#: app/Services/TransStrings.php:488
+#, fuzzy
+msgid "Send Emails Now"
+msgstr "Gửi email ngay bây giờ"
+
+#: app/Services/TransStrings.php:487
+msgid "Send Email"
+msgstr "Gửi Email"
+
+#: app/Services/TransStrings.php:486
+#, fuzzy
+msgid "Send Double Optin Email for new contacts"
+msgstr "Gửi Email Optin Kép cho các liên hệ mới"
+
+#: app/Services/TransStrings.php:485
+#, fuzzy
+msgid "Send Double Optin Email"
+msgstr "Gửi Email Optin Kép"
+
+#: app/Services/Funnel/Actions/SendEmailAction.php:26
+#: app/Services/Funnel/Actions/SendEmailAction.php:43
+#: app/Services/TransStrings.php:484
+#, fuzzy
+msgid "Send Custom Email"
+msgstr "Gửi Email Tùy chỉnh"
+
+#: app/Services/TransStrings.php:483
+msgid "Send"
+msgstr "Gửi"
+
+#: app/Services/TransStrings.php:482
+#, fuzzy
+msgid "Semicolon Separated (;)"
+msgstr "Dấu chấm phẩy tách ra (;)"
+
+#: app/Services/TransStrings.php:479
+#, fuzzy
+msgid "Select date and time"
+msgstr "Chọn ngày và giờ"
+
+#: app/Services/TransStrings.php:478
+msgid "Select country"
+msgstr "Chọn quốc gia"
+
+#: app/Services/TransStrings.php:477
+#, fuzzy
+msgid "Select by Roles"
+msgstr "Chọn theo vai trò"
+
+#: app/Services/TransStrings.php:475
+#, fuzzy
+msgid "Select a Trigger"
+msgstr "Chọn trình kích hoạt"
+
+#: app/Services/TransStrings.php:474
+#, fuzzy
+msgid "Select a List"
+msgstr "Chọn danh sách"
+
+#: app/Services/TransStrings.php:472
+msgid "Select User Roles"
+msgstr "Chọn vai trò"
+
+#: app/Services/TransStrings.php:471
+msgid "Select Template"
+msgstr "Chọn mẫu"
+
+#: app/Services/Funnel/Actions/ApplyTagAction.php:42
+#: app/Services/Funnel/Actions/DetachTagAction.php:41
+#: app/Services/TransStrings.php:469
+msgid "Select Tag"
+msgstr "Chọn Tag"
+
+#: app/Services/Funnel/Triggers/UserRegistrationTrigger.php:46
+#: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:98
+#: app/Services/TransStrings.php:468
+msgid "Select Status"
+msgstr "Chọn tình trạng"
+
+#: app/Services/TransStrings.php:467
+#, fuzzy
+msgid "Select Logs you want to delete"
+msgstr "Chọn Nhật ký bạn muốn xóa"
+
+#: app/Services/TransStrings.php:466
+#, fuzzy
+msgid "Select Lists that you want to show for contacts"
+msgstr "Chọn Danh sách bạn muốn hiển thị cho liên hệ"
+
+#: app/Services/TransStrings.php:465
+#, fuzzy
+msgid "Select Field Type"
+msgstr "Chọn Loại Trường"
+
+#: app/Services/TransStrings.php:464
+#, fuzzy
+msgid "Select Email Recipients"
+msgstr "Chọn Người nhận Email"
+
+#: app/Services/TransStrings.php:463
+#, fuzzy
+msgid "Select Dynamic Segment"
+msgstr "Chọn Phân đoạn động"
+
+#: app/Services/TransStrings.php:462
+msgid "Select Condition"
+msgstr "Chọn điều kiện"
+
+#: app/Services/TransStrings.php:461
+#, fuzzy
+msgid "Select Activity Type"
+msgstr "Chọn Loại hoạt động"
+
+#: app/Services/TransStrings.php:460
+#, fuzzy
+msgid "Select A List"
+msgstr "Chọn danh sách"
+
+#: app/Services/TransStrings.php:459
+msgid "Select"
+msgstr "Chọn"
+
+#: app/Services/TransStrings.php:457
+#, fuzzy
+msgid "Search by title..."
+msgstr "Tìm kiếm theo tiêu đề..."
+
+#: app/Services/TransStrings.php:455
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: app/Services/TransStrings.php:454
+msgid "Scheduled At"
+msgstr "Đặt Lịch"
+
+#: app/Services/TransStrings.php:453
+msgid "Schedule this campaign"
+msgstr "Lên lịch cho chiến dịch này"
+
+#: app/Services/TransStrings.php:452
+#, fuzzy
+msgid "Schedule the emails"
+msgstr "Lên lịch email"
+
+#: app/Services/TransStrings.php:451
+#, fuzzy
+msgid "Schedule Time"
+msgstr "Thời gian lên lịch"
+
+#: app/Services/TransStrings.php:450
+#, fuzzy
+msgid "Schedule Campaign"
+msgstr "Lên lịch chiến dịch"
+
+#: app/Services/TransStrings.php:449
+msgid "Schedule"
+msgstr "Lịch trình"
+
+#: app/Services/TransStrings.php:448
+#, fuzzy
+msgid "Emails will be sent at scheduled time."
+msgstr "Email sẽ được gửi theo thời gian dự kiến."
+
+#: app/Services/TransStrings.php:447
+msgid "Save Template"
+msgstr "Save Template"
+
+#: app/Services/TransStrings.php:446
+msgid "Save Settings"
+msgstr "Lưu cài đặt"
+
+#: app/Services/TransStrings.php:445
+msgid "Save Note"
+msgstr "Lưu Ghi chú"
+
+#: app/Services/TransStrings.php:444
+msgid "Save"
+msgstr "Lưu"
+
+#: app/Services/TransStrings.php:443
+#, fuzzy
+msgid "SMTP/Email Sending Service Settings"
+msgstr "Thiết đặt Dịch vụ Gửi SMTP/Email"
+
+#: app/Services/TransStrings.php:442
+msgid "Run Manually"
+msgstr "Khởi chạy bằng tay"
+
+#: app/Services/TransStrings.php:441
+#, fuzzy
+msgid "Review & Send"
+msgstr "Xem lại & Gửi"
+
+#: app/Services/TransStrings.php:440
+#, fuzzy
+msgid "Retry Sending"
+msgstr "Thử gửi lại"
+
+#: app/Services/TransStrings.php:439
+msgid "Resume"
+msgstr "Tiếp tục"
+
+#: app/Services/TransStrings.php:438
+#, fuzzy
+msgid "Rest API Status"
+msgstr "Trạng thái API còn lại"
+
+#: app/Services/TransStrings.php:437
+msgid "Resend"
+msgstr "Gửi lại"
+
+#: app/Services/TransStrings.php:436
+msgid "Reports"
+msgstr "Báo cáo"
+
+#: app/Services/TransStrings.php:435
+#, fuzzy
+msgid "Reply to Name (Optional)"
+msgstr "Trả lời Tên (Tùy chọn)"
+
+#: app/Services/TransStrings.php:434
+#, fuzzy
+msgid "Reply to Name"
+msgstr "Trả lời Tên"
+
+#: app/Services/TransStrings.php:433
+#, fuzzy
+msgid "Reply to Email (Optional)"
+msgstr "Trả lời Email (Tùy chọn)"
+
+#: app/Services/TransStrings.php:432
+#, fuzzy
+msgid "Reply To Name"
+msgstr "Trả lời Tên"
+
+#: app/Services/TransStrings.php:431
+#, fuzzy
+msgid "Reply To Email"
+msgstr "Trả lời Email"
+
+#: app/Services/TransStrings.php:430
+#, fuzzy
+msgid "Remove Tags"
+msgstr "Thêm hoặc xóa thẻ"
+
+#: app/Services/TransStrings.php:429
+#, fuzzy
+msgid "Remove From Sequence"
+msgstr "Loại bỏ khỏi Trình tự"
+
+#: app/Services/TransStrings.php:428
+msgid "Recipients"
+msgstr "Người nhận"
+
+#: app/Services/TransStrings.php:427
+#, fuzzy
+msgid "contacts found based on your selection"
+msgstr "các liên hệ được tìm thấy dựa trên lựa chọn của bạn"
+
+#: app/Services/TransStrings.php:426
+#, fuzzy
+msgid "This will filter all available contacts"
+msgstr "Điều này sẽ lọc tất cả các liên hệ có sẵn"
+
+#: app/Services/TransStrings.php:425
+#, fuzzy
+msgid "Select List or all subscribers first and then select tag"
+msgstr "Chọn Danh sách hoặc tất cả người đăng ký trước rồi chọn thẻ"
+
+#: app/Services/TransStrings.php:424
+#, fuzzy
+msgid "Select Lists and Tags that you want to send emails for this campaign. You can create multiple row to send to all of them"
+msgstr "Chọn Danh sách và Thẻ mà bạn muốn gửi email cho chiến dịch này. Bạn có thể tạo nhiều hàng để gửi cho tất cả chúng"
+
+#: app/Services/TransStrings.php:423
+#, fuzzy
+msgid "Select Lists and Tags that you want to exclude from this campaign. Excluded contacts will be subtracted from your included selection"
+msgstr "Chọn Danh sách và Thẻ mà bạn muốn loại trừ khỏi chiến dịch này. Các liên hệ bị loại trừ sẽ bị trừ khỏi lựa chọn đi kèm của bạn"
+
+#: app/Services/TransStrings.php:422
+#, fuzzy
+msgid "Processing Error happened. Maybe it's timeout error. Resume or StartOver"
+msgstr "Lỗi xử lý đã xảy ra. Có lẽ đó là lỗi hết thời gian chờ. Tiếp tục hoặc StartOver"
+
+#: app/Services/TransStrings.php:421
+#, fuzzy
+msgid "Please select to which dynamic segment you want to send emails for this campaign"
+msgstr "Vui lòng chọn phân đoạn động nào bạn muốn gửi email cho chiến dịch này"
+
+#: app/Services/TransStrings.php:420
+#, fuzzy
+msgid "Please do not close this window."
+msgstr "Vui lòng không đóng cửa sổ này."
+
+#: app/Services/TransStrings.php:419
+#, fuzzy
+msgid "Continue To Next Step [Review and Send]"
+msgstr "Tiếp tục bước tiếp theo [Xem lại và gửi]"
+
+#: app/Services/TransStrings.php:418
+#, fuzzy
+msgid "All contacts on Selected List segment"
+msgstr "Tất cả liên hệ trên phân đoạn Danh sách Đã chọn"
+
+#: app/Services/TransStrings.php:417
+msgid "Reason:"
+msgstr "Lý do:"
+
+#: app/Services/TransStrings.php:416
+#, fuzzy
+msgid "Please Provide HTML of your Email"
+msgstr "Vui lòng cung cấp HTML email của bạn"
+
+#: app/Services/TransStrings.php:413
+#, fuzzy
+msgid "Purged"
+msgstr "Dọn dẹp"
+
+#: app/Services/TransStrings.php:412
+#, fuzzy
+msgid "Public User Clicks"
+msgstr "Số lần nhấp vào người dùng công cộng"
+
+#: app/Services/TransStrings.php:411
+#, fuzzy
+msgid "Provide Valid Email Address that will be used to send emails"
+msgstr "Cung cấp Địa chỉ Email Hợp lệ sẽ được sử dụng để gửi email"
+
+#: app/Services/TransStrings.php:410
+#, fuzzy
+msgid "Processing now..."
+msgstr "Đang xử lý..."
+
+#: app/Services/TransStrings.php:409
+#, fuzzy
+msgid "Purchase history from EDD/WooCommerce will be shown here. Currently no E-Commerce Plugin found in your installation"
+msgstr "Lịch sử mua hàng từ EDD / WooCommerce sẽ được hiển thị ở đây. Hiện tại không có Plugin Thương mại điện tử nào được tìm thấy trong cài đặt của bạn"
+
+#: app/Services/TransStrings.php:408
+#, fuzzy
+msgid "Please select an option first"
+msgstr "Vui lòng chọn một tùy chọn trước"
+
+#: app/Services/TransStrings.php:407
+#, fuzzy
+msgid "No Note found. Please add the first note"
+msgstr "Không tìm thấy Ghi chú. Vui lòng thêm ghi chú đầu tiên"
+
+#: app/Services/TransStrings.php:406
+#, fuzzy
+msgid "Form Submission from Fluent Forms will be shown here. Currently, Fluent Forms is not installed"
+msgstr "Biểu mẫu gửi từ các mẫu thông thạo sẽ được hiển thị ở đây. Hiện tại, Fluent Forms chưa được cài đặt"
+
+#: app/Services/TransStrings.php:405
+#, fuzzy
+msgid "Emails from different campaigns and automations"
+msgstr "Email từ các chiến dịch và tự động hóa khác nhau"
+
+#: app/Services/TransStrings.php:404
+#, fuzzy
+msgid "Contact Notes & Activities"
+msgstr "Ghi chú liên hệ & Hoạt động"
+
+#: app/Services/TransStrings.php:403
+#, fuzzy
+msgid "Contact Files & Attachments"
+msgstr "Tệp Liên hệ & Phần đính kèm"
+
+#: app/Services/TransStrings.php:402
+#, fuzzy
+msgid "Change Subscription Status"
+msgstr "Thay đổi Trạng thái Đăng ký"
+
+#: app/Services/TransStrings.php:401
+#, fuzzy
+msgid "Activities of this contact will be shown here"
+msgstr "Các hoạt động của liên hệ này sẽ được hiển thị ở đây"
+
+#: app/Services/TransStrings.php:400
+msgid "Pro"
+msgstr "Nâng cao"
+
+#: app/Services/TransStrings.php:399
+#, fuzzy
+msgid "Priority (%)"
+msgstr "Ưu tiên"
+
+#: app/Services/TransStrings.php:398
+#, fuzzy
+msgid "Preview The form"
+msgstr "Xem trước Biểu mẫu"
+
+#: app/Services/TransStrings.php:397
+#, fuzzy
+msgid "Preview Text:"
+msgstr "Xem trước Văn bản:"
+
+#: app/Services/TransStrings.php:395
+msgid "Preview"
+msgstr "Xem trước"
+
+#: app/Services/TransStrings.php:394
+#, fuzzy
+msgid "Prev step"
+msgstr "Bước trước"
+
+#: app/Services/TransStrings.php:391
+#, fuzzy
+msgid "Please set date and time"
+msgstr "Vui lòng đặt ngày và giờ"
+
+#: app/Services/TransStrings.php:390
+#, fuzzy
+msgid "Please select the segment"
+msgstr "Vui lòng chọn phân đoạn"
+
+#: app/Services/TransStrings.php:389
+#, fuzzy
+msgid "Please Provide a Form Title"
+msgstr "Vui lòng cung cấp Tiêu đề Biểu mẫu"
+
+#: app/Services/TransStrings.php:387
+msgid "Phone/Mobile"
+msgstr "Điện thoại/Di động"
+
+#: app/Services/TransStrings.php:385
+msgid "Permissions"
+msgstr "Quyền hạn"
+
+#: app/Http/Controllers/OptionsController.php:141
+#: app/Http/Controllers/OptionsController.php:176
+#: app/Services/TransStrings.php:384 app/Services/TransStrings.php:635
+msgid "Pending"
+msgstr "Đang chờ xử lý"
+
+#: app/Services/TransStrings.php:383
+#, fuzzy
+msgid "Pause Sending"
+msgstr "Tạm dừng Gửi"
+
+#: app/Services/TransStrings.php:382
+#, fuzzy
+msgid "Overall Conversion Rate"
+msgstr "Tỷ lệ chuyển đổi tổng thể"
+
+#: app/Services/TransStrings.php:381
+msgid "Opened"
+msgstr "Đã mở"
+
+#: app/Services/TransStrings.php:380
+#, fuzzy
+msgid "Open Rate"
+msgstr "Tỷ giá mở"
+
+#: app/Services/TransStrings.php:378
+msgid "Not Equal"
+msgstr "Khác"
+
+#: app/Services/TransStrings.php:377
+msgid "Not Contains"
+msgstr "Không chứa"
+
+#: app/Services/TransStrings.php:376
+#, fuzzy
+msgid "No, Contact can not manage list subscriptions"
+msgstr "Không, Liên hệ không thể quản lý đăng ký danh sách"
+
+#: app/Services/TransStrings.php:375
+msgid "No tags found"
+msgstr "Không tìm thấy thẻ"
+
+#: app/Services/TransStrings.php:374
+#, fuzzy
+msgid "No mapping found."
+msgstr "Không tìm thấy ánh xạ."
+
+#: app/Services/TransStrings.php:373
+#, fuzzy
+msgid "No lists found"
+msgstr "Không tìm thấy danh sách nào"
+
+#: app/Services/TransStrings.php:372
+msgid "No items found"
+msgstr "Không tìm thấy mục nào"
+
+#: app/Services/TransStrings.php:371
+#, fuzzy
+msgid "No Subscriber Found"
+msgstr "Không tìm thấy Người đăng ký"
+
+#: app/Services/TransStrings.php:370
+#, fuzzy
+msgid "No Form Found"
+msgstr "Không tìm thấy Biểu mẫu"
+
+#: app/Services/TransStrings.php:369
+msgid "No Data Found"
+msgstr "Không tìm thấy dữ liệu nào"
+
+#: app/Services/TransStrings.php:368
+#, fuzzy
+msgid "No Data Available"
+msgstr "Không có dữ liệu sẵn dùng"
+
+#: app/Services/TransStrings.php:367
+#, fuzzy
+msgid "No Contacts Found"
+msgstr "Không tìm thấy Liên hệ"
+
+#: app/Services/TransStrings.php:366
+msgid "No"
+msgstr "Không"
+
+#: app/Services/TransStrings.php:365
+msgid "Next step"
+msgstr "Bước tiếp theo"
+
+#: app/Services/TransStrings.php:364
+#, fuzzy
+msgid "Next [Review Data]"
+msgstr "Tiếp theo [Xem lại dữ liệu]"
+
+#: app/Services/TransStrings.php:362
+msgid "Next Step"
+msgstr "Bước tiếp theo"
+
+#: app/Services/TransStrings.php:361
+msgid "Next Run"
+msgstr "Chạy Tiếp Theo"
+
+#: app/Services/TransStrings.php:360
+#, fuzzy
+msgid "Next Email"
+msgstr "Email Tiếp theo"
+
+#: app/Services/TransStrings.php:358
+#, fuzzy
+msgid "New Subscriber Status"
+msgstr "Trạng thái người đăng ký mới"
+
+#: app/Services/TransStrings.php:357
+#, fuzzy
+msgid "New Dynamic Segment"
+msgstr "Phân khúc động mới"
+
+#: app/Services/TransStrings.php:356
+#, fuzzy
+msgid "Name this Custom Segment"
+msgstr "Đặt tên cho Phân đoạn Tùy chỉnh này"
+
+#: app/Services/TransStrings.php:355
+#, fuzzy
+msgid "Name that will be used to send emails"
+msgstr "Tên sẽ được sử dụng để gửi email"
+
+#: app/Services/TransStrings.php:353
+msgid "Months"
+msgstr "Tháng"
+
+#: app/Services/Funnel/Actions/WaitTimeAction.php:54
+#: app/Services/TransStrings.php:352
+msgid "Minutes"
+msgstr "Phút"
+
+#: app/Services/TransStrings.php:351
+#, fuzzy
+msgid "Maximum Email Limit Per Second"
+msgstr "Giới hạn email tối đa mỗi giây"
+
+#: app/Services/TransStrings.php:348
+#, fuzzy
+msgid "Total Skipped (Including Invalid):"
+msgstr "Tổng số đã bỏ qua (bao gồm cả không hợp lệ):"
+
+#: app/Services/TransStrings.php:347
+#, fuzzy
+msgid "Subscribers imported successfully."
+msgstr "Người đăng ký đã nhập thành công."
+
+#: app/Services/TransStrings.php:346
+#, fuzzy
+msgid "Status for the new subscribers"
+msgstr "Trạng thái cho người đăng ký mới"
+
+#: app/Services/TransStrings.php:345
+#, fuzzy
+msgid "Importing Contacts from your CSV. Please Do not close this modal"
+msgstr "Nhập Liên hệ từ CSV. Vui lòng không đóng phương thức này"
+
+#: app/Services/TransStrings.php:344
+#, fuzzy
+msgid "Contacts that are duplicate"
+msgstr "Liên hệ trùng lặp"
+
+#: app/Services/TransStrings.php:343
+#, fuzzy
+msgid "Completed. You can close this modal now"
+msgstr "Hoàn thành. Bạn có thể đóng phương thức này ngay bây giờ"
+
+#: app/Services/TransStrings.php:342
+msgid "Managers"
+msgstr "Quản lý"
+
+#: app/Services/TransStrings.php:341
+#, fuzzy
+msgid "Main Contact Properties"
+msgstr "Thuộc tính liên hệ chính"
+
+#: app/Services/TransStrings.php:340
+msgid "Logo"
+msgstr "Logo"
+
+#: app/Services/TransStrings.php:339
+msgid "Loading..."
+msgstr "Đang tải..."
+
+#: app/Services/TransStrings.php:338
+#, fuzzy
+msgid "Loading Settings..."
+msgstr "Đang nạp Thiết đặt..."
+
+#: app/Services/TransStrings.php:337
+#, fuzzy
+msgid "Loading Editor..."
+msgstr "Đang nạp Trình soạn thảo..."
+
+#: app/Services/TransStrings.php:336
+#, fuzzy
+msgid "Loading Campaign Data..."
+msgstr "Đang nạp Dữ liệu Chiến dịch..."
+
+#: app/Services/TransStrings.php:335
+msgid "Loading"
+msgstr "Đang tải"
+
+#: app/Services/TransStrings.php:333
+msgid "List"
+msgstr "Danh sách"
+
+#: app/Services/TransStrings.php:332
+#, fuzzy
+msgid "List are categories of your contacts. You can add lists and assign contacts to your list for better segmentation"
+msgstr "Danh sách là các danh mục liên hệ của bạn. Bạn có thể thêm danh sách và chỉ định liên hệ vào danh sách của mình để phân đoạn tốt hơn"
+
+#: app/Services/TransStrings.php:331
+#, fuzzy
+msgid "Link Metrics"
+msgstr "Chỉ số liên kết"
+
+#: app/Services/TransStrings.php:330
+#, fuzzy
+msgid "This is a premium feature. Please download the FluentCRM Pro to activate this feature."
+msgstr "Đây là một tính năng cao cấp. Vui lòng tải xuống FluentCRM Pro để kích hoạt tính năng này."
+
+#: app/Services/TransStrings.php:329
+#, fuzzy
+msgid "SmartLinks allow you to tag and segment your subscribers when they click a link in an email, on your site or anywhere!"
+msgstr "SmartLinks cho phép bạn gắn thẻ và phân đoạn người đăng ký của mình khi họ nhấp vào liên kết trong email, trên trang web của bạn hoặc bất cứ nơi nào!"
+
+#: app/Services/TransStrings.php:328
+#, fuzzy
+msgid "License Management"
+msgstr "Quản lý giấy phép"
+
+#: app/Services/TransStrings.php:327
+#, fuzzy
+msgid "Less Than"
+msgstr "Nhỏ hơn"
+
+#: app/Services/TransStrings.php:326
+#, fuzzy
+msgid "Latest Action"
+msgstr "Hành động mới nhất"
+
+#: app/Services/TransStrings.php:324
+#, fuzzy
+msgid "Last Executed At"
+msgstr "Lần thực hiện cuối cùng tại"
+
+#: app/Services/TransStrings.php:323
+#, fuzzy
+msgid "Last Changed"
+msgstr "Thay đổi Lần cuối"
+
+#: app/Services/TransStrings.php:321
+msgid "Label"
+msgstr "Nhãn"
+
+#: app/Services/TransStrings.php:320
+msgid "Key"
+msgstr "Khóa"
+
+#: app/Services/TransStrings.php:319
+#, fuzzy
+msgid "Invalid Emails:"
+msgstr "Email không hợp lệ:"
+
+#: app/Services/TransStrings.php:318
+#, fuzzy
+msgid "Internal Title"
+msgstr "Tiêu đề nội bộ"
+
+#: app/Services/TransStrings.php:317
+#, fuzzy
+msgid "Internal Subtitle"
+msgstr "Phụ đề nội bộ"
+
+#: app/Services/TransStrings.php:316
+#, fuzzy
+msgid "Internal Label"
+msgstr "Nhãn nội bộ"
+
+#: app/Services/TransStrings.php:315
+#, fuzzy
+msgid "Internal Campaign Title"
+msgstr "Tiêu đề chiến dịch nội bộ"
+
+#: app/Services/TransStrings.php:314
+msgid "Insert"
+msgstr "Chèn"
+
+#: app/Services/TransStrings.php:312
+msgid "Incomplete"
+msgstr "Chưa hoàn thiện"
+
+#: app/Services/TransStrings.php:311
+#, fuzzy
+msgid "Incoming Web Hooks"
+msgstr "Móc Web Đến"
+
+#: app/Services/TransStrings.php:310
+#, fuzzy
+msgid "Included Contacts"
+msgstr "Liên hệ đi kèm"
+
+#: app/Services/TransStrings.php:309
+#, fuzzy
+msgid "Importing now..."
+msgstr "Đang chuyển nhập ngay..."
+
+#: app/Services/TransStrings.php:308
+#, fuzzy
+msgid "Import Users Now"
+msgstr "Chuyển nhập Người dùng Ngay"
+
+#: app/Services/TransStrings.php:307
+#, fuzzy
+msgid "Import Subscribers"
+msgstr "Nhập người đăng ký"
+
+#: app/Services/TransStrings.php:306
+#, fuzzy
+msgid "Import Automation Funnel"
+msgstr "Nhập Phễu Tự động hóa"
+
+#: app/Services/TransStrings.php:303
+msgid "IP Address"
+msgstr "Địa chỉ IP"
+
+#: app/Services/TransStrings.php:301
+msgid "Headings Font Family"
+msgstr "Headings Font Family"
+
+#: app/Services/TransStrings.php:300
+#, fuzzy
+msgid "Suggesting value: Between 600 to 800"
+msgstr "Giá trị đề xuất: Từ 600 đến 800"
+
+#: app/Services/TransStrings.php:299
+#, fuzzy
+msgid "Grow Your Audience"
+msgstr "Phát triển đối tượng của bạn"
+
+#: app/Services/TransStrings.php:298
+#, fuzzy
+msgid "Greater Than"
+msgstr "Đăng ký thanh toán đưa ra không hợp lệ. Phải là số nguyên lớn hơn 0."
+
+#: app/Services/TransStrings.php:297
+msgid "Go Back"
+msgstr "Quay lại"
+
+#: app/Services/TransStrings.php:296
+#, fuzzy
+msgid "Global Email Settings"
+msgstr "Thiết đặt Email Toàn cầu"
+
+#: app/Services/TransStrings.php:295
+#, fuzzy
+msgid "Get FluentCRM Pro"
+msgstr "Nhận FluentCRM Pro"
+
+#: app/Services/TransStrings.php:294
+msgid "General Settings"
+msgstr "Cài đặt chung"
+
+#: app/Services/TransStrings.php:293
+#, fuzzy
+msgid "Funnel Name"
+msgstr "Tên Kênh"
+
+#: app/Services/TransStrings.php:292
+#, fuzzy
+msgid "Waiting for double opt-in confirmation"
+msgstr "Đang chờ xác nhận chọn tham gia kép"
+
+#: app/Services/TransStrings.php:291
+#, fuzzy
+msgid "Total Revenue from this funnel"
+msgstr "Tổng doanh thu từ kênh này"
+
+#: app/Services/TransStrings.php:290
+msgid "From Name"
+msgstr "Tên người gửi"
+
+#: app/Services/TransStrings.php:289
+msgid "From Email Address"
+msgstr "Email người gửi"
+
+#: app/Services/TransStrings.php:288
+msgid "From Email"
+msgstr "Từ Email"
+
+#: app/Services/TransStrings.php:284
+msgid "Form Title"
+msgstr "Tieu đề biểu mẫu"
+
+#: app/Services/TransStrings.php:282
+#, fuzzy
+msgid "Internal Subtitle (Optional)"
+msgstr "Phụ đề nội bộ (Tùy chọn)"
+
+#: app/Services/TransStrings.php:281
+#, fuzzy
+msgid "Grow Your Audience by Opt-in Forms"
+msgstr "Phát triển đối tượng của bạn bằng biểu mẫu chọn tham gia"
+
+#: app/Services/TransStrings.php:279
+msgid "Footer Text Color"
+msgstr "Mầu văn bản chân trang"
+
+#: app/Services/TransStrings.php:278
+#, fuzzy
+msgid "FluentSMTP"
+msgstr "Thông thạoMTP"
+
+#: app/Services/TransStrings.php:275
+msgid "Filter by status"
+msgstr "Lọc theo trạng thái"
+
+#: app/Services/TransStrings.php:274
+#, fuzzy
+msgid "Filter Subscribers"
+msgstr "Lọc người đăng ký"
+
+#: app/Services/TransStrings.php:273
+#, fuzzy
+msgid "Field Value Options"
+msgstr "Tùy chọn Giá trị Trường"
+
+#: app/Services/TransStrings.php:272
+msgid "Field Type"
+msgstr "Loại trường"
+
+#: app/Services/TransStrings.php:271
+#, fuzzy
+msgid "Exporting... Please wait"
+msgstr "Xuất khẩu... Hãy chờ"
+
+#: app/Services/TransStrings.php:270
+#, fuzzy
+msgid "Export Subscriber"
+msgstr "Xuất Thuê bao"
+
+#: app/Services/TransStrings.php:269
+#, fuzzy
+msgid "Export Contacts"
+msgstr "Xuất Liên hệ"
+
+#: app/Services/TransStrings.php:268
+msgid "Export"
+msgstr "Xuất ra"
+
+#: app/Services/TransStrings.php:267
+#, fuzzy
+msgid "Please select columns that you want to export"
+msgstr "Vui lòng chọn cột bạn muốn xuất"
+
+#: app/Services/TransStrings.php:266
+#, fuzzy
+msgid "Leave these blank for no limit or offset"
+msgstr "Để trống các khoảng trống này mà không có giới hạn hoặc bù đắp"
+
+#: app/Services/TransStrings.php:265
+#, fuzzy
+msgid "Excluded Contacts"
+msgstr "Liên hệ bị loại trừ"
+
+#: app/Services/TransStrings.php:264
+msgid "Event Name"
+msgstr "Tên sự kiện"
+
+#: app/Services/TransStrings.php:263
+#, fuzzy
+msgid "Errors Found"
+msgstr "Tìm thấy Lỗi"
+
+#: app/Services/TransStrings.php:262
+msgid "Errors"
+msgstr "Lỗi"
+
+#: app/Services/TransStrings.php:261
+msgid "Equal"
+msgstr "Bằng"
+
+#: app/Services/TransStrings.php:260
+#, fuzzy
+msgid "Ends With"
+msgstr "Kết thúc với"
+
+#: app/Services/TransStrings.php:259
+msgid "End date"
+msgstr "Ngày kết thúc"
+
+#: app/Services/TransStrings.php:258
+#, fuzzy
+msgid "End Range"
+msgstr "Phạm vi Kết thúc"
+
+#: app/Services/TransStrings.php:257
+#, fuzzy
+msgid "Emails will be sent now."
+msgstr "Email sẽ được gửi ngay bây giờ."
+
+#: app/Services/TransStrings.php:256
+#, fuzzy
+msgid "Emails Analytics"
+msgstr "Phân tích email"
+
+#: app/Services/TransStrings.php:254
+#, fuzzy
+msgid "Email opened"
+msgstr "Email đã mở"
+
+#: app/Services/TransStrings.php:252
+#, fuzzy
+msgid "Email Subject & Details"
+msgstr "Chủ đề và chi tiết email"
+
+#: app/Http/Controllers/SettingsController.php:67
+#: app/Services/TransStrings.php:251
+msgid "Email Subject"
+msgstr "Chủ đề email"
+
+#: app/Services/TransStrings.php:250
+#, fuzzy
+msgid "Email Styling Settings"
+msgstr "Thiết đặt Tạo kiểu Email"
+
+#: app/Services/TransStrings.php:249
+msgid "Email Settings"
+msgstr "Cài đặt email"
+
+#: app/Services/TransStrings.php:247
+#, fuzzy
+msgid "Email Sent %"
+msgstr "Email đã gửi %"
+
+#: app/Services/TransStrings.php:245
+msgid "Email Preview"
+msgstr "Xem trước Email"
+
+#: app/Services/TransStrings.php:244
+#, fuzzy
+msgid "Email Preference Settings"
+msgstr "Cài đặt Tùy chọn Email"
+
+#: app/Services/TransStrings.php:243
+#, fuzzy
+msgid "Email Pre-Header"
+msgstr "Email Trước Tiêu đề"
+
+#: app/Services/TransStrings.php:240
+#, fuzzy
+msgid "Email From Name"
+msgstr "Email từ tên"
+
+#: app/Services/TransStrings.php:239
+msgid "Email Footer Text"
+msgstr "Thông tin tại cuối email"
+
+#: app/Services/TransStrings.php:238
+#, fuzzy
+msgid "Email Footer Settings"
+msgstr "Thiết đặt Chân trang Email"
+
+#: app/Services/TransStrings.php:237
+#, fuzzy
+msgid "Email Clicks"
+msgstr "Số lần nhấp vào email"
+
+#: app/Http/Controllers/SettingsController.php:73
+#: app/Services/TransStrings.php:235
+msgid "Email Body"
+msgstr "Nội dung Email"
+
+#: app/Services/TransStrings.php:232
+#, fuzzy
+msgid "Your provided priority will be converted to percent and it's relative"
+msgstr "Mức độ ưu tiên được cung cấp của bạn sẽ được chuyển đổi thành phần trăm và đó là mức tương đối"
+
+#: app/Services/TransStrings.php:231
+#, fuzzy
+msgid "Enable A/B testing for email subjects"
+msgstr "Bật thử nghiệm A / B cho các chủ đề email"
+
+#: app/Services/TransStrings.php:230
+#, fuzzy
+msgid "Add UTM Parameters For URLs"
+msgstr "Thêm thông số UTM cho URL"
+
+#: app/Services/TransStrings.php:229
+#, fuzzy
+msgid "Edit The form"
+msgstr "Sửa biểu mẫu"
+
+#: app/Services/TransStrings.php:228
+msgid "Edit Subject"
+msgstr "Sửa tiêu đề"
+
+#: app/Services/TransStrings.php:227
+#, fuzzy
+msgid "Edit Smart link"
+msgstr "Sửa Nối kết thông minh"
+
+#: app/Services/TransStrings.php:226
+#, fuzzy
+msgid "Edit Sequence and Settings"
+msgstr "Sửa Trình tự và Thiết đặt"
+
+#: app/Services/TransStrings.php:225
+#, fuzzy
+msgid "Edit Recipients"
+msgstr "Sửa Người nhận"
+
+#: app/Services/TransStrings.php:224
+#, fuzzy
+msgid "Edit Note"
+msgstr "Sửa Ghi chú"
+
+#: app/Services/TransStrings.php:223
+#, fuzzy
+msgid "Edit Manager"
+msgstr "Sửa Trình quản lý"
+
+#: app/Services/TransStrings.php:220
+#, fuzzy
+msgid "Edit Email Body"
+msgstr "Sửa Nội dung Email"
+
+#: app/Services/TransStrings.php:219
+msgid "Edit Connection"
+msgstr "Sửa Kết nối"
+
+#: app/Services/TransStrings.php:218
+#, fuzzy
+msgid "Edit Connected Funnel"
+msgstr "Chỉnh sửa kênh được kết nối"
+
+#: app/Services/TransStrings.php:217
+#, fuzzy
+msgid "Edit Configuration"
+msgstr "Sửa Cấu hình"
+
+#: app/Services/TransStrings.php:216
+msgid "Edit Campaign"
+msgstr "Chỉnh sửa chiến dịch"
+
+#: app/Services/TransStrings.php:215
+#, fuzzy
+msgid "If you select a time range then FluentCRM schedule the email to that time range"
+msgstr "Nếu bạn chọn một khoảng thời gian thì FluentCRM lên lịch email đến khoảng thời gian đó"
+
+#: app/Services/TransStrings.php:213
+msgid "Duplicate"
+msgstr "Nhân bản"
+
+#: app/Services/TransStrings.php:212
+msgid "Drop"
+msgstr "Vứt"
+
+#: app/Services/TransStrings.php:211
+msgid "Draft"
+msgstr "Bản nháp"
+
+#: app/Services/TransStrings.php:210
+#, fuzzy
+msgid "Download sample file"
+msgstr "Tải xuống tệp mẫu"
+
+#: app/Services/TransStrings.php:209
+#, fuzzy
+msgid "Double Opt-in Settings"
+msgstr "Thiết đặt Chọn tham gia Kép"
+
+#: app/Services/TransStrings.php:208
+#, fuzzy
+msgid "Double Opt-in Email Settings Details"
+msgstr "Chi tiết thiết đặt email chọn tham gia kép"
+
+#: app/Services/AutoSubscribe.php:66 app/Services/AutoSubscribe.php:176
+#: app/Services/AutoSubscribe.php:318 app/Services/TransStrings.php:207
+msgid "Double Opt-In"
+msgstr "Opt-in kép"
+
+#: app/Services/TransStrings.php:206
+#, fuzzy
+msgid "Do another Action"
+msgstr "Thực hiện một hành động khác"
+
+#: app/Services/TransStrings.php:205
+#, fuzzy
+msgid "Detach Tags and Lists"
+msgstr "Tách thẻ và danh sách"
+
+#: app/Services/TransStrings.php:204
+#, fuzzy
+msgid "Design Your Button"
+msgstr "Thiết kế nút của bạn"
+
+#: app/Services/TransStrings.php:203
+msgid "Description"
+msgstr "Mô tả"
+
+#: app/Services/TransStrings.php:202
+#, fuzzy
+msgid "Delivery time"
+msgstr "Thời gian giao hàng"
+
+#: app/Services/TransStrings.php:201
+#, fuzzy
+msgid "Delivery Date & time"
+msgstr "Ngày và giờ giao hàng"
+
+#: app/Services/TransStrings.php:200
+msgid "Delivery Date"
+msgstr "Lịch giao hàng"
+
+#: app/Services/TransStrings.php:199
+#, fuzzy
+msgid "Delete older data more than?"
+msgstr "Xóa dữ liệu cũ hơn?"
+
+#: app/Services/TransStrings.php:198
+msgid "Delete Selected"
+msgstr "Xóa đã chọn"
+
+#: app/Services/TransStrings.php:197
+msgid "Delete"
+msgstr "Xóa"
+
+#: app/Services/TransStrings.php:196
+msgid "Delay"
+msgstr "Độ trễ"
+
+#: app/Services/TransStrings.php:195
+#, fuzzy
+msgid "Default Link Color"
+msgstr "Màu Nối kết Mặc định"
+
+#: app/Services/TransStrings.php:194
+#, fuzzy
+msgid "Default Headings Color"
+msgstr "Màu Đầu đề Mặc định"
+
+#: app/Services/TransStrings.php:193
+#, fuzzy
+msgid "Default From Settings"
+msgstr "Mặc định từ thiết đặt"
+
+#: app/Services/TransStrings.php:192
+#, fuzzy
+msgid "Default Content Color"
+msgstr "Màu Nội dung Mặc định"
+
+#: app/Services/Funnel/Actions/WaitTimeAction.php:46
+#: app/Services/TransStrings.php:191
+msgid "Days"
+msgstr "Ngày"
+
+#: app/Services/TransStrings.php:188
+msgid "Date"
+msgstr "Ngày"
+
+#: app/Services/TransStrings.php:186
+#, fuzzy
+msgid "View Email Sending Service Settings"
+msgstr "Xem Thiết đặt Dịch vụ Gửi Email"
+
+#: app/Services/TransStrings.php:185
+#, fuzzy
+msgid "Activate Fluent Forms Integration"
+msgstr "Kích hoạt tích hợp biểu mẫu trôi chảy"
+
+#: app/Services/TransStrings.php:184
+#, fuzzy
+msgid "Custom Profile Data"
+msgstr "Dữ liệu Hồ sơ Tùy chỉnh"
+
+#: app/Services/TransStrings.php:183
+#, fuzzy
+msgid "Custom Field Slug"
+msgstr "Sên trường tùy chỉnh"
+
+#: app/Services/TransStrings.php:182
+#, fuzzy
+msgid "Custom Field Label"
+msgstr "Nhãn Trường Tùy chỉnh"
+
+#: app/Services/TransStrings.php:181
+#, fuzzy
+msgid "Custom Contact Properties"
+msgstr "Thuộc tính Liên hệ Tùy chỉnh"
+
+#: app/Services/TransStrings.php:180
+#, fuzzy
+msgid "Custom Contact Fields"
+msgstr "Trường Liên hệ Tùy chỉnh"
+
+#: app/Services/TransStrings.php:179
+#, fuzzy
+msgid "Custom Contact Field"
+msgstr "Trường Liên hệ Tùy chỉnh"
+
+#: app/Services/TransStrings.php:175
+msgid "Created"
+msgstr "Đã tạo"
+
+#: app/Services/TransStrings.php:173
+#, fuzzy
+msgid "Create new email sequence"
+msgstr "Tạo trình tự email mới"
+
+#: app/Services/TransStrings.php:172
+#, fuzzy
+msgid "Create a new Smart link"
+msgstr "Tạo liên kết Thông minh mới"
+
+#: app/Services/TransStrings.php:170
+#, fuzzy
+msgid "Create a New Automation"
+msgstr "Tạo tự động hóa mới"
+
+#: app/Services/TransStrings.php:169
+#, fuzzy
+msgid "Create a Form"
+msgstr "Tạo Biểu mẫu"
+
+#: app/Services/TransStrings.php:167
+msgid "Create Template"
+msgstr "Tạo bản mẫu"
+
+#: app/Services/TransStrings.php:166
+#, fuzzy
+msgid "Create Smart Link"
+msgstr "Tạo Liên kết thông minh"
+
+#: app/Services/TransStrings.php:165
+#, fuzzy
+msgid "Create New Template"
+msgstr "Tạo Mẫu Mới"
+
+#: app/Services/TransStrings.php:164
+#, fuzzy
+msgid "Create New Sequence"
+msgstr "Tạo trình tự mới"
+
+#: app/Services/TransStrings.php:163
+#, fuzzy
+msgid "Create New Incoming Webhook"
+msgstr "Tạo Webhook Đến Mới"
+
+#: app/Services/TransStrings.php:162
+#, fuzzy
+msgid "Create New Campaign"
+msgstr "Tạo chiến dịch mới"
+
+#: app/Services/TransStrings.php:160
+#, fuzzy
+msgid "Create Email Template"
+msgstr "Tạo Mẫu Email"
+
+#: app/Services/TransStrings.php:158
+msgid "Create"
+msgstr "Tạo"
+
+#: app/Services/TransStrings.php:157
+#, fuzzy
+msgid "Please provide Name of this Segment"
+msgstr "Vui lòng cung cấp Tên của Phân khúc này"
+
+#: app/Services/TransStrings.php:156
+#, fuzzy
+msgid "Counts"
+msgstr "Số loại bài"
+
+#: app/Services/TransStrings.php:154
+msgid "Continue"
+msgstr "Tiếp tục"
+
+#: app/Services/TransStrings.php:153
+#, fuzzy
+msgid "Content Max Width (PX)"
+msgstr "Nội dung Tối đa Chiều rộng (PX)"
+
+#: app/Services/TransStrings.php:152
+msgid "Content Font Family"
+msgstr "Họ Phông chữ nội dung"
+
+#: app/Services/TransStrings.php:151
+msgid "Content Background Color"
+msgstr "Màu nền nội dung"
+
+#: app/Services/TransStrings.php:150
+msgid "Contains"
+msgstr "Chứa"
+
+#: app/Services/TransStrings.php:149
+#, fuzzy
+msgid "Contacts that are invalid"
+msgstr "Liên hệ không hợp lệ"
+
+#: app/Services/TransStrings.php:147
+#, fuzzy
+msgid "Contact only see and manage the following list subscriptions"
+msgstr "Liên hệ chỉ xem và quản lý các đăng ký danh sách sau"
+
+#: app/Services/TransStrings.php:146
+#, fuzzy
+msgid "Contact can see all lists and manage subscriptions"
+msgstr "Liên hệ có thể xem tất cả danh sách và quản lý đăng ký"
+
+#: app/Services/TransStrings.php:143
+#, fuzzy
+msgid "Contact Field"
+msgstr "Trường Liên hệ"
+
+#: app/Services/TransStrings.php:142
+#, fuzzy
+msgid "Contact Export Offset"
+msgstr "Liên hệ Xuất Offset"
+
+#: app/Services/TransStrings.php:141
+#, fuzzy
+msgid "Contact Export Limit"
+msgstr "Giới hạn xuất liên hệ"
+
+#: app/Services/TransStrings.php:139
+msgid "Confirm Import"
+msgstr "Xác nhận nhập vào"
+
+#: app/Services/TransStrings.php:136
+msgid "Conditions"
+msgstr "Điều kiện"
+
+#: app/Services/TransStrings.php:135
+#, fuzzy
+msgid "Conditionals"
+msgstr "Điều kiện"
+
+#: app/Services/TransStrings.php:134
+#, fuzzy
+msgid "Condition Blocks"
+msgstr "Khối Điều kiện"
+
+#: app/Services/TransStrings.php:133
+#, fuzzy
+msgid "Compose Your Email Body"
+msgstr "Soạn nội dung email của bạn"
+
+#: app/Services/TransStrings.php:132
+msgid "Compose"
+msgstr "Soạn thư"
+
+#: app/Services/TransStrings.php:131
+msgid "Completed"
+msgstr "Đã hoàn thành"
+
+#: app/Services/TransStrings.php:130
+#, fuzzy
+msgid "Complete Import"
+msgstr "Nhập Hoàn tất"
+
+#: app/Services/TransStrings.php:129
+#, fuzzy
+msgid "Comma Separated (,)"
+msgstr "Phân tách bằng dấu phẩy (,)"
+
+#: app/Services/TransStrings.php:128
+msgid "Columns"
+msgstr "Cột"
+
+#: app/Services/TransStrings.php:127
+#, fuzzy
+msgid "Close Log"
+msgstr "Đóng Nhật ký"
+
+#: app/Services/TransStrings.php:126
+msgid "Close"
+msgstr "Đóng"
+
+#: app/Services/TransStrings.php:125
+msgid "Clicked"
+msgstr "Đã nhấp"
+
+#: app/Services/TransStrings.php:124
+#, fuzzy
+msgid "Click Rate"
+msgstr "Nhấp vào Biểu tượng Tỷ lệ"
+
+#: app/Services/TransStrings.php:121
+#, fuzzy
+msgid "Choose a List"
+msgstr "Chọn danh sách"
+
+#: app/Services/TransStrings.php:120
+#, fuzzy
+msgid "Choose New"
+msgstr "Chọn Mới"
+
+#: app/Services/TransStrings.php:119
+#, fuzzy
+msgid "Chart Report"
+msgstr "Báo cáo Biểu đồ"
+
+#: app/Services/TransStrings.php:118
+#, fuzzy
+msgid "Change Contact Type"
+msgstr "Thay đổi Loại Liên hệ"
+
+#: app/Services/TransStrings.php:117
+msgid "Change"
+msgstr "Thay đổi"
+
+#: app/Services/TransStrings.php:116
+msgid "Category"
+msgstr "Thể loại"
+
+#: app/Services/TransStrings.php:115
+#, fuzzy
+msgid "Cancel Editing"
+msgstr "Hủy Sửa"
+
+#: app/Services/TransStrings.php:113
+#, fuzzy
+msgid "Can a subscriber manage list subscriptions?"
+msgstr "Người đăng ký có thể quản lý đăng ký danh sách không?"
+
+#: app/Services/TransStrings.php:111
+msgid "Campaign Title"
+msgstr "Tiêu đề chiến dịch"
+
+#: app/Services/TransStrings.php:110
+#, fuzzy
+msgid "Campaign Term"
+msgstr "Thời hạn chiến dịch"
+
+#: app/Services/TransStrings.php:109
+#, fuzzy
+msgid "Campaign Source (required)"
+msgstr "Nguồn chiến dịch (bắt buộc)"
+
+#: app/Services/TransStrings.php:108
+#, fuzzy
+msgid "Campaign Settings"
+msgstr "Cài đặt chiến dịch"
+
+#: app/Services/TransStrings.php:107
+#, fuzzy
+msgid "Campaign Recipients"
+msgstr "Người nhận chiến dịch"
+
+#: app/Services/TransStrings.php:106
+#, fuzzy
+msgid "Campaign Name (required)"
+msgstr "Tên chiến dịch (bắt buộc)"
+
+#: app/Services/TransStrings.php:105
+#, fuzzy
+msgid "Campaign Medium (required)"
+msgstr "Phương tiện chiến dịch (bắt buộc)"
+
+#: app/Services/TransStrings.php:104
+#, fuzzy
+msgid "Campaign Link Clicks"
+msgstr "Số lần nhấp vào liên kết chiến dịch"
+
+#: app/Services/TransStrings.php:103
+msgid "Campaign Details"
+msgstr "Chi tiết chiến dịch"
+
+#: app/Services/TransStrings.php:102
+#, fuzzy
+msgid "Campaign Content"
+msgstr "Nội dung chiến dịch"
+
+#: app/Services/TransStrings.php:101
+#, fuzzy
+msgid "Campaign Actions"
+msgstr "Hành động chiến dịch"
+
+#: app/Services/TransStrings.php:100
+msgid "Campaign"
+msgstr "Chiến dịch"
+
+#: app/Services/TransStrings.php:99
+#, fuzzy
+msgid "contacts has been processed"
+msgstr "liên hệ đã được xử lý"
+
+#: app/Services/TransStrings.php:98 app/Services/TransStrings.php:629
+#, fuzzy
+msgid "Type custom email to send test or leave blank to send current user email"
+msgstr "Nhập email tùy chỉnh để gửi kiểm tra hoặc để trống để gửi email người dùng hiện tại"
+
+#: app/Services/TransStrings.php:97
+#, fuzzy
+msgid "Sorry no links found that contacts clicked"
+msgstr "Rất tiếc không có liên kết nào tìm thấy mà liên hệ đã nhấp vào"
+
+#: app/Services/TransStrings.php:96
+#, fuzzy
+msgid "Send or schedule campaign emails"
+msgstr "Gửi hoặc lên lịch email chiến dịch"
+
+#: app/Services/TransStrings.php:95
+#, fuzzy
+msgid "Select URLS that where clicked (Will Match for any Selected URLs)"
+msgstr "Chọn URL mà nơi nhấp vào (Sẽ khớp với bất kỳ URL đã chọn nào)"
+
+#: app/Services/TransStrings.php:94
+#, fuzzy
+msgid "Select Subscribers who open the emails"
+msgstr "Chọn Người đăng ký mở email"
+
+#: app/Services/TransStrings.php:93
+#, fuzzy
+msgid "Select Subscribers who did not open email"
+msgstr "Chọn Người đăng ký không mở email"
+
+#: app/Services/TransStrings.php:92
+#, fuzzy
+msgid "Select Subscribers who click selected links"
+msgstr "Chọn Người đăng ký nhấp vào liên kết đã chọn"
+
+#: app/Services/TransStrings.php:91
+#, fuzzy
+msgid "Remove Tags From Subscribers"
+msgstr "Xóa thẻ khỏi người đăng ký"
+
+#: app/Services/TransStrings.php:90
+#, fuzzy
+msgid "Please provide email body."
+msgstr "Vui lòng cung cấp nội dung email."
+
+#: app/Services/TransStrings.php:89
+#, fuzzy
+msgid "Please provide email Subject."
+msgstr "Vui lòng cung cấp chủ đề email."
+
+#: app/Services/TransStrings.php:88
+#, fuzzy
+msgid "Please provide email Body."
+msgstr "Vui lòng cung cấp nội dung email."
+
+#: app/Services/TransStrings.php:87
+#, fuzzy
+msgid "Please provide Subject Lines for A/B Test."
+msgstr "Vui lòng cung cấp dòng chủ đề cho bài kiểm tra A / B."
+
+#: app/Services/TransStrings.php:86
+#, fuzzy
+msgid "Looks like you did not broadcast any email campaign yet"
+msgstr "Có vẻ như bạn chưa phát sóng bất kỳ chiến dịch email nào"
+
+#: app/Services/TransStrings.php:85
+#, fuzzy
+msgid "If you think everything is alright. You can broadcast/Schedule the emails now."
+msgstr "Nếu anh nghĩ mọi thứ đều ổn. Bạn có thể phát sóng / Lên lịch email ngay bây giờ."
+
+#: app/Services/TransStrings.php:84
+#, fuzzy
+msgid "Email body successfully updated"
+msgstr "Nội dung email được cập nhật thành công"
+
+#: app/Services/TransStrings.php:83
+#, fuzzy
+msgid "Current Server Time (Based on your Site Settings)"
+msgstr "Thời gian Hệ phục vụ Hiện tại (Dựa trên Thiết đặt Trang của bạn)"
+
+#: app/Services/TransStrings.php:82
+#, fuzzy
+msgid "Create Your First Email Campaign"
+msgstr "Tạo chiến dịch email đầu tiên của bạn"
+
+#: app/Services/TransStrings.php:81
+#, fuzzy
+msgid "Continue To Next Step [Recipients]"
+msgstr "Tiếp tục bước tiếp theo [Người nhận]"
+
+#: app/Services/TransStrings.php:80
+#, fuzzy
+msgid "Continue [Subject & Settings]"
+msgstr "Tiếp tục [Chủ đề &thiết lập]"
+
+#: app/Services/TransStrings.php:79
+#, fuzzy
+msgid "Contacts processed so far..."
+msgstr "Danh bạ đã được xử lý cho đến nay..."
+
+#: app/Services/TransStrings.php:78
+#, fuzzy
+msgid "Broadcast/Schedule This Email Campaign Now"
+msgstr "Phát sóng / Lên lịch Chiến dịch email này ngay bây giờ"
+
+#: app/Services/TransStrings.php:77
+#, fuzzy
+msgid "Add/Remove Tag of your Contacts based on email interaction"
+msgstr "Thêm/Xóa Thẻ Liên hệ của bạn dựa trên tương tác email"
+
+#: app/Services/TransStrings.php:76
+#, fuzzy
+msgid "CSV Headers"
+msgstr "Tiêu đề CSV"
+
+#: app/Services/TransStrings.php:74
+msgid "CSV"
+msgstr "CSV"
+
+#: app/Services/TransStrings.php:73
+#, fuzzy
+msgid "CRON Job Status"
+msgstr "Tình trạng công việc CRON"
+
+#: app/Services/TransStrings.php:72
+#, fuzzy
+msgid "By List & Tag"
+msgstr "Theo Danh sách & Thẻ"
+
+#: app/Services/TransStrings.php:71
+#, fuzzy
+msgid "By Dynamic Segment"
+msgstr "Theo phân khúc động"
+
+#: app/Services/TransStrings.php:69
+msgid "Button Preview"
+msgstr "Xem trước nút"
+
+#: app/Services/TransStrings.php:68
+#, fuzzy
+msgid "Business Settings"
+msgstr "Thiết đặt Doanh nghiệp"
+
+#: app/Services/TransStrings.php:66
+#, fuzzy
+msgid "Business Full Address"
+msgstr "Địa chỉ đầy đủ của doanh nghiệp"
+
+#: app/Services/TransStrings.php:65
+msgid "Body Background Color"
+msgstr "Màu nền Thân trang"
+
+#: app/Services/TransStrings.php:64
+#, fuzzy
+msgid "Benchmarks"
+msgstr "Điểm chuẩn"
+
+#: app/Services/TransStrings.php:63
+#, fuzzy
+msgid "BenchMark/Trigger Block"
+msgstr "Khối Băng ghế dự bị / Kích hoạt"
+
+#: app/Services/TransStrings.php:62
+msgid "Basic Information"
+msgstr "Thông tin cơ bản"
+
+#: app/Services/TransStrings.php:60
+#, fuzzy
+msgid "Back to Sequence"
+msgstr "Quay lại trình tự"
+
+#: app/Services/TransStrings.php:59
+#, fuzzy
+msgid "Back To Campaigns"
+msgstr "Quay lại chiến dịch"
+
+#: app/Services/TransStrings.php:58
+msgid "Back"
+msgstr "Quay lại"
+
+#: app/Services/TransStrings.php:56
+#, fuzzy
+msgid "Automation Funnels"
+msgstr "Phễu tự động hóa"
+
+#: app/Services/TransStrings.php:55
+#, fuzzy
+msgid "Automation Funnel"
+msgstr "Kênh tự động hóa"
+
+#: app/Services/TransStrings.php:54
+#, fuzzy
+msgid "Attached Tags and Lists"
+msgstr "Thẻ và Danh sách Đính kèm"
+
+#: app/Services/TransStrings.php:53
+msgid "Archived"
+msgstr "Đã lưu"
+
+#: app/Services/TransStrings.php:52
+msgid "Apply"
+msgstr "Áp dụng"
+
+#: app/Services/TransStrings.php:51
+#, fuzzy
+msgid "Looks like you did not set any sequence emails yet"
+msgstr "Có vẻ như bạn chưa đặt bất kỳ email trình tự nào"
+
+#: app/Services/TransStrings.php:50
+#, fuzzy
+msgid "Create Your First Email Sequence"
+msgstr "Tạo chuỗi email đầu tiên của bạn"
+
+#: app/Services/TransStrings.php:49
+#, fuzzy
+msgid "Create dynamic Segments of contacts by using dynamic contact properties and filter your target audience"
+msgstr "Tạo Phân đoạn người liên hệ động bằng cách sử dụng thuộc tính người liên hệ động và lọc đối tượng mục tiêu của bạn"
+
+#: app/Services/TransStrings.php:48
+#, fuzzy
+msgid "All available subscribers"
+msgstr "Tất cả người đăng ký có sẵn"
+
+#: app/Services/TransStrings.php:47
+#, fuzzy
+msgid "All available contacts"
+msgstr "Tất cả các liên hệ có sẵn"
+
+#: app/Services/TransStrings.php:46
+#, fuzzy
+msgid "All Lists"
+msgstr "Tất cả Danh sách"
+
+#: app/Services/TransStrings.php:45
+#, fuzzy
+msgid "All Email Activities"
+msgstr "Tất cả các hoạt động email"
+
+#: app/Services/TransStrings.php:44
+msgid "All Done"
+msgstr "Đã Xong"
+
+#: app/Services/TransStrings.php:43
+msgid "All"
+msgstr "Tất cả"
+
+#: app/Services/TransStrings.php:40
+#, fuzzy
+msgid "Address Information"
+msgstr "Thông tin địa chỉ"
+
+#: app/Services/TransStrings.php:39
+#, fuzzy
+msgid "The subscriber is already present in the database."
+msgstr "Người đăng ký đã có mặt trong cơ sở dữ liệu."
+
+#: app/Services/TransStrings.php:38
+#, fuzzy
+msgid "Add to Tags"
+msgstr "Thêm vào Thẻ"
+
+#: app/Services/TransStrings.php:37
+#, fuzzy
+msgid "Add to List"
+msgstr "Thêm vào Danh sách"
+
+#: app/Services/TransStrings.php:36
+#, fuzzy
+msgid "Add or Remove"
+msgstr "Thêm hoặc xóa thẻ"
+
+#: app/Services/TransStrings.php:35
+#, fuzzy
+msgid "Add new Manager"
+msgstr "Thêm Trình quản lý Mới"
+
+#: app/Services/TransStrings.php:34
+#, fuzzy
+msgid "Add a Sequence Email"
+msgstr "Thêm email theo trình tự"
+
+#: app/Services/TransStrings.php:33
+#, fuzzy
+msgid "Add Tags to Subscribers"
+msgstr "Thêm thẻ vào người đăng ký"
+
+#: app/Services/TransStrings.php:32
+#, fuzzy
+msgid "Add Tags"
+msgstr "Thêm Thẻ"
+
+#: app/Services/TransStrings.php:31
+#, fuzzy
+msgid "Add Subscribers"
+msgstr "Thêm người đăng ký"
+
+#: app/Services/TransStrings.php:30
+#, fuzzy
+msgid "Add New Smart Link"
+msgstr "Thêm Nối kết Thông minh Mới"
+
+#: app/Services/TransStrings.php:29
+msgid "Add New Custom Field"
+msgstr "Thêm trường tùy chọn mới"
+
+#: app/Services/TransStrings.php:27
+#, fuzzy
+msgid "Add New Condition"
+msgstr "Thêm Điều kiện Mới"
+
+#: app/Services/TransStrings.php:26
+msgid "Add New"
+msgstr "Thêm mới"
+
+#: app/Services/TransStrings.php:25
+msgid "Add More"
+msgstr "Thêm nữa"
+
+#: app/Services/TransStrings.php:23
+#, fuzzy
+msgid "Add Campaign Title"
+msgstr "Thêm Tiêu đề Chiến dịch"
+
+#: app/Services/TransStrings.php:20
+#, fuzzy
+msgid "Add Action"
+msgstr "Thêm Hành động"
+
+#: app/Services/TransStrings.php:17
+msgid "Action Type"
+msgstr "Kiểu hành động"
+
+#: app/Services/TransStrings.php:16
+#, fuzzy
+msgid "Action Blocks"
+msgstr "Khối Hành động"
+
+#: app/Services/TransStrings.php:15
+msgid "Action"
+msgstr "Hành động"
+
+#: app/Services/TransStrings.php:14
+#, fuzzy
+msgid "A/B Testing Result"
+msgstr "Kết quả xét nghiệm A/B"
+
+#: app/Services/TransStrings.php:13
+msgid "+ Photo"
+msgstr "+ Ảnh"
+
+#: app/Services/Helper.php:250
+msgid "Raw HTML"
+msgstr "HTML thô"
+
+#: app/Services/Helper.php:244
+msgid "Classic"
+msgstr "Cổ điển"
+
+#: app/Services/Helper.php:238
+#, fuzzy
+msgid "Plain Centered"
+msgstr "Đồng bằng trung tâm"
+
+#: app/Services/Helper.php:232
+#, fuzzy
+msgid "Simple Boxed"
+msgstr "Đóng hộp đơn giản"
+
+#: app/Services/Helper.php:172
+#, fuzzy
+msgid "Manage Subscription URL"
+msgstr "Quản lý URL gói đăng ký"
+
+#: app/Services/Helper.php:171
+#, fuzzy
+msgid "Unsubscribe URL"
+msgstr "Hủy đăng ký URL"
+
+#: app/Services/Helper.php:170
+msgid "Site URL"
+msgstr "URL trang web"
+
+#: app/Services/Helper.php:169
+msgid "Admin Email"
+msgstr "Email quản trị"
+
+#: app/Services/Helper.php:168
+#, fuzzy
+msgid "Business Address"
+msgstr "Địa chỉ doanh nghiệp"
+
+#: app/Services/TransStrings.php:67 app/Services/Helper.php:167
+#, fuzzy
+msgid "Business Name"
+msgstr "Tên doanh nghiệp"
+
+#: app/Services/Helper.php:165
+msgid "General"
+msgstr "Tổng quan"
+
+#: app/Services/Helper.php:143
+msgid "Phone Number"
+msgstr "Số điện thoại"
+
+#: app/Services/Funnel/FunnelHelper.php:158 app/Services/TransStrings.php:392
+#: app/Services/Helper.php:141
+msgid "Postal Code"
+msgstr "Mã bưu điện"
+
+#: app/Services/Funnel/FunnelHelper.php:166 app/Services/TransStrings.php:518
+#: app/Services/Helper.php:140
+msgid "State"
+msgstr "Tỉnh"
+
+#: app/Services/Funnel/FunnelHelper.php:162 app/Services/TransStrings.php:123
+#: app/Services/Helper.php:139
+msgid "City"
+msgstr "Thành phố"
+
+#: app/Services/Funnel/FunnelHelper.php:154 app/Services/TransStrings.php:42
+#: app/Services/Helper.php:138
+msgid "Address Line 2"
+msgstr "Địa chỉ 2"
+
+#: app/Services/Funnel/FunnelHelper.php:150 app/Services/TransStrings.php:41
+#: app/Services/Helper.php:137
+msgid "Address Line 1"
+msgstr "Địa chỉ 1"
+
+#: app/Services/TransStrings.php:566 app/Services/Helper.php:136
+msgid "User ID"
+msgstr "ID người dùng"
+
+#: app/Services/Helper.php:135
+#, fuzzy
+msgid "Contact ID"
+msgstr "ID Liên hệ"
+
+#: app/Services/Helper.php:134
+msgid "Contact Email"
+msgstr "Thư liên lạc"
+
+#: app/Services/Funnel/FunnelHelper.php:146 app/Services/Helper.php:131
+msgid "Name Prefix"
+msgstr "Tên tiền tố"
+
+#: app/Services/TransStrings.php:140 app/Services/Helper.php:128
+msgid "Contact"
+msgstr "Liên hệ"
+
+#: app/Services/Helper.php:112
+#, fuzzy
+msgid "Notes & Activities"
+msgstr "Ghi chú & Hoạt động"
+
+#: app/Services/Helper.php:105
+msgid "Support Tickets"
+msgstr "Các Vé Hỗ Trợ"
+
+#: app/Services/Helper.php:96
+#, fuzzy
+msgid "Form Submissions"
+msgstr "Đệ trình biểu mẫu"
+
+#: app/Services/Helper.php:88
+msgid "Purchase History"
+msgstr "Lịch sử nhận lớp"
+
+#: app/Services/Helper.php:75
+msgid "Overview"
+msgstr "Tổng quan"
+
+#: app/Services/Stats.php:112
+#, fuzzy
+msgid "Documentations"
+msgstr "Tài liệu"
+
+#: app/Services/Stats.php:82
+#, fuzzy
+msgid "Contact Segments"
+msgstr "Phân đoạn liên hệ"
+
+#: app/Services/Stats.php:77
+msgid "View Contacts"
+msgstr "Xem liên hệ"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:358
+#, fuzzy
+msgid "Contact has been updated in FluentCRM. Contact ID: "
+msgstr "Liên hệ đã được cập nhật trong FluentCRM. ID liên hệ: "
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:331
+#, fuzzy
+msgid "Contact has been created in FluentCRM. Contact ID: "
+msgstr "Liên hệ đã được tạo bằng FluentCRM. ID liên hệ: "
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:284
+#, fuzzy
+msgid "Contact creation has been skipped because contact already exist in the database"
+msgstr "Tạo liên hệ đã bị bỏ qua vì liên hệ đã tồn tại trong cơ sở dữ liệu"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:271
+#, fuzzy
+msgid "FluentCRM API called skipped because no valid email available"
+msgstr "API FluentCRM được gọi là đã bỏ qua vì không có email hợp lệ nào có sẵn"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:199
+#, fuzzy
+msgid "Enable This feed"
+msgstr "Bật luồng dẫn Này"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:191
+#, fuzzy
+msgid "Allow FluentCRM integration conditionally based on your submission values"
+msgstr "Cho phép tích hợp FluentCRM có điều kiện dựa trên giá trị gửi của bạn"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:190
+#, fuzzy
+msgid "Conditional Logics"
+msgstr "Logic có điều kiện"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:184
+#, fuzzy
+msgid "Enable Double Option for new contacts"
+msgstr "Bật Tùy chọn Kép cho liên hệ mới"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:178
+#, fuzzy
+msgid "Skip if contact already exist in FluentCRM"
+msgstr "Bỏ qua nếu liên hệ đã tồn tại trong FluentCRM"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:171
+#, fuzzy
+msgid "Set Tag"
+msgstr "Đặt Thẻ"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:169
+#, fuzzy
+msgid "Enable Dynamic Tag Selection"
+msgstr "Bật Lựa chọn thẻ động"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:161
+#: app/Services/Funnel/Actions/ApplyTagAction.php:41
+#: app/Services/Funnel/Actions/DetachTagAction.php:40
+#: app/Services/Funnel/Benchmarks/TagAppliedBenchmark.php:55
+#: app/Services/Funnel/Benchmarks/TagAppliedBenchmark.php:56
+#: app/Services/Funnel/Benchmarks/RemoveFromTagBenchmark.php:54
+#: app/Services/TransStrings.php:470
+msgid "Select Tags"
+msgstr "Chọn Thẻ"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:160
+msgid "Contact Tags"
+msgstr "Từ khóa Liên hệ"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:150
+msgid "Other Fields"
+msgstr "Lĩnh vực Khác"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:143
+#, fuzzy
+msgid "If First Name & Last Name is not available full name will be used to get first name and last name"
+msgstr "Nếu Họ và Tên không có sẵn, tên đầy đủ sẽ được sử dụng để lấy họ và tên"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:142
+#: app/Services/Helper.php:130
+msgid "Full Name"
+msgstr "Họ và tên"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:128
+#: app/Services/TransStrings.php:234
+msgid "Email Address"
+msgstr "Địa chỉ Email"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:124
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:154
+#: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:80
+#, fuzzy
+msgid "Form Field"
+msgstr "Trường Biểu mẫu"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:123
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:153
+#, fuzzy
+msgid "FluentCRM Field"
+msgstr "Trường FluentCRM"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:121
+#, fuzzy
+msgid "Associate your FluentCRM merge tags to the appropriate Fluent Form fields by selecting the appropriate form field from the list."
+msgstr "Liên kết các thẻ phối FluentCRM của bạn với các trường Biểu mẫu thành thạo thích hợp bằng cách chọn trường biểu mẫu thích hợp từ danh sách."
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:120
+#, fuzzy
+msgid "Primary Fields"
+msgstr "Trường chính"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:112
+#, fuzzy
+msgid "Select the FluentCRM List you would like to add your contacts to."
+msgstr "Chọn Danh sách FluentCRM mà bạn muốn thêm liên hệ của mình vào."
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:111
+#, fuzzy
+msgid "Select FluentCRM List"
+msgstr "Chọn danh sách FluentCRM"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:110
+#, fuzzy
+msgid "FluentCRM List"
+msgstr "Danh sách FluentCRM"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:105
+#, fuzzy
+msgid "Your Feed Name"
+msgstr "Tên Nguồn cấp dữ liệu của bạn"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:103
+msgid "Feed Name"
+msgstr "Tên Feed"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:49
+#, fuzzy
+msgid "Set FluentCRM"
+msgstr "Đặt FluentCRM"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:48
+#, fuzzy
+msgid "FluentCRM is not configured yet! Please configure your FluentCRM api first"
+msgstr "FluentCRM chưa được cấu hình! Vui lòng cấu hình api FluentCRM của bạn trước"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:46
+#, fuzzy
+msgid "Configuration required!"
+msgstr "Cấu hình cần thiết!"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:33
+#, fuzzy
+msgid "Connect FluentCRM with WP Fluent Forms and subscribe a contact when a form is submitted."
+msgstr "Kết nối FluentCRM với WP Fluent Forms và đăng ký một liên hệ khi một biểu mẫu được gửi."
+
+#: app/Services/ExternalIntegrations/FluentForm/FluentFormInit.php:46
+#, fuzzy
+msgid "FluentCRM Profile"
+msgstr "Hồ sơ FluentCRM"
+
+#: app/Services/Reporting.php:137
+msgid "Entrance"
+msgstr "Entoransu"
+
+#: app/views/external/unsubscribe.php:50
+#, fuzzy
+msgid "Please specify"
+msgstr "Vui lòng nêu rõ"
+
+#: app/Functions/helpers.php:372
+msgid "Facebook Post"
+msgstr "Bài đăng trên Facebook"
+
+#: app/Functions/helpers.php:371
+msgid "Tweet"
+msgstr "Tweet"
+
+#: app/Functions/helpers.php:370
+msgid "Feedback"
+msgstr "Phản hồi"
+
+#: app/Functions/helpers.php:369
+msgid "Transaction"
+msgstr "Giao dịch"
+
+#: app/Functions/helpers.php:368
+#, fuzzy
+msgid "Invoice: Refunded"
+msgstr "Hóa đơn: Đã hoàn tiền"
+
+#: app/Functions/helpers.php:367
+#, fuzzy
+msgid "Invoice: Paid"
+msgstr "Hóa đơn: Đã thanh toán"
+
+#: app/Functions/helpers.php:366
+#, fuzzy
+msgid "Invoice: Part Paid"
+msgstr "Hóa đơn: Một phần đã thanh toán"
+
+#: app/Functions/helpers.php:365
+#, fuzzy
+msgid "Invoice: Sent"
+msgstr "Hóa đơn: Đã gửi"
+
+#: app/Functions/helpers.php:364
+#, fuzzy
+msgid "Quote: Refused"
+msgstr "Trích dẫn: Bị từ chối"
+
+#: app/Functions/helpers.php:363
+#, fuzzy
+msgid "Quote: Accepted"
+msgstr "Trích dẫn: Được chấp nhận"
+
+#: app/Functions/helpers.php:362
+#, fuzzy
+msgid "Quote: Sent"
+msgstr "Trích dẫn: Đã gửi"
+
+#: app/Functions/helpers.php:361
+msgid "Meeting"
+msgstr "Cuộc họp"
+
+#: app/Functions/helpers.php:359
+msgid "Call"
+msgstr "Gọi"
+
+#: app/Functions/helpers.php:358 app/Services/TransStrings.php:379
+msgid "Note"
+msgstr "Ghi chú"
+
+#: app/Functions/helpers.php:351
+msgid "Customer"
+msgstr "Khách hàng"
+
+#: app/Functions/helpers.php:350
+msgid "Lead"
+msgstr "Tiềm năng"
+
+#: assets/admin/js/conditional_block.js:1
+#, fuzzy
+msgid "Condition Type"
+msgstr "Loại điều kiện"
+
+#: assets/admin/js/conditional_block.js:1
+#, fuzzy
+msgid "Conditional Settings"
+msgstr "Thiết đặt Có điều kiện"
+
+#: assets/admin/js/conditional_block.js:1
+msgid "section"
+msgstr "mục"
+
+#: app/Services/TransStrings.php:654 assets/admin/js/conditional_block.js:1
+#, fuzzy
+msgid "conditional"
+msgstr "Điều kiện"
+
+#: assets/admin/js/conditional_block.js:1
+#, fuzzy
+msgid "Add a conditional section that separates content, and put any other block into it. Show/hide this section based on visitors login state or available tags"
+msgstr "Thêm một phần có điều kiện phân tách nội dung và đặt bất kỳ khối nào khác vào đó. Hiện/ẩn phần này dựa trên trạng thái đăng nhập của khách truy cập hoặc các thẻ có sẵn"
+
+#: assets/admin/js/conditional_block.js:1
+#, fuzzy
+msgid "Conditional Section"
+msgstr "Phần có điều kiện"
+
+#: assets/block_editor/index.js:15
+msgid "Unlink"
+msgstr "Hủy liên kết"
+
+#: assets/block_editor/index.js:15
+#, fuzzy
+msgid "Link removed."
+msgstr "Liên kết đã bị xóa."
+
+#: app/Services/TransStrings.php:508 assets/block_editor/index.js:15
+#, fuzzy
+msgid "SmartLinks"
+msgstr "Liên kết thông minh"
+
+#: assets/block_editor/index.js:15
+#, fuzzy
+msgid "Sponsored Link"
+msgstr "Liên kết được tài trợ"
+
+#: assets/block_editor/index.js:15
+msgid "Nofollow"
+msgstr "Không theo dõi"
+
+#: assets/block_editor/index.js:15
+msgid "Open in New Tab"
+msgstr "Mở tab mới"
+
+#: assets/block_editor/index.js:15
+msgid "Warning: the link has been inserted but may have errors. Please test it."
+msgstr "Cảnh báo: liên kết đã được đưa vào nhưng vẫn có thể sai sót. Hãy kiểm tra lại."
+
+#: assets/block_editor/index.js:15
+msgid "Link inserted."
+msgstr "Link đã được chèn."
+
+#: assets/block_editor/index.js:15
+#, fuzzy
+msgid "Link edited."
+msgstr "Liên kết đã chỉnh sửa."
+
+#: assets/block_editor/index.js:15
+msgid "Edit"
+msgstr "Sửa"
+
+#: assets/block_editor/index.js:15
+#, fuzzy
+msgid "Insert Pretty Link"
+msgstr "Chèn Nối kết Đẹp"
+
+#. translators: accessibility label for external links, where the argument is
+#. the link text
+#: assets/block_editor/index.js:15
+#, fuzzy
+msgid "%s (opens in a new tab)"
+msgstr "%s (mở trong tab mới)"
+
+#: assets/block_editor/index.js:13
+#, fuzzy
+msgid "Paste or type to search for your Pretty Link"
+msgstr "Dán hoặc nhập để tìm kiếm Pretty Link của bạn"
+
+#: app/Services/TransStrings.php:549 assets/block_editor/index.js:13
+msgid "URL"
+msgstr "URL"
+
+#: assets/block_editor/index.js:13
+msgid "Link selected."
+msgstr "Link đã chọn."
+
+#: assets/block_editor/index.js:13
+msgid "No results."
+msgstr "Không có kết quả."
+
+#: assets/block_editor/index.js:13
+#, fuzzy
+msgid "%d result found, use up and down arrow keys to navigate."
+msgid_plural "%d results found, use up and down arrow keys to navigate."
+msgstr[0] "%d tìm thấy kết quả, hãy sử dụng các phím mũi tên lên và xuống để điều hướng."
+
+#: app/Hooks/Handlers/AdminMenu.php:234
+#, fuzzy
+msgid "All Emails"
+msgstr "Tất cả email"
+
+#: app/Hooks/Handlers/AdminMenu.php:212 app/Services/TransStrings.php:255
+#: app/Services/Helper.php:80
+msgid "Emails"
+msgstr "Email"
+
+#: app/Http/Controllers/SetupController.php:64
+#, fuzzy
+msgid "FluentSMTP plugin has been installed and activated successfully"
+msgstr "Plugin FluentSMTP đã được cài đặt và kích hoạt thành công"
+
+#: app/Http/Controllers/SetupController.php:55
+#, fuzzy
+msgid "Sorry! you do not have permission to install plugin"
+msgstr "Xin lỗi! bạn không có quyền cài đặt plugin"
+
+#: app/Http/Controllers/SettingsController.php:402
+#, fuzzy
+msgid "Logs older than %d days have been deleted successfully"
+msgstr "Nhật ký cũ hơn %d đã bị xóa thành công"
+
+#: app/Http/Controllers/SettingsController.php:349
+#: app/Http/Controllers/SettingsController.php:358
+#, fuzzy
+msgid "Email clicks"
+msgstr "Số lần nhấp qua email"
+
+#: app/Http/Controllers/SettingsController.php:340
+#, fuzzy
+msgid "Email History Logs"
+msgstr "Nhật ký lịch sử email"
+
+#: app/Http/Controllers/SubscriberController.php:480
+#, fuzzy
+msgid "Custom Email has been successfully sent"
+msgstr "Email Tùy chỉnh đã được gửi thành công"
+
+#: app/Http/Controllers/SubscriberController.php:457
+#, fuzzy
+msgid "Subscriber's status need to be subscribed."
+msgstr "Trạng thái của người đăng ký cần được đăng ký."
+
+#: app/Http/Controllers/SubscriberController.php:446
+#, fuzzy
+msgid "Custom Email to Contact"
+msgstr "Email tùy chỉnh để liên hệ"
+
+#: app/Http/Controllers/SubscriberController.php:330
+#: app/Http/Controllers/ReportingController.php:62
+#, fuzzy
+msgid "Selected emails has been deleted"
+msgstr "Email đã chọn đã bị xóa"
+
+#: app/Services/TransStrings.php:531
+#, fuzzy
+msgid "System Defined"
+msgstr "Hệ thống được xác định"
+
+#: app/Services/TransStrings.php:159
+#, fuzzy
+msgid "Create Custom Segment"
+msgstr "Tạo Phân đoạn Tùy chỉnh"
+
+#: app/Services/TransStrings.php:214
+#, fuzzy
+msgid "Dynamic Segments"
+msgstr "Phân khúc động"
+
+#: app/Services/TransStrings.php:363
+#, fuzzy
+msgid "Next [Map Columns]"
+msgstr "Tiếp theo [Cột bản đồ]"
+
+#: app/Services/TransStrings.php:473
+#, fuzzy
+msgid "Select Your CSV Delimiter"
+msgstr "Chọn Dấu tách CSV"
+
+#: app/Services/TransStrings.php:359
+msgid "Next"
+msgstr "Tiếp"
+
+#: app/Services/TransStrings.php:589
+msgid "WordPress Users"
+msgstr "Người dùng"
+
+#: app/Services/TransStrings.php:75
+msgid "CSV File"
+msgstr "Tệp tin CSV"
+
+#: app/Services/TransStrings.php:137
+msgid "Configuration"
+msgstr "Cấu hình"
+
+#: app/Services/TransStrings.php:145
+msgid "Contact Source"
+msgstr "Nguồn liên hệ"
+
+#: app/Services/TransStrings.php:481
+msgid "Select tags"
+msgstr "Chọn từ khóa"
+
+#: app/Services/TransStrings.php:480
+#, fuzzy
+msgid "Select lists"
+msgstr "Chọn danh sách"
+
+#: app/Services/TransStrings.php:304
+#, fuzzy
+msgid "Identifiers"
+msgstr "Số nhận dạng"
+
+#: app/Services/TransStrings.php:24
+#, fuzzy
+msgid "Add Custom Data"
+msgstr "Thêm Dữ liệu Tùy chỉnh"
+
+#: app/Services/TransStrings.php:22
+#, fuzzy
+msgid "Add Address Info"
+msgstr "Thêm Thông tin Địa chỉ"
+
+#: app/Services/TransStrings.php:388
+msgid "Pick a date"
+msgstr "Chọn một ngày"
+
+#: app/Services/TransStrings.php:190 app/Services/Helper.php:145
+msgid "Date of Birth"
+msgstr "Ngày sinh"
+
+#: app/Services/TransStrings.php:393
+msgid "Prefix"
+msgstr "Tiền tố"
+
+#: app/Services/TransStrings.php:61
+msgid "Basic Info"
+msgstr "Thông tin cơ bản"
+
+#: app/Services/TransStrings.php:189
+msgid "Date Added"
+msgstr "Đã thêm ngày"
+
+#: app/Services/TransStrings.php:456
+#, fuzzy
+msgid "Search Type and Enter..."
+msgstr "Loại Tìm kiếm và Nhập..."
+
+#: app/Services/TransStrings.php:322
+msgid "Last Activity"
+msgstr "Hoạt động gần nhất"
+
+#: app/Services/TransStrings.php:641
+#, fuzzy
+msgid "Last Change Date"
+msgstr "Ngày Thay đổi Cuối cùng"
+
+#: app/Services/TransStrings.php:176
+msgid "Created At"
+msgstr "Tạo Lúc"
+
+#: app/Services/TransStrings.php:155 app/Services/Helper.php:142
+msgid "Country"
+msgstr "Quốc gia"
+
+#: app/Services/Funnel/FunnelHelper.php:174 app/Services/TransStrings.php:386
+msgid "Phone"
+msgstr "Điện thoại"
+
+#: app/Services/TransStrings.php:510
+msgid "Source"
+msgstr "Nguồn"
+
+#: app/Services/TransStrings.php:639
+msgid "Contact Type"
+msgstr "Kiểu Liên hệ"
+
+#: app/Services/TransStrings.php:122
+#, fuzzy
+msgid "Choose an option:"
+msgstr "Chọn một sự lựa chọn"
+
+#: app/Services/TransStrings.php:458
+msgid "Search..."
+msgstr "Tìm kiếm..."
+
+#: app/Services/TransStrings.php:276
+#, fuzzy
+msgid "Filtered by"
+msgstr "Lọc theo"
+
+#: app/Services/TransStrings.php:138
+msgid "Confirm"
+msgstr "Xác nhận"
+
+#: app/Services/TransStrings.php:114
+msgid "Cancel"
+msgstr "Hủy"
+
+#: app/Services/TransStrings.php:28
+msgid "Add New Contact"
+msgstr "Thêm liên hệ"
+
+#: app/Services/TransStrings.php:305
+msgid "Import"
+msgstr "Nhập"
+
+#: app/Services/TransStrings.php:19
+msgid "Add"
+msgstr "Thêm"
+
+#: app/Services/TransStrings.php:354
+msgid "Name"
+msgstr "Tên"
+
+#: app/Services/TransStrings.php:178
+msgid "Cumulative"
+msgstr "Tích lũy"
+
+#: app/Services/TransStrings.php:70
+#, fuzzy
+msgid "By Date"
+msgstr "Ngày"
+
+#: app/Hooks/Handlers/AdminBar.php:68 app/Services/TransStrings.php:414
+msgid "Quick Links"
+msgstr "Links câu đố"
+
+#: app/Services/TransStrings.php:415
+msgid "Quick Overview"
+msgstr "GIỚI THIỆU NHANH"
+
+#: app/Services/TransStrings.php:241
+#, fuzzy
+msgid "Email Link Click Stats"
+msgstr "Liên kết email Nhấp vào số liệu thống kê"
+
+#: app/Services/TransStrings.php:242
+#, fuzzy
+msgid "Email Open Stats"
+msgstr "Gửi email số liệu thống kê mở"
+
+#: app/Services/TransStrings.php:246
+#, fuzzy
+msgid "Email Sending Stats"
+msgstr "Số liệu thống kê gửi email"
+
+#: app/Services/TransStrings.php:530
+#, fuzzy
+msgid "Subscribers Growth"
+msgstr "Tăng trưởng người đăng ký"
+
+#: app/Services/TransStrings.php:161
+msgid "Create Form"
+msgstr "Tạo mới Form"
+
+#: app/Services/TransStrings.php:603
+#, fuzzy
+msgid "This form will be created in Fluent Forms and you can customize anytime"
+msgstr "Biểu mẫu này sẽ được tạo trong Biểu mẫu trôi chảy và bạn có thể tùy chỉnh bất cứ lúc nào"
+
+#: app/Services/TransStrings.php:600
+#, fuzzy
+msgid "Enable Double Opt-in Confirmation"
+msgstr "Bật xác nhận chọn tham gia kép"
+
+#: app/Services/TransStrings.php:476
+msgid "Select a template"
+msgstr "Lựa chọn mẫu"
+
+#: app/Services/TransStrings.php:221
+msgid "Edit Form"
+msgstr "Chỉnh sửa biểu mẫu"
+
+#: app/Services/TransStrings.php:222
+#, fuzzy
+msgid "Edit Integration Settings"
+msgstr "Sửa Thiết đặt Tích hợp"
+
+#: app/Services/TransStrings.php:396
+#, fuzzy
+msgid "Preview Form"
+msgstr "Biểu mẫu Xem trước"
+
+#: app/Services/TransStrings.php:18
+msgid "Actions"
+msgstr "Hành động"
+
+#: app/Services/TransStrings.php:177
+msgid "Created at"
+msgstr "Tạo tại"
+
+#: app/Services/TransStrings.php:500
+msgid "Shortcode"
+msgstr "Mã ngắn"
+
+#: app/Services/TransStrings.php:313
+msgid "Info"
+msgstr "Thông tin"
+
+#: app/Services/TransStrings.php:536
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: app/Services/TransStrings.php:302
+msgid "ID"
+msgstr "ID"
+
+#: app/Services/TransStrings.php:280 app/Services/TransStrings.php:286
+#, fuzzy
+msgid "Fluent Forms that are connected with your CRM"
+msgstr "Biểu mẫu thành thạo được kết nối với CRM của bạn"
+
+#: app/Services/TransStrings.php:168
+#, fuzzy
+msgid "Create Your First Form"
+msgstr "Tạo biểu mẫu đầu tiên của bạn"
+
+#: app/Services/TransStrings.php:283
+#, fuzzy
+msgid "Looks Like you did not create any forms yet!"
+msgstr "Có vẻ như bạn chưa tạo bất kỳ hình thức nào!"
+
+#: app/Services/TransStrings.php:171
+msgid "Create a New Form"
+msgstr "Tạo một mẫu mới"
+
+#: app/Services/TransStrings.php:174
+#, fuzzy
+msgid "Paste the following shortcode to any page or post to start growing your audience"
+msgstr "Dán shortcode sau vào bất kỳ trang hoặc bài đăng nào để bắt đầu phát triển đối tượng của bạn"
+
+#: app/Services/TransStrings.php:287
+#, fuzzy
+msgid "If you need to create and connect more advanced forms please use Fluent Forms."
+msgstr "Nếu bạn cần tạo và kết nối các biểu mẫu nâng cao hơn, vui lòng sử dụng Biểu mẫu thành thạo."
+
+#: app/Services/TransStrings.php:511
+#, fuzzy
+msgid "Select Source from where you want to import your contacts"
+msgstr "Chọn Nguồn từ nơi bạn muốn nhập liên hệ của mình"
+
+#: app/Services/TransStrings.php:350
+#, fuzzy
+msgid "Please map the csv headers with the respective subscriber fields."
+msgstr "Vui lòng ánh xạ tiêu đề csv với các trường thuê bao tương ứng."
+
+#: app/Services/TransStrings.php:349
+#, fuzzy
+msgid "Map CSV Fields with Contact Property"
+msgstr "Ánh xạ trường CSV với Thuộc tính Liên hệ"
+
+#: app/Functions/helpers.php:360 app/Services/Funnel/FunnelHelper.php:136
+#: app/Services/TransStrings.php:233
+msgid "Email"
+msgstr "Email"
+
+#: app/Services/TransStrings.php:520 app/Services/Helper.php:144
+msgid "Status"
+msgstr "Trạng thái"
+
+#: app/Services/TransStrings.php:144
+#, fuzzy
+msgid "Contact ID:"
+msgstr "ID liên hệ:"
+
+#: app/Http/Controllers/CampaignController.php:702
+#, fuzzy
+msgid "Campaign has been successfully duplicated"
+msgstr "Chiến dịch đã được sao chép thành công"
+
+#: app/Http/Controllers/FunnelController.php:429
+#, fuzzy
+msgid "Subscribed has been removed from this automation funnel"
+msgstr "Đã đăng ký đã bị xóa khỏi kênh tự động hóa này"
+
+#: app/Http/Controllers/CampaignController.php:630
+#, fuzzy
+msgid "You can only resume a campaign if it is on \"paused\" state, Please reload this page"
+msgstr "Bạn chỉ có thể tiếp tục chiến dịch nếu chiến dịch ở trạng thái \"tạm dừng\", Vui lòng tải lại trang này"
+
+#: app/Http/Controllers/CampaignController.php:605
+#, fuzzy
+msgid "You can only pause a campaign if it is on \"Working\" state, Please reload this page"
+msgstr "Bạn chỉ có thể tạm dừng chiến dịch nếu chiến dịch ở trạng thái \"Đang hoạt động\", Vui lòng tải lại trang này"
+
+#: app/Http/Controllers/FunnelController.php:319
+#, fuzzy
+msgid "Funnel has been successfully cloned"
+msgstr "Phễu đã được nhân bản thành công"
+
+#: app/Http/Controllers/SettingsController.php:320
+#, fuzzy
+msgid "Selected CRON Event successfully ran"
+msgstr "Sự kiện CRON đã chọn chạy thành công"
+
+#: app/Http/Controllers/SettingsController.php:276
+#: app/Http/Controllers/SettingsController.php:308
+#, fuzzy
+msgid "Scheduled Automation Tasks"
+msgstr "Tác vụ tự động hóa theo lịch trình"
+
+#: app/Http/Controllers/SettingsController.php:275
+#: app/Http/Controllers/SettingsController.php:307
+#, fuzzy
+msgid "Scheduled Email Sending"
+msgstr "Gửi email theo lịch trình"
+
+#: app/Hooks/Handlers/ExternalPages.php:254
+#, fuzzy
+msgid "Sorry, No email found based on your data"
+msgstr "Rất tiếc, Không tìm thấy email nào dựa trên dữ liệu của bạn"
+
+#: app/Hooks/Handlers/AdminMenu.php:104 app/Hooks/Handlers/AdminMenu.php:105
+#: app/Hooks/Handlers/AdminMenu.php:253 app/Services/Stats.php:102
+#: app/Services/TransStrings.php:57
+#, fuzzy
+msgid "Automations"
+msgstr "Tự động hóa"
+
+#: assets/block_editor/index.js:13
+#, fuzzy
+msgid "Select or Upload Media"
+msgstr "Chọn hoặc Tải lên Phương tiện"
+
+#: assets/block_editor/index.js:13
+#, fuzzy
+msgid "Block Settings"
+msgstr "Thiết đặt Khối"
+
+#: assets/block_editor/index.js:13
+#, fuzzy
+msgid "advanced settings."
+msgstr "cài đặt nâng cao."
+
+#. translators: accessibility text for the footer landmark region.
+#: assets/block_editor/index.js:13
+msgid "Footer"
+msgstr "Footer"
+
+#. translators: accessibility text for the publish landmark region.
+#: assets/block_editor/index.js:11
+msgid "Publish"
+msgstr "Xuất bản"
+
+#. translators: accessibility text for the left sidebar landmark region.
+#: assets/block_editor/index.js:7
+msgid "Left sidebar"
+msgstr "Sidebar trái"
+
+#. translators: accessibility text for the content landmark region.
+#: assets/block_editor/index.js:5
+msgid "Content"
+msgstr "Nội dung"
+
+#. translators: accessibility text for the top bar landmark region.
+#: assets/block_editor/index.js:3
+msgid "Header"
+msgstr "Đầu trang"
+
+#: app/Hooks/Handlers/FormSubmissions.php:12
+msgid "Fluent Forms"
+msgstr "Fluent Forms"
+
+#: app/Hooks/Handlers/FormSubmissions.php:11
+#, fuzzy
+msgid "Form Submissions (Fluent Forms)"
+msgstr "Đệ trình biểu mẫu (Biểu mẫu trôi chảy)"
+
+#: app/Hooks/Handlers/ExternalPages.php:639
+#, fuzzy
+msgid "Your provided information has been successfully updated"
+msgstr "Thông tin được cung cấp của bạn đã được cập nhật thành công"
+
+#: app/Hooks/Handlers/ExternalPages.php:634
+#, fuzzy
+msgid "A conformation email has been sent to %s. Please confirm your email address to resubscribe"
+msgstr "Một email hình dạng đã được gửi đến %s. Vui lòng xác nhận địa chỉ email của bạn để đăng ký lại"
+
+#: app/Hooks/Handlers/ExternalPages.php:614
+#, fuzzy
+msgid "A conformation email has been sent to %s. Please confirm your email address to resubscribe with changed email address"
+msgstr "Một email hình dạng đã được gửi đến %s. Vui lòng xác nhận địa chỉ email của bạn để đăng ký lại với địa chỉ email đã thay đổi"
+
+#: app/Hooks/Handlers/ExternalPages.php:595
+#, fuzzy
+msgid "The new email has been used to another account. Please use a new email address"
+msgstr "Email mới đã được sử dụng cho một tài khoản khác. Vui lòng sử dụng địa chỉ email mới"
+
+#: app/Hooks/Handlers/ExternalPages.php:587
+#, fuzzy
+msgid "Email is not valid. Please provide a valid email"
+msgstr "Email không hợp lệ. Vui lòng cung cấp email hợp lệ"
+
+#: app/Hooks/Handlers/ExternalPages.php:563
+#, fuzzy
+msgid "Sorry! No subscriber found in the database"
+msgstr "Xin lỗi! Không tìm thấy người đăng ký trong cơ sở dữ liệu"
+
+#: app/Hooks/Handlers/ExternalPages.php:298
+#, fuzzy
+msgid "You are successfully unsubscribed from the email list"
+msgstr "Bạn hủy đăng ký thành công khỏi danh sách email"
+
+#: app/Hooks/Handlers/ExternalPages.php:242
+#, fuzzy
+msgid "Other (fill in reason below)"
+msgstr "Khác (điền lý do bên dưới)"
+
+#: app/Hooks/Handlers/ExternalPages.php:239
+#, fuzzy
+msgid "The emails are spam"
+msgstr "Các email là thư rác"
+
+#: app/Hooks/Handlers/ExternalPages.php:238
+#, fuzzy
+msgid "The emails are inappropriate"
+msgstr "Các email không phù hợp"
+
+#: app/Hooks/Handlers/ExternalPages.php:237
+#, fuzzy
+msgid "I never signed up for this email list"
+msgstr "Tôi chưa bao giờ đăng ký danh sách email này"
+
+#: app/Hooks/Handlers/ExternalPages.php:236
+#, fuzzy
+msgid "I no longer want to receive these emails"
+msgstr "Tôi không còn muốn nhận những email này nữa"
+
+#: app/Hooks/Handlers/SupportTicketsProviders.php:12
+msgid "Awesome Support"
+msgstr "Awesome Support"
+
+#: app/Hooks/Handlers/SupportTicketsProviders.php:11
+#, fuzzy
+msgid "Support Tickets by Awesome Support"
+msgstr "Hỗ trợ vé bằng hỗ trợ tuyệt vời"
+
+#: app/Hooks/Handlers/AdminMenu.php:501
+msgid "Full Size"
+msgstr "Kích Thước Đầy Đủ"
+
+#: app/Hooks/Handlers/AdminMenu.php:500
+msgid "Large"
+msgstr "Lớn"
+
+#: app/Hooks/Handlers/AdminMenu.php:499
+msgid "Medium"
+msgstr "Trung Bình"
+
+#: app/Hooks/Handlers/AdminMenu.php:498
+msgid "Thumbnail"
+msgstr "Hình nhỏ"
+
+#: app/Hooks/Handlers/AdminMenu.php:82 app/Hooks/Handlers/AdminMenu.php:83
+#: app/Hooks/Handlers/AdminMenu.php:224 app/Services/Stats.php:92
+#: app/Services/TransStrings.php:248
+#, fuzzy
+msgid "Email Sequences"
+msgstr "Trình tự email"
+
+#: app/Hooks/Handlers/AdminMenu.php:219
+msgid "All Campaigns"
+msgstr "Tất cả chiến dịch"
+
+#: app/Services/Stats.php:87 app/Services/TransStrings.php:236
+msgid "Email Campaigns"
+msgstr "Chiến Dịch Email"
+
+#: app/Hooks/Handlers/AdminMenu.php:201
+msgid "Segments"
+msgstr "Phân khúc"
+
+#: app/Hooks/Handlers/AdminMenu.php:196 app/Services/TransStrings.php:640
+msgid "Tags"
+msgstr "Thẻ"
+
+#: app/Hooks/Handlers/AdminMenu.php:182
+#, fuzzy
+msgid "All Contacts"
+msgstr "Tất cả Liên hệ"
+
+#. translators: accessibility text for the settings landmark region.
+#: app/Hooks/Handlers/AdminMenu.php:115 app/Hooks/Handlers/AdminMenu.php:116
+#: app/Hooks/Handlers/AdminMenu.php:261 app/Services/Stats.php:107
+#: assets/block_editor/index.js:9
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: app/Hooks/Handlers/AdminMenu.php:93 app/Hooks/Handlers/AdminMenu.php:94
+#: app/Hooks/Handlers/AdminMenu.php:245 app/Services/Stats.php:97
+#: app/Services/TransStrings.php:285
+msgid "Forms"
+msgstr "Biểu mẫu"
+
+#: app/Hooks/Handlers/AdminMenu.php:62 app/Hooks/Handlers/AdminMenu.php:63
+#: app/Hooks/Handlers/AdminMenu.php:177 app/Services/TransStrings.php:148
+msgid "Contacts"
+msgstr "Liên hệ"
+
+#: app/Hooks/Handlers/AdminMenu.php:52 app/Hooks/Handlers/AdminMenu.php:53
+#: app/Hooks/Handlers/AdminMenu.php:169 app/Services/TransStrings.php:187
+msgid "Dashboard"
+msgstr "Bảng điều khiển"
+
+#: app/Hooks/Handlers/AdminMenu.php:41 app/Hooks/Handlers/AdminMenu.php:42
+#, fuzzy
+msgid "FluentCRM"
+msgstr "FluentCRM"
+
+#: app/Hooks/Handlers/Gutenberg.php:62
+msgid "Template"
+msgstr "Bản mẫu"
+
+#: app/Hooks/Handlers/Gutenberg.php:61
+msgid "Templates"
+msgstr "Mẫu"
+
+#: app/Hooks/Handlers/CountryNames.php:1009
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: app/Hooks/Handlers/CountryNames.php:1005
+msgid "Zambia"
+msgstr "Zambia"
+
+#: app/Hooks/Handlers/CountryNames.php:1001
+msgid "Yemen"
+msgstr "Yemen"
+
+#: app/Hooks/Handlers/CountryNames.php:997
+msgid "Samoa"
+msgstr "Samoa"
+
+#: app/Hooks/Handlers/CountryNames.php:993
+msgid "Western Sahara"
+msgstr "Tây Sahara"
+
+#: app/Hooks/Handlers/CountryNames.php:989
+msgid "Wallis and Futuna"
+msgstr "Wallis và Futuna"
+
+#: app/Hooks/Handlers/CountryNames.php:977
+msgid "Vietnam"
+msgstr "Việt Nam"
+
+#: app/Hooks/Handlers/CountryNames.php:973
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: app/Hooks/Handlers/CountryNames.php:969
+msgid "Vatican"
+msgstr "Vatican"
+
+#: app/Hooks/Handlers/CountryNames.php:965
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: app/Hooks/Handlers/CountryNames.php:961
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+#: app/Hooks/Handlers/CountryNames.php:957
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: app/Hooks/Handlers/CountryNames.php:953
+msgid "United States (US) Minor Outlying Islands"
+msgstr "Quần đảo xa xôi nhỏ của Hoa Kỳ (Hoa Kỳ)"
+
+#: app/Hooks/Handlers/CountryNames.php:949
+msgid "United States (US)"
+msgstr "Hoa Kỳ (Hoa Kỳ)"
+
+#: app/Hooks/Handlers/CountryNames.php:945
+msgid "United Kingdom (UK)"
+msgstr "Vương quốc Anh (Anh)"
+
+#: app/Hooks/Handlers/CountryNames.php:941
+msgid "United Arab Emirates"
+msgstr "Tiểu Vương Quốc Ả Rập Thống Nhất"
+
+#: app/Hooks/Handlers/CountryNames.php:937
+msgid "Ukraine"
+msgstr "Ukraina"
+
+#: app/Hooks/Handlers/CountryNames.php:933
+msgid "Uganda"
+msgstr "Uganda"
+
+#: app/Hooks/Handlers/CountryNames.php:929
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: app/Hooks/Handlers/CountryNames.php:925
+msgid "Turks and Caicos Islands"
+msgstr "Quần đảo Turks và Caicos"
+
+#: app/Hooks/Handlers/CountryNames.php:921
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: app/Hooks/Handlers/CountryNames.php:917
+msgid "Turkey"
+msgstr "Thổ Nhĩ Kỳ"
+
+#: app/Hooks/Handlers/CountryNames.php:913
+msgid "Tunisia"
+msgstr "Tunisia"
+
+#: app/Hooks/Handlers/CountryNames.php:909
+msgid "Trinidad and Tobago"
+msgstr "Trinidad và Tobago"
+
+#: app/Hooks/Handlers/CountryNames.php:905
+msgid "Tonga"
+msgstr "Tonga"
+
+#: app/Hooks/Handlers/CountryNames.php:901
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: app/Hooks/Handlers/CountryNames.php:897
+msgid "Togo"
+msgstr "Tô-gô"
+
+#: app/Hooks/Handlers/CountryNames.php:893
+msgid "Timor-Leste"
+msgstr "Đông Timor"
+
+#: app/Hooks/Handlers/CountryNames.php:889
+msgid "Thailand"
+msgstr "Thái Lan"
+
+#: app/Hooks/Handlers/CountryNames.php:885
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#: app/Hooks/Handlers/CountryNames.php:881
+msgid "Tajikistan"
+msgstr "Tajikistan"
+
+#: app/Hooks/Handlers/CountryNames.php:877
+msgid "Taiwan"
+msgstr "Đài Loan"
+
+#: app/Hooks/Handlers/CountryNames.php:873
+msgid "Syria"
+msgstr "Syria"
+
+#: app/Hooks/Handlers/CountryNames.php:869
+msgid "Switzerland"
+msgstr "Thụy sĩ"
+
+#: app/Hooks/Handlers/CountryNames.php:865
+msgid "Sweden"
+msgstr "Thụy Điển"
+
+#: app/Hooks/Handlers/CountryNames.php:861
+msgid "Swaziland"
+msgstr "Swaziland"
+
+#: app/Hooks/Handlers/CountryNames.php:857
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard và Jan Mayen"
+
+#: app/Hooks/Handlers/CountryNames.php:853
+msgid "Suriname"
+msgstr "Suriname"
+
+#: app/Hooks/Handlers/CountryNames.php:849
+msgid "Sudan"
+msgstr "Sudan"
+
+#: app/Hooks/Handlers/CountryNames.php:845
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: app/Hooks/Handlers/CountryNames.php:841
+msgid "Spain"
+msgstr "Tây Ban Nha"
+
+#: app/Hooks/Handlers/CountryNames.php:837
+msgid "South Sudan"
+msgstr "Phía nam Sudan"
+
+#: app/Hooks/Handlers/CountryNames.php:833
+msgid "South Korea"
+msgstr "Hàn Quốc"
+
+#: app/Hooks/Handlers/CountryNames.php:829
+msgid "South Georgia/Sandwich Islands"
+msgstr "Quần đảo Nam Georgia / Sandwich"
+
+#: app/Hooks/Handlers/CountryNames.php:825
+msgid "South Africa"
+msgstr "Nam Phi"
+
+#: app/Hooks/Handlers/CountryNames.php:821
+msgid "Somalia"
+msgstr "Somalia"
+
+#: app/Hooks/Handlers/CountryNames.php:817
+msgid "Solomon Islands"
+msgstr "Quần đảo Solomon"
+
+#: app/Hooks/Handlers/CountryNames.php:813
+msgid "Slovenia"
+msgstr "Slovenia"
+
+#: app/Hooks/Handlers/CountryNames.php:809
+msgid "Slovakia"
+msgstr "Slovakia"
+
+#: app/Hooks/Handlers/CountryNames.php:805
+msgid "Singapore"
+msgstr "Singapore"
+
+#: app/Hooks/Handlers/CountryNames.php:801
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: app/Hooks/Handlers/CountryNames.php:797
+msgid "Seychelles"
+msgstr "Seychelles"
+
+#: app/Hooks/Handlers/CountryNames.php:793
+msgid "Serbia"
+msgstr "Serbia"
+
+#: app/Hooks/Handlers/CountryNames.php:789
+msgid "Senegal"
+msgstr "Senegal"
+
+#: app/Hooks/Handlers/CountryNames.php:785
+msgid "Saudi Arabia"
+msgstr "Ả Rập Xê Út"
+
+#: app/Hooks/Handlers/CountryNames.php:781
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr "S & atilde; o Tom & eacute; và Pr & iacute; ncipe"
+
+#: app/Hooks/Handlers/CountryNames.php:777
+msgid "San Marino"
+msgstr "San Marino"
+
+#: app/Hooks/Handlers/CountryNames.php:773
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent và Grenadines"
+
+#: app/Hooks/Handlers/CountryNames.php:769
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre và Miquelon"
+
+#: app/Hooks/Handlers/CountryNames.php:765
+msgid "Saint Martin (Dutch part)"
+msgstr "Saint Martin (Hà Lan )"
+
+#: app/Hooks/Handlers/CountryNames.php:761
+msgid "Saint Martin (French part)"
+msgstr "Saint Martin (Pháp)"
+
+#: app/Hooks/Handlers/CountryNames.php:757
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+#: app/Hooks/Handlers/CountryNames.php:753
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts và Nevis"
+
+#: app/Hooks/Handlers/CountryNames.php:749
+msgid "Saint Helena"
+msgstr "Saint Helena"
+
+#: app/Hooks/Handlers/CountryNames.php:745
+msgid "Saint Barth&eacute;lemy"
+msgstr "Saint Barth & eacute; kẻ thù"
+
+#: app/Hooks/Handlers/CountryNames.php:741
+msgid "Rwanda"
+msgstr "Rwanda"
+
+#: app/Hooks/Handlers/CountryNames.php:737
+#, fuzzy
+msgid "Russia"
+msgstr "Nga"
+
+#: app/Hooks/Handlers/CountryNames.php:733
+msgid "Romania"
+msgstr "Romania"
+
+#: app/Hooks/Handlers/CountryNames.php:729
+msgid "Reunion"
+msgstr "Reunion"
+
+#: app/Hooks/Handlers/CountryNames.php:725
+msgid "Qatar"
+msgstr "Qatar"
+
+#: app/Hooks/Handlers/CountryNames.php:721
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: app/Hooks/Handlers/CountryNames.php:717
+msgid "Portugal"
+msgstr "Bồ Đào Nha"
+
+#: app/Hooks/Handlers/CountryNames.php:713
+msgid "Poland"
+msgstr "Ba Lan"
+
+#: app/Hooks/Handlers/CountryNames.php:709
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: app/Hooks/Handlers/CountryNames.php:705
+msgid "Philippines"
+msgstr "Philippines"
+
+#: app/Hooks/Handlers/CountryNames.php:701
+#, fuzzy
+msgid "Peru"
+msgstr "Peru"
+
+#: app/Hooks/Handlers/CountryNames.php:697
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: app/Hooks/Handlers/CountryNames.php:693
+msgid "Papua New Guinea"
+msgstr "Papua New Guinea"
+
+#: app/Hooks/Handlers/CountryNames.php:689
+msgid "Panama"
+msgstr "Panama"
+
+#: app/Hooks/Handlers/CountryNames.php:685
+msgid "Palestinian Territory"
+msgstr "Lãnh thổ của người Palestin"
+
+#: app/Hooks/Handlers/CountryNames.php:681
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: app/Hooks/Handlers/CountryNames.php:677
+msgid "Oman"
+msgstr "Oman"
+
+#: app/Hooks/Handlers/CountryNames.php:673
+msgid "Norway"
+msgstr "Na Uy"
+
+#: app/Hooks/Handlers/CountryNames.php:669
+msgid "North Korea"
+msgstr "Triều Tiên"
+
+#: app/Hooks/Handlers/CountryNames.php:665
+msgid "Northern Mariana Islands"
+msgstr "Quần đảo Bắc Mariana"
+
+#: app/Hooks/Handlers/CountryNames.php:661
+msgid "Norfolk Island"
+msgstr "Đảo Norfolk"
+
+#: app/Hooks/Handlers/CountryNames.php:657
+msgid "Niue"
+msgstr "Niue"
+
+#: app/Hooks/Handlers/CountryNames.php:653
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: app/Hooks/Handlers/CountryNames.php:649
+msgid "Niger"
+msgstr "Nigeria"
+
+#: app/Hooks/Handlers/CountryNames.php:645
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: app/Hooks/Handlers/CountryNames.php:641
+msgid "New Zealand"
+msgstr "New Zealand"
+
+#: app/Hooks/Handlers/CountryNames.php:637
+msgid "New Caledonia"
+msgstr "Nouvelle-Calédonie"
+
+#: app/Hooks/Handlers/CountryNames.php:633
+msgid "Netherlands"
+msgstr "Hà Lan"
+
+#: app/Hooks/Handlers/CountryNames.php:629
+msgid "Nepal"
+msgstr "Nepal"
+
+#: app/Hooks/Handlers/CountryNames.php:625
+msgid "Nauru"
+msgstr "Nauru"
+
+#: app/Hooks/Handlers/CountryNames.php:621
+msgid "Namibia"
+msgstr "Namibia"
+
+#: app/Hooks/Handlers/CountryNames.php:617
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: app/Hooks/Handlers/CountryNames.php:613
+msgid "Mozambique"
+msgstr "Mozambique"
+
+#: app/Hooks/Handlers/CountryNames.php:609
+msgid "Morocco"
+msgstr "Ma-rốc"
+
+#: app/Hooks/Handlers/CountryNames.php:605
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: app/Hooks/Handlers/CountryNames.php:601
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: app/Hooks/Handlers/CountryNames.php:597
+msgid "Mongolia"
+msgstr "Mông Cổ"
+
+#: app/Hooks/Handlers/CountryNames.php:593
+msgid "Monaco"
+msgstr "Monaco"
+
+#: app/Hooks/Handlers/CountryNames.php:589
+msgid "Moldova"
+msgstr "Moldova"
+
+#: app/Hooks/Handlers/CountryNames.php:585
+msgid "Micronesia"
+msgstr "Micronesia"
+
+#: app/Hooks/Handlers/CountryNames.php:581
+msgid "Mexico"
+msgstr "Mexico"
+
+#: app/Hooks/Handlers/CountryNames.php:577
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: app/Hooks/Handlers/CountryNames.php:573
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: app/Hooks/Handlers/CountryNames.php:569
+msgid "Mauritania"
+msgstr "Mauritania"
+
+#: app/Hooks/Handlers/CountryNames.php:565
+msgid "Martinique"
+msgstr "Martinique"
+
+#: app/Hooks/Handlers/CountryNames.php:561
+msgid "Marshall Islands"
+msgstr "Đảo Marshall"
+
+#: app/Hooks/Handlers/CountryNames.php:557
+msgid "Malta"
+msgstr "Malta"
+
+#: app/Hooks/Handlers/CountryNames.php:553
+msgid "Mali"
+msgstr "Mali"
+
+#: app/Hooks/Handlers/CountryNames.php:549
+msgid "Maldives"
+msgstr "Maldives"
+
+#: app/Hooks/Handlers/CountryNames.php:545
+msgid "Malaysia"
+msgstr "Malaysia"
+
+#: app/Hooks/Handlers/CountryNames.php:541
+msgid "Malawi"
+msgstr "Malawi"
+
+#: app/Hooks/Handlers/CountryNames.php:537
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: app/Hooks/Handlers/CountryNames.php:525
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+#: app/Hooks/Handlers/CountryNames.php:521
+msgid "Lithuania"
+msgstr "Litva"
+
+#: app/Hooks/Handlers/CountryNames.php:517
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: app/Hooks/Handlers/CountryNames.php:513
+msgid "Libya"
+msgstr "Libya"
+
+#: app/Hooks/Handlers/CountryNames.php:509
+msgid "Liberia"
+msgstr "Liberia"
+
+#: app/Hooks/Handlers/CountryNames.php:505
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: app/Hooks/Handlers/CountryNames.php:501
+msgid "Lebanon"
+msgstr "Lebanon"
+
+#: app/Hooks/Handlers/CountryNames.php:497
+msgid "Latvia"
+msgstr "Latvia"
+
+#: app/Hooks/Handlers/CountryNames.php:493
+msgid "Laos"
+msgstr "Lào"
+
+#: app/Hooks/Handlers/CountryNames.php:489
+msgid "Kyrgyzstan"
+msgstr "Kyrgyzstan"
+
+#: app/Hooks/Handlers/CountryNames.php:485
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: app/Hooks/Handlers/CountryNames.php:481
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: app/Hooks/Handlers/CountryNames.php:477
+msgid "Kenya"
+msgstr "Kenya"
+
+#: app/Hooks/Handlers/CountryNames.php:473
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+#: app/Hooks/Handlers/CountryNames.php:469
+msgid "Jordan"
+msgstr "Jordan"
+
+#: app/Hooks/Handlers/CountryNames.php:465
+msgid "Jersey"
+msgstr "Áo"
+
+#: app/Hooks/Handlers/CountryNames.php:461
+msgid "Japan"
+msgstr "Nhật Bản"
+
+#: app/Hooks/Handlers/CountryNames.php:457
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: app/Hooks/Handlers/CountryNames.php:453
+msgid "Ivory Coast"
+msgstr "Bờ biển Ngà"
+
+#: app/Hooks/Handlers/CountryNames.php:449
+msgid "Italy"
+msgstr "Ý"
+
+#: app/Hooks/Handlers/CountryNames.php:445
+msgid "Israel"
+msgstr "Israel"
+
+#: app/Hooks/Handlers/CountryNames.php:441
+msgid "Isle of Man"
+msgstr "Đảo Man"
+
+#: app/Hooks/Handlers/CountryNames.php:437
+msgid "Ireland"
+msgstr "Ireland"
+
+#: app/Hooks/Handlers/CountryNames.php:433
+msgid "Iraq"
+msgstr "I-rắc"
+
+#: app/Hooks/Handlers/CountryNames.php:429
+msgid "Iran"
+msgstr "Iran"
+
+#: app/Hooks/Handlers/CountryNames.php:425
+msgid "Indonesia"
+msgstr "Indonesia"
+
+#: app/Hooks/Handlers/CountryNames.php:421
+msgid "India"
+msgstr "Ấn Độ"
+
+#: app/Hooks/Handlers/CountryNames.php:417
+msgid "Iceland"
+msgstr "Iceland"
+
+#: app/Hooks/Handlers/CountryNames.php:413
+msgid "Hungary"
+msgstr "Hungary"
+
+#: app/Hooks/Handlers/CountryNames.php:409
+msgid "Hong Kong"
+msgstr "Hồng Kông"
+
+#: app/Hooks/Handlers/CountryNames.php:405
+msgid "Honduras"
+msgstr "Honduras"
+
+#: app/Hooks/Handlers/CountryNames.php:401
+msgid "Heard Island and McDonald Islands"
+msgstr "Đảo Heard và Quần đảo McDonald"
+
+#: app/Hooks/Handlers/CountryNames.php:397
+msgid "Haiti"
+msgstr "Haiti"
+
+#: app/Hooks/Handlers/CountryNames.php:393
+msgid "Guyana"
+msgstr "Guyana"
+
+#: app/Hooks/Handlers/CountryNames.php:389
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: app/Hooks/Handlers/CountryNames.php:385
+msgid "Guinea"
+msgstr "Guinée"
+
+#: app/Hooks/Handlers/CountryNames.php:381
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: app/Hooks/Handlers/CountryNames.php:377
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: app/Hooks/Handlers/CountryNames.php:373
+msgid "Guam"
+msgstr "Quê hương"
+
+#: app/Hooks/Handlers/CountryNames.php:369
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+#: app/Hooks/Handlers/CountryNames.php:365
+msgid "Grenada"
+msgstr "Grenada"
+
+#: app/Hooks/Handlers/CountryNames.php:361
+msgid "Greenland"
+msgstr "Greenland"
+
+#: app/Hooks/Handlers/CountryNames.php:357
+msgid "Greece"
+msgstr "Hy Lạp"
+
+#: app/Hooks/Handlers/CountryNames.php:353
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: app/Hooks/Handlers/CountryNames.php:349
+msgid "Ghana"
+msgstr "Ghana"
+
+#: app/Hooks/Handlers/CountryNames.php:345
+msgid "Germany"
+msgstr "Đức"
+
+#: app/Hooks/Handlers/CountryNames.php:341
+msgid "Georgia"
+msgstr "Georgia"
+
+#: app/Hooks/Handlers/CountryNames.php:337
+msgid "Gambia"
+msgstr "Gambia"
+
+#: app/Hooks/Handlers/CountryNames.php:333
+msgid "Gabon"
+msgstr "Gabon"
+
+#: app/Hooks/Handlers/CountryNames.php:329
+msgid "French Southern Territories"
+msgstr "Lãnh thổ phía Nam của Pháp"
+
+#: app/Hooks/Handlers/CountryNames.php:325
+msgid "French Polynesia"
+msgstr "Polynesia thuộc Pháp"
+
+#: app/Hooks/Handlers/CountryNames.php:321
+msgid "French Guiana"
+msgstr "Guiana thuộc Pháp"
+
+#: app/Hooks/Handlers/CountryNames.php:317
+msgid "France"
+msgstr "Pháp"
+
+#: app/Hooks/Handlers/CountryNames.php:313
+msgid "Finland"
+msgstr "Phần Lan"
+
+#: app/Hooks/Handlers/CountryNames.php:309
+msgid "Fiji"
+msgstr "Fiji"
+
+#: app/Hooks/Handlers/CountryNames.php:305
+msgid "Faroe Islands"
+msgstr "Quần đảo Faroe"
+
+#: app/Hooks/Handlers/CountryNames.php:301
+msgid "Falkland Islands"
+msgstr "Quần đảo Falkland"
+
+#: app/Hooks/Handlers/CountryNames.php:297
+msgid "Ethiopia"
+msgstr "Ê-díp-tô"
+
+#: app/Hooks/Handlers/CountryNames.php:293
+msgid "Estonia"
+msgstr "Estonia"
+
+#: app/Hooks/Handlers/CountryNames.php:289
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: app/Hooks/Handlers/CountryNames.php:285
+msgid "Equatorial Guinea"
+msgstr "Equatorial Guinea"
+
+#: app/Hooks/Handlers/CountryNames.php:281
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: app/Hooks/Handlers/CountryNames.php:277
+msgid "Egypt"
+msgstr "Ai Cập"
+
+#: app/Hooks/Handlers/CountryNames.php:273
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: app/Hooks/Handlers/CountryNames.php:269
+msgid "Dominican Republic"
+msgstr "Cộng hòa Dominican"
+
+#: app/Hooks/Handlers/CountryNames.php:265
+msgid "Dominica"
+msgstr "Đa Minh"
+
+#: app/Hooks/Handlers/CountryNames.php:261
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: app/Hooks/Handlers/CountryNames.php:257
+msgid "Denmark"
+msgstr "Đan mạch"
+
+#: app/Hooks/Handlers/CountryNames.php:249
+msgid "Cyprus"
+msgstr "Cộng hòa Síp"
+
+#: app/Hooks/Handlers/CountryNames.php:245
+msgid "Cura&ccedil;ao"
+msgstr "Cura & ccedil; ao"
+
+#: app/Hooks/Handlers/CountryNames.php:241
+msgid "Cuba"
+msgstr "Cuba"
+
+#: app/Hooks/Handlers/CountryNames.php:237
+msgid "Croatia"
+msgstr "Croatia"
+
+#: app/Hooks/Handlers/CountryNames.php:233
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: app/Hooks/Handlers/CountryNames.php:229
+msgid "Cook Islands"
+msgstr "Quần đảo Cook"
+
+#: app/Hooks/Handlers/CountryNames.php:225
+msgid "Congo (Kinshasa)"
+msgstr "Congo (Kinshasa)"
+
+#: app/Hooks/Handlers/CountryNames.php:221
+msgid "Congo (Brazzaville)"
+msgstr "Congo (Brazzaville)"
+
+#: app/Hooks/Handlers/CountryNames.php:217
+msgid "Comoros"
+msgstr "Comoros"
+
+#: app/Hooks/Handlers/CountryNames.php:213
+msgid "Colombia"
+msgstr "Colombia"
+
+#: app/Hooks/Handlers/CountryNames.php:209
+msgid "Cocos (Keeling) Islands"
+msgstr "Quần đảo Cocos (Keeling)"
+
+#: app/Hooks/Handlers/CountryNames.php:205
+msgid "Christmas Island"
+msgstr "Đảo Christmas"
+
+#: app/Hooks/Handlers/CountryNames.php:201
+msgid "China"
+msgstr "Trung Quốc"
+
+#: app/Hooks/Handlers/CountryNames.php:197
+msgid "Chile"
+msgstr "Chile"
+
+#: app/Hooks/Handlers/CountryNames.php:193
+msgid "Chad"
+msgstr "Chad"
+
+#: app/Hooks/Handlers/CountryNames.php:189
+msgid "Central African Republic"
+msgstr "Cộng hòa Trung Phi"
+
+#: app/Hooks/Handlers/CountryNames.php:185
+msgid "Cayman Islands"
+msgstr "Quần đảo Cayman"
+
+#: app/Hooks/Handlers/CountryNames.php:181
+msgid "Cape Verde"
+msgstr "Cape Verde"
+
+#: app/Hooks/Handlers/CountryNames.php:177
+msgid "Canada"
+msgstr "Canada"
+
+#: app/Hooks/Handlers/CountryNames.php:173
+msgid "Cameroon"
+msgstr "Cameroon"
+
+#: app/Hooks/Handlers/CountryNames.php:169
+msgid "Cambodia"
+msgstr "Campuchia"
+
+#: app/Hooks/Handlers/CountryNames.php:165
+msgid "Burundi"
+msgstr "Burundi"
+
+#: app/Hooks/Handlers/CountryNames.php:161
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: app/Hooks/Handlers/CountryNames.php:157
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#: app/Hooks/Handlers/CountryNames.php:153
+msgid "Brunei"
+msgstr "Brunei"
+
+#: app/Hooks/Handlers/CountryNames.php:149
+msgid "British Indian Ocean Territory"
+msgstr "Lãnh thổ Ấn Độ Dương của Anh"
+
+#: app/Hooks/Handlers/CountryNames.php:145
+msgid "Brazil"
+msgstr "Brazil"
+
+#: app/Hooks/Handlers/CountryNames.php:141
+msgid "Bouvet Island"
+msgstr "Đảo Bouvet"
+
+#: app/Hooks/Handlers/CountryNames.php:137
+msgid "Botswana"
+msgstr "Botswana"
+
+#: app/Hooks/Handlers/CountryNames.php:133
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia và Herzegovina"
+
+#: app/Hooks/Handlers/CountryNames.php:129
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "Bonaire, Saint Eustatius và Saba"
+
+#: app/Hooks/Handlers/CountryNames.php:125
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: app/Hooks/Handlers/CountryNames.php:121
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: app/Hooks/Handlers/CountryNames.php:117
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: app/Hooks/Handlers/CountryNames.php:113
+msgid "Benin"
+msgstr "Benin"
+
+#: app/Hooks/Handlers/CountryNames.php:109
+msgid "Belize"
+msgstr "Belize"
+
+#: app/Hooks/Handlers/CountryNames.php:105
+msgid "Belau"
+msgstr "Belau"
+
+#: app/Hooks/Handlers/CountryNames.php:101
+msgid "Belgium"
+msgstr "Bỉ"
+
+#: app/Hooks/Handlers/CountryNames.php:97
+msgid "Belarus"
+msgstr "Belarus"
+
+#: app/Hooks/Handlers/CountryNames.php:93
+msgid "Barbados"
+msgstr "Barbados"
+
+#: app/Hooks/Handlers/CountryNames.php:89
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: app/Hooks/Handlers/CountryNames.php:85
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: app/Hooks/Handlers/CountryNames.php:81
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: app/Hooks/Handlers/CountryNames.php:77
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+#: app/Hooks/Handlers/CountryNames.php:73
+msgid "Austria"
+msgstr "Áo"
+
+#: app/Hooks/Handlers/CountryNames.php:69
+msgid "Australia"
+msgstr "Úc"
+
+#: app/Hooks/Handlers/CountryNames.php:65
+msgid "Aruba"
+msgstr "Aruba"
+
+#: app/Hooks/Handlers/CountryNames.php:61
+msgid "Armenia"
+msgstr "Armenia"
+
+#: app/Hooks/Handlers/CountryNames.php:57
+msgid "Argentina"
+msgstr "Argentina"
+
+#: app/Hooks/Handlers/CountryNames.php:53
+msgid "Antigua and Barbuda"
+msgstr "Antigua và Barbuda"
+
+#: app/Hooks/Handlers/CountryNames.php:49
+msgid "Antarctica"
+msgstr "Antarctica"
+
+#: app/Hooks/Handlers/CountryNames.php:45
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: app/Hooks/Handlers/CountryNames.php:41
+msgid "Angola"
+msgstr "Angola"
+
+#: app/Hooks/Handlers/CountryNames.php:37
+msgid "Andorra"
+msgstr "Andorra"
+
+#: app/Hooks/Handlers/CountryNames.php:33
+msgid "American Samoa"
+msgstr "American Samoa"
+
+#: app/Hooks/Handlers/CountryNames.php:29
+msgid "Algeria"
+msgstr "Algeria"
+
+#: app/Hooks/Handlers/CountryNames.php:25
+msgid "Albania"
+msgstr "Albania"
+
+#: app/Hooks/Handlers/CountryNames.php:21
+msgid "Åland Islands"
+msgstr "Åland Islands"
+
+#: app/Hooks/Handlers/CountryNames.php:17
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#: app/Hooks/Handlers/PurchaseHistory.php:39
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] "%1$s cho các mục %2$s"
+
+#: app/Hooks/Handlers/PurchaseHistory.php:34
+#: app/Hooks/Handlers/PurchaseHistory.php:68
+msgid "View Order Details"
+msgstr "Xem chi tiết đơn hàng"
+
+#: app/Http/Controllers/TagsController.php:166
+#, fuzzy
+msgid "Successfully removed the tag."
+msgstr "Đã xóa thẻ thành công."
+
+#: app/Hooks/Handlers/FunnelHandler.php:190
+#: app/Http/Controllers/FunnelController.php:178
+#, fuzzy
+msgid "Sequence successfully updated"
+msgstr "Cập nhật thành công trình tự"
+
+#: app/Http/Controllers/FunnelController.php:112
+#, fuzzy
+msgid "Funnel has been deleted"
+msgstr "Phễu đã bị xóa"
+
+#: app/Http/Controllers/FunnelController.php:98
+#, fuzzy
+msgid "Funnel has been created. Please configure now"
+msgstr "Phễu đã được tạo. Vui lòng cấu hình ngay bây giờ"
+
+#: app/Http/Controllers/SubscriberController.php:376
+#, fuzzy
+msgid "Note successfully deleted"
+msgstr "Ghi chú đã bị xóa thành công"
+
+#: app/Http/Controllers/SubscriberController.php:367
+#, fuzzy
+msgid "Note successfully updated"
+msgstr "Lưu ý cập nhật thành công"
+
+#: app/Http/Controllers/SubscriberController.php:348
+#, fuzzy
+msgid "Note successfully added"
+msgstr "Ghi chú được thêm thành công"
+
+#: app/Http/Controllers/SubscriberController.php:248
+#, fuzzy
+msgid "Subscriber successfully updated"
+msgstr "Người đăng ký cập nhật thành công"
+
+#: app/Http/Controllers/SubscriberController.php:193
+#: app/Http/Controllers/SubscriberController.php:216
+#, fuzzy
+msgid "Provided email already assigned to another subscriber."
+msgstr "Email được cung cấp đã được gán cho người đăng ký khác."
+
+#: app/Http/Controllers/SubscriberController.php:177
+#, fuzzy
+msgid "subscriber"
+msgid_plural "subscribers"
+msgstr[0] "Vai trò đăng ký mặc định"
+
+#: app/Http/Controllers/CampaignController.php:334
+#, fuzzy
+msgid "Email Sending has been started"
+msgstr "Gửi Email đã được bắt đầu"
+
+#: app/Http/Controllers/CampaignController.php:318
+#, fuzzy
+msgid "Your campaign email has been scheduled"
+msgstr "Email chiến dịch của bạn đã được lên lịch"
+
+#: app/Http/Controllers/CampaignController.php:297
+#, fuzzy
+msgid "Selected emails are deleted"
+msgstr "Email đã chọn sẽ bị xóa"
+
+#: app/Http/Controllers/CampaignController.php:184
+#, fuzzy
+msgid "Sorry! No subscribers found based on your selection"
+msgstr "Xin lỗi! Không tìm thấy người đăng ký dựa trên lựa chọn của bạn"
+
+#: app/Http/Controllers/SettingsController.php:266
+#, fuzzy
+msgid "Settings has been updated"
+msgstr "Thiết đặt đã được cập nhật"
+
+#: app/Http/Controllers/SettingsController.php:124
+#, fuzzy
+msgid "Double Opt-in settings has been updated"
+msgstr "Thiết đặt Chọn tham gia Kép đã được cập nhật"
+
+#: app/Http/Controllers/SettingsController.php:52
+msgid "Settings Updated"
+msgstr "Cài đặt đã cập nhật"
+
+#: app/Http/Controllers/TemplateController.php:90
+#: app/Http/Controllers/TemplateController.php:112
+#, fuzzy
+msgid "Template successfully updated"
+msgstr "Cập nhật thành công mẫu"
+
+#: app/Http/Controllers/SetupController.php:47
+#, fuzzy
+msgid "Fluent Forms has been installed and activated"
+msgstr "Biểu mẫu trôi chảy đã được cài đặt và kích hoạt"
+
+#: app/Hooks/Handlers/AutoSubscribeHandler.php:69
+#: app/Services/AutoSubscribe.php:84
+#, fuzzy
+msgid "Subscribe to newsletter"
+msgstr "Đăng ký nhận bản tin"
+
+#: app/Services/Helper.php:321
+#, fuzzy
+msgid "WP Pay Forms"
+msgstr "Biểu mẫu thanh toán WP"
+
+#: app/Services/Helper.php:320
+#, fuzzy
+msgid "WPPayForm Purchase History"
+msgstr "Lịch sử mua WPPayForm"
+
+#: app/Services/Helper.php:314
+msgid "Easy Digital Downloads"
+msgstr "Easy Digital Downloads"
+
+#: app/Services/Helper.php:313
+#, fuzzy
+msgid "EDD Purchase History"
+msgstr "Lịch sử mua hàng EDD"
+
+#: app/Services/Helper.php:307
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: app/Services/Helper.php:306
+#, fuzzy
+msgid "Woocommerce Purchase History"
+msgstr "Lịch sử mua woocommerce"
+
+#: app/Services/Stats.php:57
+#, fuzzy
+msgid "Emails Pending"
+msgstr "Email đang chờ xử lý"
+
+#: app/Services/Stats.php:45
+msgid "Emails Sent"
+msgstr "Email đã gửi"
+
+#: app/Hooks/Handlers/AdminMenu.php:229 app/Services/Stats.php:38
+#: app/Services/TransStrings.php:253
+msgid "Email Templates"
+msgstr "Mẫu Email"
+
+#: app/Hooks/Handlers/AdminMenu.php:73 app/Hooks/Handlers/AdminMenu.php:74
+#: app/Services/Stats.php:31 app/Services/TransStrings.php:112
+msgid "Campaigns"
+msgstr "Chiến dịch"
+
+#: app/Services/Stats.php:24
+#, fuzzy
+msgid "Total Contacts"
+msgstr "Tổng Số Liên hệ"
+
+#: app/Hooks/Handlers/AdminMenu.php:191 app/Services/Stats.php:17
+#: app/Services/TransStrings.php:334
+msgid "Lists"
+msgstr "Danh sách"
+
+#: app/views/admin/setup_wizard.php:6
+#, fuzzy
+msgid "FluentCRM - Setup Wizard"
+msgstr "FluentCRM - Thuật sĩ Thiết lập"
+
+#: app/views/external/manage_subscription.php:56
+msgid "Update Profile"
+msgstr "Cập nhật hồ sơ"
+
+#: app/views/external/manage_subscription.php:47
+#, fuzzy
+msgid "Mailing List Groups"
+msgstr "Nhóm Danh sách Gửi thư"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:138
+#: app/Services/Funnel/FunnelHelper.php:132 app/Services/TransStrings.php:325
+#: app/Services/Helper.php:133 app/views/external/manage_subscription.php:41
+msgid "Last Name"
+msgstr "Họ"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:134
+#: app/Services/Funnel/FunnelHelper.php:128 app/Services/TransStrings.php:277
+#: app/Services/Helper.php:132 app/views/external/manage_subscription.php:37
+msgid "First Name"
+msgstr "Tên"
+
+#: app/views/external/manage_subscription.php:8
+#: app/views/external/manage_subscription.php:26
+#, fuzzy
+msgid "Update your preferences"
+msgstr "Cập nhật tùy chọn của bạn"
+
+#: app/Hooks/Handlers/ExternalPages.php:215
+#, fuzzy
+msgid "Please let us know a reason"
+msgstr "Xin vui lòng cho chúng tôi biết một lý do"
+
+#: app/Hooks/Handlers/ExternalPages.php:214
+#: app/views/external/manage_subscription.php:33
+msgid "Your Email Address"
+msgstr "Địa chỉ mail của bạn"
+
+#: app/Hooks/Handlers/ExternalPages.php:212
+#: app/Hooks/Handlers/ExternalPages.php:216
+#: app/views/external/unsubscribe.php:8
+msgid "Unsubscribe"
+msgstr "Bỏ đăng ký"
+
+#: app/views/external/confirmation.php:8
+msgid "Email Confirmation"
+msgstr "Email xác nhận"
+
+#: fluentcrm_boot.php:34 includes/Activator.php:24
+#, fuzzy
+msgid "Every Minute (FluentCRM)"
+msgstr "Mỗi phút (FluentCRM)"
+
+#. Author of the plugin
+msgid "Fluent CRM"
+msgstr "Fluent CRM"
+
+#. Description of the plugin
+msgid "CRM and Email Newsletter Plugin for WordPress"
+msgstr "Plugin CRM và Bản Tin Email cho WordPress"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://fluentcrm.com"
+msgstr "https://fluentcrm.com"
+
+#. Plugin Name of the plugin
+msgid "FluentCRM - Marketing Automation For WordPress"
+msgstr "FluentCRM - Tự Động Hóa Tiếp Thị Cho WordPress"

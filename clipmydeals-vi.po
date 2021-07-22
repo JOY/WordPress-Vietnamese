@@ -1,0 +1,1944 @@
+# Copyright (C) 2021 ClipMyDeals
+# This file is distributed under the .
+msgid ""
+msgstr ""
+"Project-Id-Version: ClipMyDeals 5.4.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/clipmydeals\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-05-27T08:49:41+02:00\n"
+"PO-Revision-Date: 2021-05-31 17:24+0700\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Domain: clipmydeals\n"
+"Last-Translator: Anh Le <anh.legiang@gmail.com>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: vi\n"
+
+#. Theme Name of the theme
+#. Author of the theme
+#: inc/customizer.php:236 inc/customizer.php:991
+msgid "ClipMyDeals"
+msgstr "ClipMyDeals"
+
+#. Theme URI of the theme
+#. Author URI of the theme
+msgid "https://clipmydeals.com"
+msgstr "https://clipmydeals.com"
+
+#. Description of the theme
+#, fuzzy
+msgid ""
+"The best WordPress Coupon theme for Affiliate Marketers. We built this theme "
+"after 6 years of experience with running a coupon and deal website. Hence we "
+"have added all important features that really matter, and left out all the "
+"useless features that would have only made it complicated. It is based on "
+"the most powerful frameworks in the world: \"_s\" (by Automattic, the main "
+"people behind WordPress development), Twitter Bootstrap (the most popular "
+"HTML, CSS, and JS framework for developing responsive, mobile first projects "
+"on the web) and Font Awesome (or Fontawesome, a full suite of 675+ "
+"pictographic icons for easy scalable vector graphics on websites). It has a "
+"Widgetized sidebar and footer area, and it is WooCommerce ready, Compatible "
+"with Contact Form 7, Compatible with Visual Composer, Compatible with "
+"Elementor Page Builder. This theme will be an active project which we will "
+"update from time to time. Check this page regularly for the updates. Your "
+"feedback on how we can continuously improve this Theme will be highly "
+"appreciated."
+msgstr ""
+"Theme Phiếu giảm giá WordPress tốt nhất cho các nhà tiếp thị liên kết. Chúng "
+"tôi đã xây dựng chủ đề này sau 6 năm kinh nghiệm với việc chạy một trang web "
+"phiếu giảm giá và giao dịch. Do đó, chúng tôi đã thêm tất cả các tính năng "
+"quan trọng thực sự quan trọng và bỏ qua tất cả các tính năng vô dụng sẽ chỉ "
+"làm cho nó phức tạp. Nó dựa trên các khung công tác mạnh mẽ nhất trên thế "
+"giới: \"_s\" (bởi Automattic, những người chính đằng sau phát triển "
+"WordPress), Twitter Bootstrap (khung HTML, CSS và JS phổ biến nhất để phát "
+"triển các dự án đầu tiên trên thiết bị di động, đáp ứng trên web) và Font "
+"Awesome (hoặc Fontawesome, một bộ đầy đủ hơn 675 biểu tượng hình ảnh để có "
+"đồ họa vector có thể mở rộng dễ dàng trên các trang web). Nó có một thanh "
+"bên widgetized và khu vực chân trang, và nó đã sẵn sàng WooCommerce, Tương "
+"thích với Contact Form 7, Tương thích với Visual Composer, Tương thích với "
+"Elementor Page Builder. Chủ đề này sẽ là một dự án đang hoạt động mà chúng "
+"tôi sẽ cập nhật theo thời gian. Kiểm tra trang này thường xuyên để biết các "
+"bản cập nhật. Phản hồi của bạn về cách chúng tôi có thể liên tục cải thiện "
+"Chủ đề này sẽ được đánh giá cao."
+
+#: 404.php:26
+#, fuzzy
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Trang này không tồn tại."
+
+#: 404.php:30
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Có vẻ như không có gì được tìm thấy tại vị trí này. Có thể thử một trong các "
+"liên kết dưới đây hoặc tìm kiếm?"
+
+#: archive-coupons.php:43
+#, fuzzy
+msgid "Previous Coupons"
+msgstr "Phiếu giảm giá trước"
+
+#: archive-coupons.php:44
+#, fuzzy
+msgid "Next Coupons"
+msgstr "Phiếu giảm giá tiếp theo"
+
+#: archive-coupons.php:46
+msgid "Coupons navigation"
+msgstr "Điều hướng phiếu giảm giá"
+
+#: archive-coupons.php:47 inc/cmd_functions.php:513 inc/cmd_functions.php:2191
+#: inc/quick_setup.php:190
+msgid "Coupons"
+msgstr "Mã giảm giá"
+
+#. Template Name of the theme
+#, fuzzy
+msgid "Blank with Container"
+msgstr "Trống với Container"
+
+#. Template Name of the theme
+#, fuzzy
+msgid "Blank without Container"
+msgstr "Trống không có container"
+
+#. translators: %s: post title
+#: comments.php:34
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Có 1 bình luận về &ldquo;%s&rdquo;"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:38
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s bình luận trong &ldquo;%2$s&rdquo;"
+
+#: comments.php:55 comments.php:73
+msgid "Comment navigation"
+msgstr "Điều hướng bình luận"
+
+#: comments.php:58 comments.php:76
+msgid "Older Comments"
+msgstr "Bình luận cũ hơn"
+
+#: comments.php:59 comments.php:77
+msgid "Newer Comments"
+msgstr "Bình luận mới hơn"
+
+#: comments.php:90
+msgid "Comments are closed."
+msgstr "Bình luận đã bị đóng."
+
+#: comments.php:97
+msgid "Leave a Reply"
+msgstr "Trả lời"
+
+#. translators: 1:reply
+#: comments.php:98
+msgid "Leave a Reply to %s"
+msgstr "Để lại một trả lời cho %s"
+
+#: comments.php:101
+msgid "Cancel Reply"
+msgstr "Huỷ trả lời"
+
+#: comments.php:102
+msgid "Post Comment"
+msgstr "Đăng bình luận"
+
+#: comments.php:104
+msgid "Start typing"
+msgstr "Bắt đầu nhập và nhấn Enter để tìm kiếm"
+
+#. Template Name of the theme
+msgid "Full Width"
+msgstr "Độ rộng tối đa"
+
+#: functions.php:39
+msgid "Primary"
+msgstr "Chính"
+
+#. translators: 1: documentation URL, 2: Support forums URL
+#: functions.php:79
+#, fuzzy
+msgid ""
+"<h2 style=\"color:#ffffff;\">IMPORTANT</h2><p>Please follow the <a style="
+"\"color: #fff; text-decoration:underline;\" href=\"%1$s\" target=\"_blank"
+"\">Theme Activation steps</a> to enable all ClipMyDeals features.</p><p>We "
+"also recommend that you through complete <a style=\"color: #fff; text-"
+"decoration:underline;\" href=\"%2$s\" target=\"_blank\">ClipMyDeals "
+"Documentation</a> for in-depth understanding of theme features & options.</p>"
+msgstr ""
+"<h2 style=\"color:#ffffff;\">quan trọng</h2><p>Vui lòng làm theo các <a "
+"style=\"color: #fff; text-decoration:underline;\" href=\"%1$s\" target="
+"\"_blank\">bước Kích hoạt Chủ</a> đề để bật tất cả các tính năng của "
+"ClipMyDeals.</p><p>Chúng tôi cũng khuyên bạn nên thông qua Tài <a style="
+"\"color: #fff; text-decoration:underline;\" href=\"%2$s\" target=\"_blank"
+"\">liệu ClipMyDeals đầy đủ để</a> hiểu sâu hơn về các tính năng và tùy chọn "
+"chủ đề.</p>"
+
+#: functions.php:115
+msgid "Sidebar"
+msgstr "Thanh bên"
+
+#: functions.php:117 functions.php:130 functions.php:139 functions.php:148
+#: inc/cmd_widgets.php:1196 inc/cmd_widgets.php:1206 inc/cmd_widgets.php:1216
+#: inc/cmd_widgets.php:1226 inc/cmd_widgets.php:1236
+msgid "Add widgets here."
+msgstr "Thêm widget ở đây."
+
+#: functions.php:128
+msgid "Footer 1"
+msgstr "Chân trang 1"
+
+#: functions.php:137
+msgid "Footer 2"
+msgstr "Chân trang 2"
+
+#: functions.php:146
+msgid "Footer 3"
+msgstr "Chân trang 3"
+
+#: functions.php:236
+msgid "To view this protected post, enter the password below:"
+msgstr "Để xem bài được bảo vệ này, nhập mật khẩu bên dưới:"
+
+#: functions.php:237
+msgid "Password:"
+msgstr "Mật khẩu:"
+
+#: functions.php:237 inc/quick_setup.php:218 page-submit-coupons.php:346
+msgid "Submit"
+msgstr "Gửi"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "Nhảy tới nội dung"
+
+#: header.php:68 header.php:81 inc/cmd_widgets.php:525 inc/cmd_widgets.php:591
+#: searchform.php:11 searchform.php:86
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: header.php:262 taxonomy-stores.php:34 taxonomy-stores.php:83
+msgid "Visit Website"
+msgstr "Truy cập Website"
+
+#: inc/cmd_functions.php:156
+#, fuzzy
+msgid "Search Offer Categories"
+msgstr "Tìm kiếm danh mục ưu đãi"
+
+#: inc/cmd_functions.php:157
+#, fuzzy
+msgid "All Offer Categories"
+msgstr "Tất cả danh mục ưu đãi"
+
+#: inc/cmd_functions.php:158
+#, fuzzy
+msgid "Parent Offer Category"
+msgstr "Danh mục ưu đãi dành cho phụ huynh"
+
+#: inc/cmd_functions.php:159
+#, fuzzy
+msgid "Parent Offer Category:"
+msgstr "Danh mục ưu đãi dành cho phụ huynh:"
+
+#: inc/cmd_functions.php:160
+#, fuzzy
+msgid "Edit Offer Category"
+msgstr "Sửa Danh mục Ưu đãi"
+
+#: inc/cmd_functions.php:161
+#, fuzzy
+msgid "Update Offer Category"
+msgstr "Cập nhật danh mục ưu đãi"
+
+#: inc/cmd_functions.php:162
+#, fuzzy
+msgid "Add New Offer Category"
+msgstr "Thêm Danh mục Ưu đãi Mới"
+
+#: inc/cmd_functions.php:163
+#, fuzzy
+msgid "New Offer Category Name"
+msgstr "Tên Danh mục Ưu đãi Mới"
+
+#: inc/cmd_functions.php:164 page-submit-coupons.php:281
+#, fuzzy
+msgid "Offer Categories"
+msgstr "Danh mục ưu đãi"
+
+#: inc/cmd_functions.php:189 inc/cmd_functions.php:408
+msgid "Article"
+msgstr "Bài báo"
+
+#: inc/cmd_functions.php:197
+#, fuzzy
+msgid "This is the article that will be placed on the category page"
+msgstr "Đây là bài viết sẽ được đặt trên trang thể loại"
+
+#: inc/cmd_functions.php:202 inc/cmd_widgets.php:1152
+msgid "Image URL"
+msgstr "Đường dẫn bằng ảnh"
+
+#: inc/cmd_functions.php:206 inc/cmd_functions.php:403
+#: inc/cmd_functions.php:425
+#, fuzzy
+msgid "Enter a valid image URL here"
+msgstr "Nhập URL hình ảnh hợp lệ tại đây"
+
+#: inc/cmd_functions.php:211 inc/cmd_functions.php:288
+#: inc/cmd_functions.php:457
+msgid "Page Title"
+msgstr "Tiêu đề trang"
+
+#: inc/cmd_functions.php:215 inc/cmd_functions.php:292
+#: inc/cmd_functions.php:461
+#, fuzzy
+msgid ""
+"Enter title you want to display (leave empty to display default page title)"
+msgstr ""
+"Nhập tiêu đề bạn muốn hiển thị (để trống để hiển thị tiêu đề trang mặc định)"
+
+#: inc/cmd_functions.php:245
+msgid "Search Locations"
+msgstr "Tìm Địa điểm"
+
+#: inc/cmd_functions.php:246
+msgid "All Locations"
+msgstr "Tất cả địa điểm"
+
+#: inc/cmd_functions.php:247
+#, fuzzy
+msgid "Parent Location"
+msgstr "Vị trí cha mẹ"
+
+#: inc/cmd_functions.php:248
+#, fuzzy
+msgid "Parent Location:"
+msgstr "Vị trí cha mẹ:"
+
+#: inc/cmd_functions.php:249
+#, fuzzy
+msgid "Edit Locations"
+msgstr "Sửa Vị trí"
+
+#: inc/cmd_functions.php:250
+msgid "Update Location"
+msgstr "Cập nhật địa điểm"
+
+#: inc/cmd_functions.php:251
+msgid "Add New Location"
+msgstr "Thêm Khu Vực Mới"
+
+#: inc/cmd_functions.php:252
+#, fuzzy
+msgid "New Location Name"
+msgstr "Tên Vị trí Mới"
+
+#: inc/cmd_functions.php:253 inc/cmd_functions.php:2178
+#: page-submit-coupons.php:301
+msgid "Locations"
+msgstr "Địa điểm"
+
+#: inc/cmd_functions.php:279
+#, fuzzy
+msgid "Map IFrame"
+msgstr "Bản đồ IFrame"
+
+#: inc/cmd_functions.php:283 inc/cmd_functions.php:443
+#, fuzzy
+msgid ""
+"Select the place in Google Map and go to Share > Embed a Map. Copy the HTML "
+"and paste in the above box."
+msgstr ""
+"Chọn địa điểm trong Google Map và đi tới Chia sẻ > Nhúng bản đồ. Sao chép "
+"HTML và dán vào hộp trên."
+
+#: inc/cmd_functions.php:321
+msgid "Search Stores"
+msgstr "Tìm kiếm cửa hàng"
+
+#: inc/cmd_functions.php:322 index.php:23
+msgid "Popular Stores"
+msgstr "Nhà cung cấp phổ biến"
+
+#: inc/cmd_functions.php:323
+msgid "All Stores"
+msgstr "Tất cả các cửa hàng"
+
+#: inc/cmd_functions.php:326
+msgid "Edit Store"
+msgstr "Sửa cửa hàng"
+
+#: inc/cmd_functions.php:327
+msgid "Update Store"
+msgstr "Cập nhật siêu thị"
+
+#: inc/cmd_functions.php:328
+msgid "Add New Store"
+msgstr "Thêm cửa hàng"
+
+#: inc/cmd_functions.php:329
+#, fuzzy
+msgid "New Store Name"
+msgstr "Tên Cửa hàng Mới"
+
+#: inc/cmd_functions.php:330
+#, fuzzy
+msgid "Separate stores with commas"
+msgstr "Cửa hàng riêng biệt với dấu phẩy"
+
+#: inc/cmd_functions.php:331
+#, fuzzy
+msgid "Add or remove stores"
+msgstr "Thêm hoặc xóa cửa hàng"
+
+#: inc/cmd_functions.php:332
+#, fuzzy
+msgid "Choose from the most used stores"
+msgstr "Chọn từ các cửa hàng được sử dụng nhiều nhất"
+
+#: inc/cmd_functions.php:333 inc/cmd_functions.php:2162
+msgid "Stores"
+msgstr "Cửa hàng"
+
+#: inc/cmd_functions.php:364
+#, fuzzy
+msgid "Popular Store"
+msgstr "Cửa hàng phổ biến"
+
+#: inc/cmd_functions.php:372
+#, fuzzy
+msgid "Store Website URL"
+msgstr "URL trang web lưu trữ"
+
+#: inc/cmd_functions.php:376
+#, fuzzy
+msgid "Enter website URL here."
+msgstr "Nhập URL trang web tại đây."
+
+#: inc/cmd_functions.php:381
+#, fuzzy
+msgid "Store Affiliate URL"
+msgstr "URL dành cho công ty liên kết của Cửa hàng"
+
+#: inc/cmd_functions.php:385
+#, fuzzy
+msgid "Enter store's default Affiliate URL here."
+msgstr "Nhập URL Liên kết mặc định của cửa hàng tại đây."
+
+#: inc/cmd_functions.php:390
+#, fuzzy
+msgid "Store Subdomains"
+msgstr "Lưu trữ tên miền phụ"
+
+#: inc/cmd_functions.php:394
+#, fuzzy
+msgid "Enter each subdomain on new line."
+msgstr "Nhập từng miền phụ trên dòng mới."
+
+#: inc/cmd_functions.php:399
+msgid "Logo URL"
+msgstr "Logo URL"
+
+#: inc/cmd_functions.php:416
+#, fuzzy
+msgid "This is the article that will be placed on the store page"
+msgstr "Đây là bài viết sẽ được đặt trên trang cửa hàng"
+
+#: inc/cmd_functions.php:421
+#, fuzzy
+msgid "Banner URL"
+msgstr "URL biểu ngữ"
+
+#: inc/cmd_functions.php:430
+msgid "Button Color"
+msgstr "Màu nút"
+
+#: inc/cmd_functions.php:434
+#, fuzzy
+msgid "Select a dark shade so that white text will appear clearly on buttons"
+msgstr ""
+"Chọn một bóng tối để văn bản màu trắng sẽ xuất hiện rõ ràng trên các nút"
+
+#: inc/cmd_functions.php:439
+#, fuzzy
+msgid "Store Location (IFrame)"
+msgstr "Vị trí cửa hàng (IFrame)"
+
+#: inc/cmd_functions.php:448
+#, fuzzy
+msgid "Store Video (IFrame)"
+msgstr "Lưu trữ video (iFrame)"
+
+#: inc/cmd_functions.php:452
+#, fuzzy
+msgid ""
+"Go to Youtube video, click on Share > Embed. Copy the HTML and paste in the "
+"above box."
+msgstr ""
+"Truy cập video Youtube, nhấp vào Chia sẻ > Nhúng. Sao chép HTML và dán vào "
+"hộp trên."
+
+#: inc/cmd_functions.php:511
+msgctxt "Post Type General Name"
+msgid "Coupons"
+msgstr "Mã giảm giá"
+
+#: inc/cmd_functions.php:512
+msgctxt "Post Type Singular Name"
+msgid "Coupon"
+msgstr "Mã giảm giá"
+
+#: inc/cmd_functions.php:514
+msgid "Parent Coupon"
+msgstr "Phiếu giảm giá gốc"
+
+#: inc/cmd_functions.php:515
+msgid "All Coupons"
+msgstr "Tất cả mã giảm giá"
+
+#: inc/cmd_functions.php:516
+msgid "View Coupon"
+msgstr "Xem mã giảm giá"
+
+#: inc/cmd_functions.php:517
+msgid "Add New Coupon"
+msgstr "Thêm Mã giảm giá mới"
+
+#: inc/cmd_functions.php:518
+msgid "Add New"
+msgstr "Thêm mới"
+
+#: inc/cmd_functions.php:519
+msgid "Edit Coupon"
+msgstr "Chỉnh sửa mã giảm giá"
+
+#: inc/cmd_functions.php:520
+msgid "Update Coupon"
+msgstr "Cập nhật mã giảm giá"
+
+#: inc/cmd_functions.php:521
+msgid "Search Coupon"
+msgstr "Tìm mã giảm giá"
+
+#: inc/cmd_functions.php:522
+msgid "Not Found"
+msgstr "Không tìm thấy"
+
+#: inc/cmd_functions.php:523
+msgid "Not found in Trash"
+msgstr "Không tìm thấy trong thùng rác"
+
+#: inc/cmd_functions.php:527
+msgid "coupons"
+msgstr "mã giảm giá"
+
+#: inc/cmd_functions.php:528
+#, fuzzy
+msgid "Coupon Codes and Deals"
+msgstr "Mã phiếu giảm giá và ưu đãi"
+
+#: inc/cmd_functions.php:1020
+msgid "Login successful, redirecting..."
+msgstr "Đăng nhập thành công, đang truy cập..."
+
+#: inc/cmd_functions.php:1022
+#, fuzzy
+msgid "Access Denied. Nonce could not be verified."
+msgstr "Truy cập bị từ chối. Nonce không thể được xác minh."
+
+#: inc/cmd_functions.php:1118
+msgid "Sending user info, please wait..."
+msgstr "Gửi thông tin người dùng, vui lòng đợi ..."
+
+#: inc/cmd_functions.php:1143
+msgid "Loading"
+msgstr "Đang tải"
+
+#: inc/cmd_functions.php:1322 inc/cmd_widgets.php:62 inc/cmd_widgets.php:990
+#: index.php:48 page-all-locations.php:67 page-all-locations.php:88
+#: page-all-locations.php:104 page-all-offer-categories.php:67
+#: page-all-offer-categories.php:88 page-all-offer-categories.php:104
+#: page-all-stores.php:61
+msgid "Offers"
+msgstr "Đề nghị"
+
+#: inc/cmd_functions.php:1495 template-parts/login-modal.php:41
+msgid "Login/Register"
+msgstr "Đăng nhập/Đăng ký"
+
+#: inc/cmd_functions.php:1500
+msgid "My Profile"
+msgstr "Hồ sơ của tôi"
+
+#: inc/cmd_functions.php:1501
+#, fuzzy
+msgid "Cashback Earned"
+msgstr "Hoàn tiền kiếm được"
+
+#: inc/cmd_functions.php:1502
+msgid "Logout"
+msgstr "Đăng xuất"
+
+#: inc/cmd_functions.php:1613 template-parts/code.php:72
+#, fuzzy
+msgid "Activate Deal"
+msgstr "Kích hoạt giao dịch"
+
+#: inc/cmd_functions.php:1614
+#, fuzzy
+msgid "Activate Code"
+msgstr "Kích hoạt Mã"
+
+#: inc/cmd_functions.php:1615
+#, fuzzy
+msgid "\"[code]\" copied!"
+msgstr "\"[mã]\" đã được sao chép!"
+
+#: inc/cmd_functions.php:1650 template-parts/price-buynow.php:40
+msgid "Buy Now"
+msgstr "Mua ngay"
+
+#: inc/cmd_functions.php:1651 template-parts/product-list.php:70
+#, fuzzy
+msgid "Product Summary"
+msgstr "Tóm tắt sản phẩm"
+
+#: inc/cmd_functions.php:1652
+msgid "Product Description"
+msgstr "Mô tả sản phẩm"
+
+#: inc/cmd_functions.php:2170
+msgid "Categories"
+msgstr "Danh mục"
+
+#: inc/cmd_functions.php:2191
+#, fuzzy
+msgid "Coupons & Products"
+msgstr "Phiếu giảm giá và sản phẩm"
+
+#: inc/cmd_functions.php:2199 inc/quick_setup.php:196
+msgid "Pages"
+msgstr "Trang"
+
+#: inc/cmd_functions.php:2203
+msgid "Posts"
+msgstr "Bài viết"
+
+#. translators: %s: Search Keyword
+#: inc/cmd_functions.php:2214
+#, fuzzy
+msgid "See more results for \"%s\""
+msgstr "Xem thêm kết quả cho \"%s\""
+
+#. translators: %s: Results count
+#: inc/cmd_functions.php:2216
+#, fuzzy
+msgid "Displaying %s results"
+msgstr "Hiển thị %s quả"
+
+#: inc/cmd_widgets.php:91 inc/cmd_widgets.php:196 inc/cmd_widgets.php:314
+#: inc/cmd_widgets.php:441 inc/cmd_widgets.php:605 inc/cmd_widgets.php:653
+#: inc/cmd_widgets.php:701 inc/cmd_widgets.php:861 inc/cmd_widgets.php:1023
+#: inc/cmd_widgets.php:1137
+msgid "Title:"
+msgstr "Tiêu đề:"
+
+#: inc/cmd_widgets.php:97 inc/cmd_widgets.php:202 inc/cmd_widgets.php:320
+#: inc/cmd_widgets.php:447
+#, fuzzy
+msgid "Show Offer Counts"
+msgstr "Hiển thị số lượng ưu đãi"
+
+#: inc/cmd_widgets.php:100 inc/cmd_widgets.php:205 inc/cmd_widgets.php:326
+#: inc/cmd_widgets.php:453 inc/cmd_widgets.php:1032
+#, fuzzy
+msgid "Show Empty Terms"
+msgstr "Hiển thị điều khoản trống"
+
+#: inc/cmd_widgets.php:104 inc/cmd_widgets.php:209 inc/cmd_widgets.php:330
+#: inc/cmd_widgets.php:457 inc/cmd_widgets.php:886 inc/cmd_widgets.php:1039
+msgid "Order By:"
+msgstr "Sắp xếp theo:"
+
+#: inc/cmd_widgets.php:323
+#, fuzzy
+msgid "Show Sub-Categories"
+msgstr "Hiện Thể loại Con"
+
+#: inc/cmd_widgets.php:450
+#, fuzzy
+msgid "Show Sub-Locations"
+msgstr "Hiển thị vị trí phụ"
+
+#: inc/cmd_widgets.php:540 searchform.php:26 searchform.php:32
+msgid "Any Store"
+msgstr "Bất kỳ Cửa hàng nào"
+
+#: inc/cmd_widgets.php:560 searchform.php:49 searchform.php:55
+msgid "Any Category"
+msgstr "Bất Kỳ Danh Mục"
+
+#: inc/cmd_widgets.php:581 searchform.php:73 searchform.php:79
+msgid "Any Location"
+msgstr "Địa điểm bất kỳ"
+
+#: inc/cmd_widgets.php:867
+msgid "Deals"
+msgstr "Ưu đãi"
+
+#: inc/cmd_widgets.php:870
+msgid "Codes"
+msgstr "Mã"
+
+#: inc/cmd_widgets.php:873
+#, fuzzy
+msgid "Printable Vouchers"
+msgstr "Phiếu giảm giá có thể in"
+
+#: inc/cmd_widgets.php:876 inc/quick_setup.php:203
+msgid "Products"
+msgstr "Sản phẩm"
+
+#: inc/cmd_widgets.php:881
+msgid "Count:"
+msgstr "Đếm:"
+
+#: inc/cmd_widgets.php:900
+#, fuzzy
+msgid "INCLUDE STORE(comma-separated list of store slug)"
+msgstr "BAO GỒM CỬA HÀNG (danh sách sên cửa hàng tách bằng dấu phẩy)"
+
+#: inc/cmd_widgets.php:903
+#, fuzzy
+msgid "INCLUDE CATEGORY (comma-separated list of category slug)"
+msgstr "BAO GỒM THỂ LOẠI (danh sách phân tách bằng dấu phẩy của sên thể loại)"
+
+#: inc/cmd_widgets.php:906
+#, fuzzy
+msgid "INCLUDE LOCATION (comma-separated list of location slug)"
+msgstr "BAO GỒM VỊ TRÍ (danh sách sên vị trí được phân tách bằng dấu phẩy)"
+
+#: inc/cmd_widgets.php:1029
+#, fuzzy
+msgid "Show Offer Counts/ Cashback Message"
+msgstr "Hiển thị số lượng ưu đãi / Thông báo hoàn tiền"
+
+#: inc/cmd_widgets.php:1035
+#, fuzzy
+msgid "Redirect to Store Website"
+msgstr "Chuyển hướng đến Trang web Lưu trữ"
+
+#: inc/cmd_widgets.php:1141
+#, fuzzy
+msgid "Show Banner on :"
+msgstr "Hiển thị biểu ngữ trên :"
+
+#: inc/cmd_widgets.php:1150
+msgid "Image:"
+msgstr "Hình ảnh:"
+
+#: inc/cmd_widgets.php:1155 inc/customizer.php:322 inc/customizer.php:350
+#: inc/customizer.php:378 inc/customizer.php:406 inc/customizer.php:434
+#: inc/customizer.php:462 inc/customizer.php:490 inc/customizer.php:518
+#: inc/customizer.php:546 inc/customizer.php:574 inc/customizer.php:625
+#: inc/customizer.php:653 inc/customizer.php:681 inc/customizer.php:709
+#: inc/customizer.php:737 inc/customizer.php:765 inc/customizer.php:793
+#: inc/customizer.php:821 inc/customizer.php:849 inc/customizer.php:877
+#: inc/customizer.php:905 inc/customizer.php:933 page-submit-coupons.php:253
+#, fuzzy
+msgid "Landing Page URL"
+msgstr "URL trang đích"
+
+#: inc/cmd_widgets.php:1158
+msgid "Alternative Text"
+msgstr "Văn bản thay thế"
+
+#: inc/cmd_widgets.php:1194
+msgid "Footer 4"
+msgstr "Footer 4"
+
+#: inc/cmd_widgets.php:1204
+#, fuzzy
+msgid "Homepage Widget"
+msgstr "Tiện ích trang chủ"
+
+#: inc/cmd_widgets.php:1214
+#, fuzzy
+msgid "Coupon Popup"
+msgstr "Phiếu giảm giá Popup"
+
+#: inc/cmd_widgets.php:1224
+#, fuzzy
+msgid "Login Popup - Above Form"
+msgstr "Login Popup - Biểu mẫu trên"
+
+#: inc/cmd_widgets.php:1234
+#, fuzzy
+msgid "Login Popup - Below Form"
+msgstr "Login Popup - Biểu mẫu bên dưới"
+
+#: inc/customizer.php:26 inc/quick_setup.php:146
+#, fuzzy
+msgid "Preset Styles"
+msgstr "Kiểu đặt trước"
+
+#: inc/customizer.php:39
+msgid "Theme Option"
+msgstr "Tùy chọn chủ đề"
+
+#: inc/customizer.php:80
+msgid "Typography"
+msgstr "Kiểu chữ"
+
+#: inc/customizer.php:121
+msgid "Front Page Settings"
+msgstr "Cài đặt kiểu chữ trang"
+
+#: inc/customizer.php:129 inc/quick_setup.php:131
+#, fuzzy
+msgid "Welcome Type"
+msgstr "Loại chào mừng"
+
+#: inc/customizer.php:147
+#, fuzzy
+msgid "Display Popular Stores"
+msgstr "Hiển thị các cửa hàng phổ biến"
+
+#: inc/customizer.php:158
+#, fuzzy
+msgid "Display Latest Coupons"
+msgstr "Hiển thị phiếu giảm giá mới nhất"
+
+#: inc/customizer.php:169
+#, fuzzy
+msgid "Homepage Coupon Layout"
+msgstr "Trang chủ Bố cục phiếu giảm giá"
+
+#: inc/customizer.php:189
+#, fuzzy
+msgid "No. of Coupons on Homepage"
+msgstr "Không. phiếu giảm giá trên trang chủ"
+
+#: inc/customizer.php:199
+#, fuzzy
+msgid "Display Latest Posts"
+msgstr "Hiển thị bài viết mới nhất"
+
+#: inc/customizer.php:208
+#, fuzzy
+msgid "Welcome Video"
+msgstr "Video chào mừng"
+
+#: inc/customizer.php:218
+msgid "Video URL"
+msgstr "URL Video"
+
+#: inc/customizer.php:229 inc/customizer.php:964
+msgid "Show Search Form"
+msgstr "Hiện hình thức tìm kiếm"
+
+#: inc/customizer.php:240
+msgid "Video Title"
+msgstr "Tiêu đề Video"
+
+#: inc/customizer.php:258
+#, fuzzy
+msgid "Video Title Color"
+msgstr "Màu Tiêu đề Video"
+
+#: inc/customizer.php:265
+#, fuzzy
+msgid ""
+"To customize the contents on this video and other elements of your site go "
+"to Dashboard > Appearance > Customize"
+msgstr ""
+"Để tùy chỉnh nội dung trên video này và các thành phần khác của trang web, "
+"hãy đi tới Bảng điều > diện > chỉnh"
+
+#: inc/customizer.php:269
+#, fuzzy
+msgid "Video Tagline"
+msgstr "Khẩu hiệu Video"
+
+#: inc/customizer.php:287
+#, fuzzy
+msgid "Video Tagline Color"
+msgstr "Màu khẩu hiệu video"
+
+#: inc/customizer.php:296
+#, fuzzy
+msgid "Welcome Slides"
+msgstr "Trang chiếu Chào mừng"
+
+#: inc/customizer.php:306
+#, fuzzy
+msgid "Slide #1"
+msgstr "Trang chiếu #1"
+
+#: inc/customizer.php:334
+#, fuzzy
+msgid "Slide #2"
+msgstr "Trượt #2"
+
+#: inc/customizer.php:362
+#, fuzzy
+msgid "Slide #3"
+msgstr "Trang chiếu #3"
+
+#: inc/customizer.php:390
+#, fuzzy
+msgid "Slide #4"
+msgstr "Trang chiếu #4"
+
+#: inc/customizer.php:418
+#, fuzzy
+msgid "Slide #5"
+msgstr "Trượt #5"
+
+#: inc/customizer.php:446
+#, fuzzy
+msgid "Slide #6"
+msgstr "Trượt #6"
+
+#: inc/customizer.php:474
+#, fuzzy
+msgid "Slide #7"
+msgstr "Trượt #7"
+
+#: inc/customizer.php:502
+#, fuzzy
+msgid "Slide #8"
+msgstr "Trượt #8"
+
+#: inc/customizer.php:530
+#, fuzzy
+msgid "Slide #9"
+msgstr "Trượt #9"
+
+#: inc/customizer.php:558
+#, fuzzy
+msgid "Slide #10"
+msgstr "Trang chiếu #10"
+
+#: inc/customizer.php:582
+#, fuzzy
+msgid "Welcome Multi Slides"
+msgstr "Chào mừng nhiều trang chiếu"
+
+#: inc/customizer.php:609
+#, fuzzy
+msgid "Multi Slide #1"
+msgstr "Đa trang chiếu #1"
+
+#: inc/customizer.php:637
+#, fuzzy
+msgid "Multi Slide #2"
+msgstr "Đa trang chiếu #2"
+
+#: inc/customizer.php:665
+#, fuzzy
+msgid "Multi Slide #3"
+msgstr "Đa trang chiếu #3"
+
+#: inc/customizer.php:693
+#, fuzzy
+msgid "Multi Slide #4"
+msgstr "Đa trang chiếu #4"
+
+#: inc/customizer.php:721
+#, fuzzy
+msgid "Multi Slide #5"
+msgstr "Đa trang chiếu #5"
+
+#: inc/customizer.php:749
+#, fuzzy
+msgid "Multi Slide #6"
+msgstr "Đa trang chiếu #6"
+
+#: inc/customizer.php:777
+#, fuzzy
+msgid "Multi Slide #7"
+msgstr "Đa trang chiếu #7"
+
+#: inc/customizer.php:805
+#, fuzzy
+msgid "Multi Slide #8"
+msgstr "Đa trang chiếu #8"
+
+#: inc/customizer.php:833
+#, fuzzy
+msgid "Multi Slide #9"
+msgstr "Đa trang chiếu #9"
+
+#: inc/customizer.php:861
+#, fuzzy
+msgid "Multi Slide #10"
+msgstr "Đa trang chiếu #10"
+
+#: inc/customizer.php:889
+#, fuzzy
+msgid "Multi Slide #11"
+msgstr "Đa trang chiếu #11"
+
+#: inc/customizer.php:917
+#, fuzzy
+msgid "Multi Slide #12"
+msgstr "Đa trang chiếu #12"
+
+#: inc/customizer.php:945
+#, fuzzy
+msgid "Welcome Banner"
+msgstr "Biểu ngữ chào mừng"
+
+#: inc/customizer.php:953
+msgid "Header Image"
+msgstr "Hình ảnh Header"
+
+#: inc/customizer.php:995
+msgid "Banner Title"
+msgstr "Tiêu đề Banner"
+
+#: inc/customizer.php:1013
+msgid "Banner Title Color"
+msgstr "Màu tiêu đề biểu ngữ"
+
+#: inc/customizer.php:1020
+#, fuzzy
+msgid ""
+"To customize the contents of this header banner and other elements of your "
+"site go to Dashboard > Appearance > Customize"
+msgstr ""
+"Để tùy chỉnh nội dung của biểu ngữ tiêu đề này và các yếu tố khác của trang "
+"web, hãy đi tới Bảng điều > diện > chỉnh"
+
+#: inc/customizer.php:1024
+#, fuzzy
+msgid "Banner Tagline"
+msgstr "Khẩu hiệu biểu ngữ"
+
+#: inc/customizer.php:1042
+#, fuzzy
+msgid "Banner Tagline Color"
+msgstr "Màu khẩu hiệu biểu ngữ"
+
+#: inc/customizer.php:1065
+#, fuzzy
+msgid "Other Customizations"
+msgstr "Các tùy chỉnh khác"
+
+#: inc/customizer.php:1083
+msgid "Header Color"
+msgstr "Header Color"
+
+#: inc/customizer.php:1101
+msgid "Navbar Text Color"
+msgstr "Màu chứ Navbar"
+
+#: inc/customizer.php:1110
+msgid "Background Color"
+msgstr "Màu nền"
+
+#: inc/customizer.php:1119
+msgid "Background Image"
+msgstr "Ảnh nền"
+
+#: inc/customizer.php:1138
+#, fuzzy
+msgid "Footer Color"
+msgstr "Màu chân trang"
+
+#: inc/customizer.php:1150
+msgid "Footer Text"
+msgstr "Văn bản chân trang"
+
+#: inc/customizer.php:1165
+msgid "Show sidebar"
+msgstr "Hiện thanh bên"
+
+#: inc/customizer.php:1179
+msgid "Sidebar position"
+msgstr "Vị trí Sidebar"
+
+#: inc/customizer.php:1194
+msgid "Layout Type"
+msgstr "Loại bố cục"
+
+#: inc/customizer.php:1208
+#, fuzzy
+msgid "Homepage Layout Type"
+msgstr "Loại bố trí trang chủ"
+
+#: inc/customizer.php:1222
+#, fuzzy
+msgid "Navbar Type"
+msgstr "Loại thanh điều hướng"
+
+#: inc/customizer.php:1230
+msgid "Coupon Settings"
+msgstr "Cài đặt mã giảm giá"
+
+#: inc/customizer.php:1241 inc/quick_setup.php:117
+#, fuzzy
+msgid "Number of Coupons on single row"
+msgstr "Số phiếu giảm giá trên một hàng"
+
+#: inc/customizer.php:1254
+#, fuzzy
+msgid "Show Coupon"
+msgstr "Hiển thị phiếu giảm giá"
+
+#: inc/customizer.php:1267 inc/quick_setup.php:174
+#, fuzzy
+msgid "Location Taxonomy"
+msgstr "Phân loại vị trí"
+
+#: inc/customizer.php:1280
+#, fuzzy
+msgid "Show Category list on Coupons?"
+msgstr "Hiển thị danh sách danh mục trên Phiếu giảm giá?"
+
+#: inc/customizer.php:1293
+#, fuzzy
+msgid "Show Location on Coupons?"
+msgstr "Hiển thị vị trí trên phiếu giảm giá?"
+
+#: inc/customizer.php:1306
+#, fuzzy
+msgid "No. of Active Coupons on Store/Category page"
+msgstr "Không. phiếu giảm giá hoạt động trên trang Cửa hàng / Danh mục"
+
+#: inc/customizer.php:1307 inc/customizer.php:1320
+#, fuzzy
+msgid "Enter -1 to display all"
+msgstr "Nhập -1 để hiển thị tất cả"
+
+#: inc/customizer.php:1319
+#, fuzzy
+msgid "No. of Expired Coupons on Store/Category page"
+msgstr "Không. phiếu giảm giá hết hạn trên trang Cửa hàng / Danh mục"
+
+#: inc/customizer.php:1332
+#, fuzzy
+msgid "Allow Coupons to have their own page?"
+msgstr "Cho phép Phiếu giảm giá có trang riêng của họ?"
+
+#: inc/customizer.php:1333
+#, fuzzy
+msgid ""
+"Is set to \"No\", comments & sharing of individual coupons will get disabled"
+msgstr ""
+"Được đặt thành \"Không\", nhận xét & chia sẻ phiếu giảm giá riêng lẻ sẽ bị "
+"vô hiệu hóa"
+
+#: inc/customizer.php:1346
+#, fuzzy
+msgid "Show article on Store/Category pages?"
+msgstr "Hiển thị bài viết trên trang Cửa hàng/Danh mục?"
+
+#: inc/customizer.php:1360
+#, fuzzy
+msgid "Max. characters for coupon description"
+msgstr "Tối đa ký tự cho mô tả phiếu giảm giá"
+
+#: inc/customizer.php:1361
+#, fuzzy
+msgid "Enter 0 for no limit"
+msgstr "Nhập 0 không giới hạn"
+
+#: inc/customizer.php:1371
+#, fuzzy
+msgid "Social Media Optimization"
+msgstr "Tối ưu hóa phương tiện truyền thông xã hội"
+
+#: inc/customizer.php:1381
+#, fuzzy
+msgid "Enable Social Media Optimization"
+msgstr "Cho phép Tối ưu hóa Phương tiện Truyền thông Xã hội"
+
+#: inc/customizer.php:1382
+#, fuzzy
+msgid ""
+"Uncheck this if you are using a separate plugin for SEO and Social Media "
+"Optimization"
+msgstr ""
+"Bỏ chọn điều này nếu bạn đang sử dụng một plugin riêng cho TỐI ƯU HÓA SEO và "
+"truyền thông xã hội"
+
+#: inc/customizer.php:1391
+#, fuzzy
+msgid "Get Latest Coupons and Deals for your Online Shopping"
+msgstr "Nhận phiếu giảm giá và ưu đãi mới nhất cho mua sắm trực tuyến của bạn"
+
+#: inc/customizer.php:1396
+msgid "Site Description"
+msgstr "Mô tả trang web"
+
+#: inc/customizer.php:1397
+#, fuzzy
+msgid ""
+"This will be the default description in case no content is available on the "
+"page being shared. Example: Home or Contact-Us page."
+msgstr ""
+"Đây sẽ là mô tả mặc định trong trường hợp không có nội dung nào có sẵn trên "
+"trang được chia sẻ. Ví dụ: Trang chủ hoặc trang Liên hệ với chúng tôi."
+
+#: inc/customizer.php:1408 inc/quick_setup.php:136
+msgid "Banner"
+msgstr "Banner"
+
+#: inc/customizer.php:1409
+#, fuzzy
+msgid ""
+"This will be the default image in case no image is available on the page "
+"being shared."
+msgstr ""
+"Đây sẽ là hình ảnh mặc định trong trường hợp không có hình ảnh nào có sẵn "
+"trên trang được chia sẻ."
+
+#: inc/customizer.php:1421
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: inc/customizer.php:1433
+msgid "Facebook Page URL"
+msgstr "URL trang Facebook"
+
+#: inc/customizer.php:1434
+#, fuzzy
+msgid "Full URL of website's Facebook Page"
+msgstr "URL đầy đủ của Trang Facebook của trang web"
+
+#: inc/customizer.php:1446
+#, fuzzy
+msgid "Facebook Admins"
+msgstr "Quản trị viên Facebook"
+
+#: inc/customizer.php:1447
+#, fuzzy
+msgid ""
+"Comma Separated list of Facebook Profile IDs that are Admin of your Facebook "
+"Page."
+msgstr ""
+"Danh sách ID trang cá nhân Facebook được phân tách bằng dấu phẩy là Quản trị "
+"viên Trang Facebook của bạn."
+
+#: inc/customizer.php:1459
+#, fuzzy
+msgid "Twitter Page"
+msgstr "Trang Twitter"
+
+#: inc/customizer.php:1460
+msgid "@username for the website"
+msgstr "@username cho trang web"
+
+#: inc/customizer.php:1472
+msgid "Twitter Author"
+msgstr "Tác Giả Twitter"
+
+#: inc/customizer.php:1473
+#, fuzzy
+msgid "@username for the admin of website"
+msgstr "@username cho quản trị viên của trang web"
+
+#: inc/customizer.php:1481
+#, fuzzy
+msgid "Additional HTML/Scripts"
+msgstr "HTML/Tập lệnh bổ sung"
+
+#: inc/customizer.php:1492
+msgid "Header"
+msgstr "Đầu trang"
+
+#: inc/customizer.php:1493
+#, fuzzy
+msgid "This will be added in the <code>&lt;head&gt;</code> section"
+msgstr "Điều này sẽ được thêm <code>&lt;head&gt;</code> vào phần"
+
+#: inc/customizer.php:1506
+msgid "Footer"
+msgstr "Footer"
+
+#: inc/customizer.php:1507
+#, fuzzy
+msgid "This will be added before <code>&lt;/body\t&gt;</code> tag"
+msgstr "Điều này sẽ được thêm vào trước <code>&lt;/body\t&gt;</code> thẻ"
+
+#: inc/customizer.php:1520
+#, fuzzy
+msgid "Enable Ajax Search"
+msgstr "Bật Tìm kiếm Ajax"
+
+#: inc/customizer.php:1521
+#, fuzzy
+msgid "Show ajax results for search box in header."
+msgstr "Hiển thị kết quả ajax cho hộp tìm kiếm trong tiêu đề."
+
+#: inc/customizer.php:1535
+#, fuzzy
+msgid "Show Images for Ajax Search"
+msgstr "Hiển thị hình ảnh cho Tìm kiếm Ajax"
+
+#: inc/customizer.php:1548
+#, fuzzy
+msgid "Number of results to show in Ajax search"
+msgstr "Số lượng kết quả hiển thị trong tìm kiếm Ajax"
+
+#: inc/customizer.php:1549
+#, fuzzy
+msgid "Set to 0 for all results."
+msgstr "Đặt thành 0 cho tất cả các kết quả."
+
+#: inc/customizer.php:1562
+#, fuzzy
+msgid "Start searching after \"N\" characters"
+msgstr "Bắt đầu tìm kiếm các ký tự \"N\""
+
+#: inc/customizer.php:1563
+#, fuzzy
+msgid "Set to 0 to start immediately"
+msgstr "Đặt thành 0 để bắt đầu ngay lập tức"
+
+#: inc/demo_import.php:255 inc/demo_import.php:294
+#, fuzzy
+msgid ""
+"<div class=\"alert alert-danger\">Clicking \"<strong>Import</strong>\" will "
+"reset your website as per selected demo. Third-party plugins & related data "
+"will NOT be imported. All your existing content & settings will be "
+"permanently deleted. Please take a backup of your content if you need to add "
+"it again later.</div>"
+msgstr ""
+"<div class=\"alert alert-danger\">Nhấp vào \"<strong>Nhập</strong>\" sẽ đặt "
+"lại trang web của bạn theo bản demo đã chọn. Các plugin của bên thứ ba và dữ "
+"liệu liên quan sẽ KHÔNG được nhập. Tất cả nội dung và thiết đặt hiện có của "
+"bạn sẽ bị xóa vĩnh viễn. Vui lòng sao lưu nội dung của bạn nếu bạn cần thêm "
+"lại sau này.</div>"
+
+#: inc/demo_import.php:260 inc/demo_import.php:289 inc/demo_import.php:310
+#: inc/demo_import.php:352
+msgid "Import"
+msgstr "Nhập"
+
+#: inc/demo_import.php:306
+#, fuzzy
+msgid "Are you sure you want to reset your website?"
+msgstr "Bạn có chắc chắn muốn đặt lại trang web của mình không?"
+
+#: inc/demo_import.php:307
+#, fuzzy
+msgid ""
+"Clicking \"<strong>Import</strong>\" will reset your website as per "
+"\"<strong id=\"demoImport-name\">[DEMO]</strong>\", and all your content & "
+"settings (Coupons, Products, Menu, Widgets, etc.) will be permanently lost. "
+"Please take a backup of your content if you need to add it again later."
+msgstr ""
+"Nhấp vào \"<strong>Nhập</strong>\" sẽ đặt lại trang web của bạn theo "
+"\"<strong id=\"demoImport-name\">[DEMO]</strong>\", và tất cả nội dung &cài "
+"đặt của bạn (Phiếu giảm giá, Sản phẩm, Menu, Tiện ích, v.v.) sẽ bị mất vĩnh "
+"viễn. Vui lòng sao lưu nội dung của bạn nếu bạn cần thêm lại sau này."
+
+#: inc/demo_import.php:308
+#, fuzzy
+msgid ""
+"You cannot undo this operation after this step. Click \"<strong class="
+"\"\">Cancel</strong>\" to abort."
+msgstr ""
+"Bạn không thể hoàn tác thao tác này sau bước này. Bấm \"<strong class="
+"\"\">Hủy bỏ</strong>\" để hủy bỏ."
+
+#: inc/demo_import.php:311
+msgid "Cancel"
+msgstr "Hủy"
+
+#: inc/demo_import.php:318
+#, fuzzy
+msgid "Please Wait. This may take several minutes.</strong>"
+msgstr "Hãy chờ. Việc này có thể mất vài phút."
+
+#: inc/demo_import.php:319
+#, fuzzy
+msgid "Please do not click back or refresh button till the page is loading."
+msgstr ""
+"Vui lòng không nhấp vào nút quay lại hoặc làm mới cho đến khi trang đang tải."
+
+#: inc/quick_setup.php:102 inc/quick_setup.php:232
+#, fuzzy
+msgid ""
+"<div class=\"alert alert-warning\">These are just basic settings for quick "
+"start. For more customization options you should go to <strong>Appearance</"
+"strong> > <a href=\"customize.php\"><strong>Customize</strong></a></div>"
+msgstr ""
+"<div class=\"alert alert-warning\">Đây chỉ là những cài đặt cơ bản để bắt "
+"đầu nhanh. Để biết thêm tùy chọn tùy chỉnh, bạn nên <strong>đi tới Tùy</"
+"strong> chỉnh giao > <a href=\"customize.php\"><strong>chỉnh</strong></a></"
+"div>"
+
+#: inc/quick_setup.php:121
+#, fuzzy
+msgid "List (1 per row)"
+msgstr "Danh sách (1 mỗi hàng)"
+
+#: inc/quick_setup.php:122
+#, fuzzy
+msgid "Grid (2 in a row)"
+msgstr "Lưới (2 liên tiếp)"
+
+#: inc/quick_setup.php:123
+#, fuzzy
+msgid "Grid (3 in a row)"
+msgstr "Lưới (3 liên tiếp)"
+
+#: inc/quick_setup.php:124
+#, fuzzy
+msgid "Grid (4 in a row)"
+msgstr "Lưới (4 liên tiếp)"
+
+#: inc/quick_setup.php:135
+msgid "None"
+msgstr "Không thiết lập"
+
+#: inc/quick_setup.php:137
+#, fuzzy
+msgid "Video (Full Screen)"
+msgstr "Video (Toàn màn hình)"
+
+#: inc/quick_setup.php:138
+msgid "Slides"
+msgstr "Slides"
+
+#: inc/quick_setup.php:139
+#, fuzzy
+msgid "Multi Slides"
+msgstr "Nhiều trang chiếu"
+
+#: inc/quick_setup.php:183
+#, fuzzy
+msgid "Select quick data that you want to import"
+msgstr "Chọn dữ liệu nhanh mà bạn muốn nhập"
+
+#: inc/quick_setup.php:193
+msgid "Post"
+msgstr "Bài viết"
+
+#: inc/quick_setup.php:199
+msgid "Menu"
+msgstr "Menu"
+
+#. translators: 1: coupon was posted on
+#: inc/template-tags.php:29
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Đăng trên %s"
+
+#. translators: 1: Author of the post
+#: inc/template-tags.php:35
+msgctxt "post author"
+msgid "by %s"
+msgstr "bởi %s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:44
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+"Để lại một bình luận <span class=\"screen-reader-text\"> trên  %s</span>"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:60 inc/template-tags.php:70
+msgid ", "
+msgstr ", "
+
+#. translators: 1: List of Categories
+#: inc/template-tags.php:65
+msgid "Posted in %1$s"
+msgstr "Đăng trong %1$s"
+
+#. translators: 1: List of tags
+#: inc/template-tags.php:77
+msgid "Tags: %1$s"
+msgstr "Từ khóa: %1$s"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:86 page-all-locations.php:126
+#: page-all-offer-categories.php:126 page-all-stores.php:79
+#: page-alpha-stores.php:106 page-blog.php:69 page-submit-coupons.php:361
+#: template-parts/content-page.php:42
+msgid "Edit %s"
+msgstr "Cài đặt %s"
+
+#: inc/template-tags.php:152
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/template-tags.php:152
+msgid "Edit"
+msgstr "Điều chỉnh"
+
+#. translators: 1: Link to comment author's page
+#: inc/template-tags.php:169
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">đã bình luận:</span>"
+
+#. translators: 1: Date of comment, 2: Timeof comment
+#: inc/template-tags.php:175
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s tại %2$s"
+
+#: inc/template-tags.php:178
+#, fuzzy
+msgid ""
+"<span style=\"margin-left: 5px;\" class=\"glyphicon glyphicon-edit\"></span> "
+"Edit"
+msgstr ""
+"<span style=\"margin-left: 5px;\" class=\"glyphicon glyphicon-edit\"></span> "
+"biên tập"
+
+#: inc/template-tags.php:183
+msgid "Your comment is awaiting moderation."
+msgstr "Bình luận của bạn đang chờ kiểm duyệt."
+
+#: inc/update.php:141
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+"Đã xảy ra lỗi HTTP không mong muốn trong yêu cầu API. </p><p> <a href=\"?\" "
+"onclick=\"document.location.reload(); return false;\">Thử lại</a>"
+
+#: inc/update.php:146
+msgid "An unknown error occurred"
+msgstr "Lỗi không xác định"
+
+#: index.php:122
+#, fuzzy
+msgid "Latest Offers"
+msgstr "Ưu đãi mới nhất"
+
+#: index.php:132
+#, fuzzy
+msgid "You have not added any Coupon so far."
+msgstr "Bạn chưa thêm bất kỳ Phiếu giảm giá nào cho đến nay."
+
+#: index.php:141
+msgid "Recent Posts"
+msgstr "Bài viết gần đây"
+
+#. Template Name of the theme
+msgid "Left Sidebar"
+msgstr "Cột bên trái"
+
+#. translators: 1:Parent Location Name
+#: page-all-locations.php:86 page-all-offer-categories.php:86
+#, fuzzy
+msgid "All %1$s Offers"
+msgstr "Tất cả %1$s đãi"
+
+#: page-alpha-stores.php:47
+msgid "All"
+msgstr "Tất cả"
+
+#. translators: %s: Alphabet filter on Store Page
+#: page-alpha-stores.php:84
+#, fuzzy
+msgid "Oops! We do not have any store starting with %s"
+msgstr "Rất tiếc! Chúng tôi không có bất kỳ cửa hàng nào bắt đầu %s"
+
+#: page-submit-coupons.php:29
+#, fuzzy
+msgid "Invalid Captcha"
+msgstr "Captcha không hợp lệ"
+
+#: page-submit-coupons.php:32
+msgid "Please enter your name"
+msgstr "Vui lòng nhập tên của bạn"
+
+#: page-submit-coupons.php:35
+#, fuzzy
+msgid "Please enter a valid name"
+msgstr "Vui lòng nhập tên hợp lệ"
+
+#: page-submit-coupons.php:38
+#, fuzzy
+msgid "Please enter a valid Email address"
+msgstr "Vui lòng nhập địa chỉ email phù hợp"
+
+#: page-submit-coupons.php:41
+#, fuzzy
+msgid "Title should be minimum 5 characters"
+msgstr "Tiêu đề phải tối thiểu 5 ký tự"
+
+#: page-submit-coupons.php:44
+#, fuzzy
+msgid "Description should be minimum 5 characters"
+msgstr "Mô tả phải tối thiểu 5 ký tự"
+
+#: page-submit-coupons.php:47
+#, fuzzy
+msgid "Code should be minimum 2 characters"
+msgstr "Mã phải tối thiểu 2 ký tự"
+
+#: page-submit-coupons.php:50
+#, fuzzy
+msgid "Code is required for Printable Vouchers"
+msgstr "Mã là bắt buộc đối với Chứng từ có thể in"
+
+#: page-submit-coupons.php:53
+#, fuzzy
+msgid "Landing Page URL is required for Online Offers"
+msgstr "URL trang đích là bắt buộc đối với Ưu đãi trực tuyến"
+
+#: page-submit-coupons.php:56
+#, fuzzy
+msgid "Invalid Landing Page URL"
+msgstr "URL trang đích không hợp lệ"
+
+#: page-submit-coupons.php:59
+#, fuzzy
+msgid "Invalid Image URL"
+msgstr "URL ảnh không hợp lệ"
+
+#. translators: 1:Blogname
+#: page-submit-coupons.php:118
+#, fuzzy
+msgid "[%s] New Coupon Submitted"
+msgstr "[%s] Phiếu giảm giá mới được gửi"
+
+#. translators: 1:Name 2:Title 3:Stores
+#: page-submit-coupons.php:123
+#, fuzzy
+msgid ""
+"<p>Hi,</p>\r\n"
+"\t\t\t\t\t\t\t<p>A new coupon has been submitted on your website by <strong>"
+"%1$s</strong>.</p>\r\n"
+"\t\t\t\t\t\t\t<p>\r\n"
+"\t\t\t\t\t\t\t\t<strong>Title:</strong> %%2$s\r\n"
+"\t\t\t\t\t\t\t\t<br/>\r\n"
+"\t\t\t\t\t\t\t\t<strong>Store:</strong> %3$s\r\n"
+"\t\t\t\t\t\t\t</p>"
+msgstr ""
+"<p>Chào bạn</p>\r\n"
+"\t\t\t\t\t\t\t<p>Một phiếu giảm giá mới đã được gửi trên trang web của bạn "
+"bằng <strong>%1$s</strong> cách .</p>\r\n"
+"\t\t\t\t\t\t\t<p>\r\n"
+"\t\t\t\t\t\t\t\t<strong>Tiêu đề:</strong> %% 2$s<br/>\r\n"
+"\t\t\t\t\t\t\t\t<strong>Lưu trữ:</strong>%3$s\r\n"
+"\t\t\t\t\t\t\t</p>"
+
+#: page-submit-coupons.php:136
+#, fuzzy
+msgid "Your Coupon has been submitted for approval."
+msgstr "Phiếu giảm giá của bạn đã được gửi để phê duyệt."
+
+#: page-submit-coupons.php:192
+#, fuzzy
+msgid "Your Details"
+msgstr "Chi tiết của bạn"
+
+#: page-submit-coupons.php:197
+msgid "Your Name"
+msgstr "Tên của bạn"
+
+#: page-submit-coupons.php:202
+msgid "Your Email"
+msgstr "Email của bạn"
+
+#: page-submit-coupons.php:211
+#, fuzzy
+msgid "Offer Details"
+msgstr "Chi tiết ưu đãi"
+
+#: page-submit-coupons.php:217
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: page-submit-coupons.php:222
+msgid "Description"
+msgstr "Mô tả"
+
+#: page-submit-coupons.php:225
+#, fuzzy
+msgid "You can use HTML markup here"
+msgstr "Bạn có thể sử dụng đánh dấu HTML tại đây"
+
+#: page-submit-coupons.php:230
+msgid "Code"
+msgstr "Mã"
+
+#: page-submit-coupons.php:235
+#, fuzzy
+msgid "Offer Type"
+msgstr "Loại ưu đãi"
+
+#: page-submit-coupons.php:237
+msgid "Online"
+msgstr "Trực tuyến"
+
+#: page-submit-coupons.php:238
+#, fuzzy
+msgid "Printable Voucher"
+msgstr "Voucher in"
+
+#: page-submit-coupons.php:243
+msgid "Start Date"
+msgstr "Ngày bắt đầu"
+
+#: page-submit-coupons.php:248 template-parts/coupon-grid.php:102
+#: template-parts/coupon-list.php:107 template-parts/coupon-popup.php:76
+#: template-parts/coupon-print.php:58
+#, fuzzy
+msgid "Valid Till"
+msgstr "Hợp lệ cho đến khi"
+
+#: page-submit-coupons.php:262 template-parts/price-modal.php:54
+msgid "Store"
+msgstr "Cửa hàng"
+
+#: page-submit-coupons.php:325
+#, fuzzy
+msgid "Image/Banner URL"
+msgstr "URL hình ảnh/biểu ngữ"
+
+#. translators: 1:Search query
+#: search.php:47
+msgid "Search Results for: %s"
+msgstr "Kết quả tìm kiếm cho: %s"
+
+#: taxonomy-locations.php:134 taxonomy-offer_categories.php:145
+#: taxonomy-stores.php:201
+#, fuzzy
+msgid "Recently Expired Offers"
+msgstr "Ưu đãi đã hết hạn gần đây"
+
+#: template-parts/code.php:46
+#, fuzzy
+msgid ""
+"Show this barcode at the checkout counter to avail this offer. You can scan "
+"it directly from your phone, or from a Printed copy."
+msgstr ""
+"Hiển thị mã vạch này tại quầy thanh toán để tận dụng ưu đãi này. Bạn có thể "
+"quét trực tiếp từ điện thoại hoặc từ bản in."
+
+#: template-parts/code.php:58
+msgid "Print Coupon"
+msgstr "In phiếu giảm giá"
+
+#: template-parts/code.php:79 template-parts/coupon-popup.php:47
+#, fuzzy
+msgid "Use Code"
+msgstr "Sử dụng Mã"
+
+#: template-parts/code.php:87 template-parts/coupon-popup.php:50
+#, fuzzy
+msgid "Click to Copy"
+msgstr "Bấm để Sao chép"
+
+#: template-parts/code.php:88 template-parts/coupon-popup.php:51
+msgid "Copied"
+msgstr "Đã sao chép"
+
+#: template-parts/code.php:89 template-parts/coupon-popup.php:52
+msgid "Copy"
+msgstr "Sao chép"
+
+#: template-parts/code.php:102 template-parts/coupon-popup.php:63
+#, fuzzy
+msgid "See Applicable Products"
+msgstr "Xem sản phẩm áp dụng"
+
+#: template-parts/code.php:115
+#, fuzzy
+msgid "Get Coupon Code"
+msgstr "Nhận mã phiếu giảm giá"
+
+#: template-parts/content-nocoupons.php:14
+#, fuzzy
+msgid "No Coupons Found"
+msgstr "Không tìm thấy phiếu giảm giá"
+
+#. translators: 1: New post
+#: template-parts/content-nocoupons.php:30 template-parts/content-none.php:28
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Bạn đã sẵn sàng đăng bài đầu tiên?  <a href=\"%1$s\">Bắt đầu từ đây</a>."
+
+#: template-parts/content-nocoupons.php:35 template-parts/content-none.php:32
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Xin lỗi, nhưng không có gì phù hợp với cụm từ tìm kiếm của bạn. Vui lòng thử "
+"lại với một số từ khóa khác ."
+
+#: template-parts/content-nocoupons.php:41
+#, fuzzy
+msgid ""
+"It seems we don&rsquo;t have any coupons for this category. Try searching "
+"for something else."
+msgstr ""
+"Có vẻ như chúng tôi không có bất kỳ phiếu giảm giá nào cho danh mục này. Hãy "
+"thử tìm kiếm thứ khác."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Không tìm thấy gì :("
+
+#: template-parts/content-none.php:38
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Có vẻ như chúng tôi không thể tìm thấy thứ bạn đang cần. Có lẽ tìm kiếm có "
+"thể có ích."
+
+#: template-parts/content-notitle.php:18 template-parts/content-page.php:28
+#: template-parts/content.php:40
+msgid "Pages:"
+msgstr "Trang:"
+
+#: template-parts/coupon-carousel.php:80 template-parts/coupon-grid.php:88
+#: template-parts/coupon-list.php:101 template-parts/price-buynow.php:47
+#: template-parts/price-modal.php:90 template-parts/product-carousel.php:107
+msgid "View Details"
+msgstr "Xem chi tiết"
+
+#: template-parts/coupon-grid.php:51 template-parts/coupon-list.php:66
+#, fuzzy
+msgid "Hot Offer"
+msgstr "Ưu đãi nóng"
+
+#: template-parts/coupon-grid.php:51 template-parts/coupon-list.php:66
+#, fuzzy
+msgid "Super Offer"
+msgstr "Siêu ưu đãi"
+
+#: template-parts/coupon-grid.php:51 template-parts/coupon-list.php:66
+#, fuzzy
+msgid "Best Offer"
+msgstr "Ưu đãi tốt nhất"
+
+#: template-parts/coupon-grid.php:51 template-parts/coupon-list.php:66
+#, fuzzy
+msgid "Best Deal"
+msgstr "Thỏa thuận tốt nhất"
+
+#: template-parts/coupon-grid.php:51 template-parts/coupon-list.php:66
+#, fuzzy
+msgid "Hot Deal"
+msgstr "Thỏa thuận nóng"
+
+#: template-parts/coupon-grid.php:51 template-parts/coupon-list.php:66
+#, fuzzy
+msgid "Super Deal"
+msgstr "Siêu thỏa thuận"
+
+#: template-parts/coupon-grid.php:51 template-parts/coupon-list.php:66
+#, fuzzy
+msgid "Value for Money"
+msgstr "Giá trị đồng tiền"
+
+#: template-parts/coupon-grid.php:51 template-parts/coupon-list.php:66
+#, fuzzy
+msgid "Best Value"
+msgstr "Giá trị tốt nhất"
+
+#: template-parts/coupon-grid.php:102 template-parts/coupon-list.php:107
+#: template-parts/coupon-popup.php:76 template-parts/coupon-print.php:58
+msgid "Expired On"
+msgstr "Hết hạn"
+
+#: template-parts/coupon-grid.php:161 template-parts/coupon-list.php:187
+#: template-parts/price-modal.php:118 template-parts/product-grid.php:116
+#: template-parts/product-list.php:136
+#, fuzzy
+msgid "Verified On"
+msgstr "chủ sở hữu được xác nhận"
+
+#: template-parts/login-modal.php:59
+msgid "Username"
+msgstr "Tên đăng nhập"
+
+#: template-parts/login-modal.php:64
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: template-parts/login-modal.php:71
+msgid "Remember Me"
+msgstr "Ghi nhớ đăng nhập"
+
+#: template-parts/login-modal.php:77
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: template-parts/login-modal.php:82
+msgid "Register"
+msgstr "Đăng ký"
+
+#: template-parts/login-modal.php:92
+msgid "Lost your password?"
+msgstr "Quên mật khẩu?"
+
+#: template-parts/login-modal.php:107
+#, fuzzy
+msgid "Skip Login"
+msgstr "Bỏ qua đăng nhập"
+
+#. translators: 1: Store Name
+#: template-parts/price-buynow.php:40
+#, fuzzy
+msgid "Buy From %1$s"
+msgstr "Mua từ %1$s"
+
+#: template-parts/price-compare.php:31 template-parts/price-compare.php:33
+#: template-parts/product-carousel.php:61
+msgid "Compare Prices"
+msgstr "So sánh giá"
+
+#: template-parts/price-modal.php:48
+#, fuzzy
+msgid "Compare Prices at other stores"
+msgstr "So sánh giá tại các cửa hàng khác"
+
+#: template-parts/price-modal.php:55
+msgid "Price"
+msgstr "Giá"
+
+#: template-parts/price-modal.php:56
+#, fuzzy
+msgid "Cashback"
+msgstr "Cashback"
+
+#: template-parts/price-modal.php:57
+msgid "Buy"
+msgstr "Mua"
+
+#: template-parts/price-modal.php:93
+#, fuzzy
+msgid "Cashback Not Available"
+msgstr "Hoàn tiền không khả dụng"
+
+#: template-parts/price.php:46 template-parts/product-carousel.php:117
+#, fuzzy
+msgid "Currently out of stock"
+msgstr "Hiện hết hàng"
+
+#. translators: 1: Store Name
+#: template-parts/product-carousel.php:54 template-parts/product-grid.php:47
+#: template-parts/product-similar.php:47
+#, fuzzy
+msgid "Best Price at %1$s"
+msgstr "Giá tốt nhất tại %1$s"
+
+#. translators: 1: Store Name
+#: template-parts/product-grid.php:49
+#, fuzzy
+msgid "Best Price"
+msgstr "Giá tốt nhất"
